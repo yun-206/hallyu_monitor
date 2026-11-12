@@ -1,0 +1,163 @@
+<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>한류 이슈 모니터 · 분야별 뉴스·검색 관심도</title>
+  <meta name="description" content="네이버 뉴스·데이터랩 공개 API로 음악·영상·관광·정책 분야의 한류 이슈를 모아 보는 프로토타입이에요.">
+  <meta name="theme-color" content="#121212">
+  <script>/* 저장된 테마를 그리기 전에 적용 (깜빡임 방지) */
+    try { if (localStorage.getItem('hallyu-theme') === 'light') document.documentElement.setAttribute('data-theme', 'light'); } catch (e) {}
+  </script>
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='9' fill='%2301539f'/%3E%3Cpath d='M7 21l6-6 4 4 8-8' fill='none' stroke='white' stroke-width='3' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/variable/pretendardvariable-dynamic-subset.min.css">
+  <link rel="stylesheet" href="css/app.css">
+  <script src="js/app.js" defer></script>
+</head>
+<body>
+  <a class="skip" href="#main">본문으로 바로 가기</a>
+
+  <!-- ================= 상단 바 ================= -->
+  <header class="bar" id="bar">
+    <div class="bar__inner">
+      <a class="bar__brand" href="#" aria-label="한류 이슈 모니터 처음으로">
+        <svg width="28" height="28" viewBox="0 0 32 32" aria-hidden="true"><rect width="32" height="32" rx="9" fill="currentColor"/><path d="M7 21l6-6 4 4 8-8" fill="none" stroke="#fff" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        <span>Hallyu Monitor</span>
+      </a>
+      <div class="bar__end">
+        <span class="bar__live" id="barLive" aria-hidden="true"></span>
+        <button type="button" class="theme" id="themeToggle" role="switch" aria-checked="false" aria-label="라이트 모드">
+          <span class="theme__knob" aria-hidden="true"></span>
+          <svg class="theme__ico theme__ico--moon" viewBox="0 0 24 24" aria-hidden="true"><path d="M20 14.5A8 8 0 0 1 9.5 4a8 8 0 1 0 10.5 10.5Z"/></svg>
+          <svg class="theme__ico theme__ico--sun" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="4"/><path d="M12 2.5v2M12 19.5v2M2.5 12h2M19.5 12h2M5.3 5.3l1.4 1.4M17.3 17.3l1.4 1.4M5.3 18.7l1.4-1.4M17.3 6.7l1.4-1.4"/></svg>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main id="main" class="wrap">
+    <!-- ================= 1. 머리 ================= -->
+    <section class="head" aria-labelledby="siteTitle">
+      <p class="eyebrow">K-Culture Issue Dashboard</p>
+      <h1 id="siteTitle" class="head__title">한류 이슈 모니터</h1>
+      <p class="head__lead">음악·영상·관광·정책 분야 뉴스와 검색 관심도를 매일 모아, 지금 한류에서 무슨 이야기가 오가는지 한눈에 보여줘요.</p>
+      <dl class="stats" id="stats" aria-live="polite">
+        <div class="stat"><dt>마지막 수집</dt><dd id="statCollected">—</dd></div>
+        <div class="stat"><dt>분석 기사</dt><dd id="statArticles">—</dd></div>
+        <div class="stat"><dt>검색 추이 기간</dt><dd id="statPeriod">—</dd></div>
+      </dl>
+    </section>
+
+    <!-- 불러오기 실패 안내 -->
+    <div class="alert hide" id="loadError" role="alert"></div>
+
+    <!-- ================= 2. 분야 탭 ================= -->
+    <nav class="tabs-wrap" aria-label="분야 선택">
+      <div class="tabs" role="tablist" id="tabs"></div>
+    </nav>
+
+    <div id="panel" role="tabpanel" tabindex="-1" class="grid">
+      <!-- 3. AI 이슈 요약 -->
+      <article class="card card--summary" aria-labelledby="sumTitle">
+        <header class="card__head">
+          <div>
+            <p class="card__kicker">AI 이슈 요약</p>
+            <h2 id="sumTitle" class="card__title"><span data-field-name>—</span> 분야, 지금 이 이슈</h2>
+          </div>
+          <div class="badges" id="sumBadges"></div>
+        </header>
+        <ol class="summary" id="sumLines"></ol>
+        <p class="card__foot" id="sumFoot"></p>
+      </article>
+
+      <!-- 6. 급상승 키워드 -->
+      <article class="card card--rising" aria-labelledby="riseTitle">
+        <header class="card__head">
+          <div>
+            <p class="card__kicker">Rising</p>
+            <h2 id="riseTitle" class="card__title">급상승 키워드</h2>
+          </div>
+        </header>
+        <section class="rise-block" aria-labelledby="riseSearchTitle">
+          <h3 id="riseSearchTitle" class="rise-block__title">검색량 기준 <span class="muted" id="riseWindow"></span></h3>
+          <ol class="rise" id="riseSearch"></ol>
+        </section>
+        <section class="rise-block" aria-labelledby="riseNewsTitle">
+          <h3 id="riseNewsTitle" class="rise-block__title">뉴스 언급량 기준</h3>
+          <ol class="rise" id="riseNews"></ol>
+        </section>
+      </article>
+
+      <!-- 4. 검색 관심도 추이 -->
+      <article class="card card--trend" aria-labelledby="trendTitle">
+        <header class="card__head">
+          <div>
+            <p class="card__kicker">Search Trend</p>
+            <h2 id="trendTitle" class="card__title">검색 관심도 추이</h2>
+          </div>
+          <div class="legend-keys" id="trendKeys" aria-label="조회에 쓴 검색어"></div>
+        </header>
+        <div class="chart" id="trendChart"></div>
+        <ul class="chart-notes" id="trendNotes"></ul>
+        <details class="table-view">
+          <summary>표로 보기</summary>
+          <div class="table-scroll"><table id="trendTable"></table></div>
+        </details>
+      </article>
+
+      <!-- 5. 키워드 TOP10 -->
+      <article class="card card--kw" aria-labelledby="kwTitle">
+        <header class="card__head">
+          <div>
+            <p class="card__kicker">Top 10</p>
+            <h2 id="kwTitle" class="card__title">많이 나온 키워드</h2>
+          </div>
+        </header>
+        <ol class="bars" id="kwBars"></ol>
+        <p class="card__foot">기사 제목·요약에 그 단어가 나온 기사 수예요. 수집 검색어 자체는 빼고 셌어요.</p>
+      </article>
+
+      <!-- 7. 최신 기사 -->
+      <article class="card card--news" aria-labelledby="newsTitle">
+        <header class="card__head card__head--wrap">
+          <div>
+            <p class="card__kicker">Latest News</p>
+            <h2 id="newsTitle" class="card__title">최신 기사 <span class="count" id="newsCount"></span></h2>
+          </div>
+          <div class="news-tools">
+            <div class="chips" id="newsKeywords" role="group" aria-label="수집 검색어로 거르기"></div>
+            <label class="toggle">
+              <input type="checkbox" id="photoToggle">
+              <span class="toggle__track" aria-hidden="true"><span class="toggle__knob"></span></span>
+              <span class="toggle__label">포토 기사 보기 <span class="muted" id="photoCount"></span></span>
+            </label>
+          </div>
+        </header>
+        <ul class="news" id="newsList" aria-live="polite"></ul>
+        <div class="news-more"><button type="button" class="btn btn--ghost btn--sm hide" id="newsMore">더 보기</button></div>
+      </article>
+    </div>
+  </main>
+
+  <!-- ================= 8. 하단 ================= -->
+  <footer class="foot">
+    <div class="wrap foot__inner">
+      <div class="foot__col">
+        <p class="foot__brand">한류 이슈 모니터</p>
+        <p class="proto-note"><span class="pill">Prototype</span> 공개 API 기반 프로토타입이에요. 표본 기사와 상대 검색 지표라 실제 전체 여론·검색량과는 다를 수 있어요.</p>
+      </div>
+      <dl class="foot__col foot__meta">
+        <div><dt>데이터 출처</dt><dd>네이버 API HUB — 뉴스 검색 API, 데이터랩 검색어 트렌드 API</dd></div>
+        <div><dt>수집 기준</dt><dd id="footCriteria">—</dd></div>
+        <div><dt>검색 관심도</dt><dd>실제 검색 횟수가 아닌 상대값이에요. 분야마다 가장 높은 달을 100으로 두고 나머지 달을 비율로 나타내요.</dd></div>
+        <div><dt>AI 이슈 요약</dt><dd>수집한 기사(포토 기사 제외)를 읽고 작성한 요약이에요. 요약 뒤에 기사가 새로 수집되면 ‘갱신 전’으로 표시해요.</dd></div>
+      </dl>
+    </div>
+  </footer>
+
+  <div class="tip" id="tip" role="tooltip" hidden></div>
+</body>
+</html>
