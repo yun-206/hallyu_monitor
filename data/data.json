@@ -1,5 +1,5 @@
 {
-  "collected_at": "2026-11-16T08:18:18+09:00",
+  "collected_at": "2026-11-16T09:51:40+09:00",
   "source": "NAVER API HUB (뉴스 검색, 데이터랩 검색어 트렌드)",
   "fields": {
     "음악": [
@@ -36,13 +36,13 @@
       "field": "영상",
       "keyword": "K-드라마",
       "fetched": 100,
-      "added": 92
+      "added": 93
     },
     {
       "field": "영상",
       "keyword": "한국 영화 해외",
       "fetched": 100,
-      "added": 96
+      "added": 97
     },
     {
       "field": "관광",
@@ -54,7 +54,7 @@
       "field": "관광",
       "keyword": "K-컬처 관광",
       "fetched": 100,
-      "added": 85
+      "added": 81
     },
     {
       "field": "정책",
@@ -66,11 +66,771 @@
       "field": "정책",
       "keyword": "콘텐츠 수출",
       "fetched": 100,
-      "added": 85
+      "added": 84
     }
   ],
-  "news_total": 731,
+  "news_total": 728,
   "news": [
+    {
+      "field": "정책",
+      "keyword": "한류 정책",
+      "title": "[패트롤]경북도-경북도의회-경북교육청-한국국학진흥원",
+      "summary": "구광모 경북도 식품한류산업국장은 “이번 수상은 안동소주의 우수성을 세계적으로 인정받은 성과\"라며... 목소리를 정책과 예산에 적극 반영해 달라\"고 당부했다. ◇ 경북도의회 건설소방위, 소방서 행정감사…소방...",
+      "published": "2026-11-16 09:50",
+      "link": "https://www.ekn.kr/web/view.php?key=20261116029139943",
+      "naver_link": "https://www.ekn.kr/web/view.php?key=20261116029139943",
+      "is_photo": false
+    },
+    {
+      "field": "정책",
+      "keyword": "콘텐츠 수출",
+      "title": "\"K-푸드 열풍 잇는 K-술, 세계도 주목\"",
+      "summary": "(Glocal) 콘텐츠로서 우리술의 가치를 재조명하고, 2030 젊은 세대와 글로벌 소비자를 한데 아우르는 'K-Sool... 개막식에는 송미령 농식품부 장관을 비롯해 한국농수산식품유통공사(aT) 관계자, 전통주 업계 및 수출 관계자...",
+      "published": "2026-11-16 09:50",
+      "link": "http://www.bokuennews.com/news/article.html?no=287198",
+      "naver_link": "http://www.bokuennews.com/news/article.html?no=287198",
+      "is_photo": false
+    },
+    {
+      "field": "관광",
+      "keyword": "방한 관광",
+      "title": "29CM 이구홈, 올해 309만명 방문…성수 1호점 매출 66%가 외국인",
+      "summary": "29CM 관계자는 \"방한 관광객의 쇼핑 관심사가 패션·뷰티를 넘어 홈·리빙으로 넓어진 가운데 입점사의 약 70%가 국내 브랜드인 이구홈 매장이 한국 디자인 브랜드와 해외 고객을 연결하는 K-라이프스타일 쇼핑...",
+      "published": "2026-11-16 09:49",
+      "link": "http://www.inews24.com/view/2026431",
+      "naver_link": "https://n.news.naver.com/mnews/article/031/0001075199?sid=101",
+      "is_photo": false
+    },
+    {
+      "field": "정책",
+      "keyword": "콘텐츠 수출",
+      "title": "배상민 국순당 대표, 농식품부 장관상 영예…우리술 산업 발전 공로",
+      "summary": "최근 5년간 매년 100억원 이상의 수출 실적을 달성했다. 한편 국순당은 전통 증류소주 시장 공략을 강화하고 있다. 술을 맛보고 배우며 관련 문화를 경험할 수 있는 콘텐츠도 확대하고 있다.",
+      "published": "2026-11-16 09:49",
+      "link": "https://www.etnews.com/20261116000096",
+      "naver_link": "https://n.news.naver.com/mnews/article/030/0003485902?sid=101",
+      "is_photo": false
+    },
+    {
+      "field": "관광",
+      "keyword": "방한 관광",
+      "title": "경기도, 말레이시아 기업 대규모 포상관광 유치…맞춤형 관광전략 결실",
+      "summary": "포상관광(인센티브 투어)을 유치했다고 16일 밝혔다. 말레이시아 쿠알라룸푸르에 본사를 두고 있는 이 기업은 지난 13일부터 총 8회에 걸쳐 200여 명씩 방한하고 있다. 용인 에버랜드, 김포 벼꽃농부(고추장 만들기 체험)...",
+      "published": "2026-11-16 09:48",
+      "link": "https://www.kukinews.com/article/view/kuk202611160028",
+      "naver_link": "https://www.kukinews.com/article/view/kuk202611160028",
+      "is_photo": false
+    },
+    {
+      "field": "음악",
+      "keyword": "K-pop",
+      "title": "MMA2026 성료, 방탄소년단 6관왕 등극… 에스파·아이브·코르티스 대상...",
+      "summary": "'K-POP CONNECT: The New Pulse'라는 슬로건 아래 열린 이번 시상식에는 올 한 해 차트를 빛낸 26팀이 참여했으며, 한중일 통합 지표인 'Global-K Chart'와 연계한 '글로벌 TOP10'과 대상 '올해의 글로벌-K 아티스트...",
+      "published": "2026-11-16 09:46",
+      "link": "https://www.stardailynews.co.kr/news/articleView.html?idxno=602285",
+      "naver_link": "https://www.stardailynews.co.kr/news/articleView.html?idxno=602285",
+      "is_photo": false
+    },
+    {
+      "field": "관광",
+      "keyword": "방한 관광",
+      "title": "300만 명 몰리며 ‘K-라이프스타일 쇼핑 성지’로...외국인도 반한 곳 어...",
+      "summary": "29CM 관계자는 “방한 관광객의 쇼핑 관심사가 패션·뷰티를 넘어 홈·리빙으로 넓어지고 있다”며 “입점사의 약 70%가 국내 브랜드인 이구홈이 한국 디자인 브랜드와 해외 고객을 연결하는 쇼핑 거점으로 자리 잡고...",
+      "published": "2026-11-16 09:46",
+      "link": "https://www.mk.co.kr/article/12209665",
+      "naver_link": "https://n.news.naver.com/mnews/article/009/0005764172?sid=103",
+      "is_photo": false
+    },
+    {
+      "field": "정책",
+      "keyword": "콘텐츠 수출",
+      "title": "티앤알바이오팹, 독일 '메디카 2026'서 FDA 허가 기반 글로벌 수출 확대...",
+      "summary": "앞세워 수출 시장 다변화를 추진한다. 티앤알바이오팹은 16일부터 19일까지(현지시간) 독일 뒤셀도르프에서... 전시 콘텐츠의 질적 수준을 높인 것이 특징이다. 티앤알바이오팹은 이번 전시회에서...",
+      "published": "2026-11-16 09:46",
+      "link": "https://www.biotimes.co.kr/news/articleView.html?idxno=36185",
+      "naver_link": "https://www.biotimes.co.kr/news/articleView.html?idxno=36185",
+      "is_photo": false
+    },
+    {
+      "field": "음악",
+      "keyword": "K-pop",
+      "title": "K-beauty ETF makes NYSE debut",
+      "summary": "The JAKOTA K-Pop and Korean Entertainment ETF (KPOP), launched in 2022 to capture investment demand tied to the global K-pop boom, was liquidated last year after accumulating net assets of only...",
+      "published": "2026-11-16 09:45",
+      "link": "https://www.mk.co.kr/article/12209664",
+      "naver_link": "https://n.news.naver.com/mnews/article/009/0005764171?sid=104",
+      "is_photo": false
+    },
+    {
+      "field": "영상",
+      "keyword": "K-드라마",
+      "title": "27돌 MAMA가 쏘아올리는 ‘음악적 우주’",
+      "summary": "‘마마 어워즈’는 그해를 대표하는 드라마와 영화 등 K콘텐츠를 선도한 이들을 대거 시상자로 배치해 글로벌 시상식으로 위용을 강화했다. 그동안 이정재, 이병헌, 마동석, 김수현, 변우석 등 내로라하는 배우들이...",
+      "published": "2026-11-16 09:44",
+      "link": "https://www.munhwa.com/article/11631517?ref=naver",
+      "naver_link": "https://m.entertain.naver.com/article/021/0002833001",
+      "is_photo": false
+    },
+    {
+      "field": "영상",
+      "keyword": "K-드라마",
+      "title": "한시련 제작 화면해설방송 주간 편성안내(11월 16일~22일)",
+      "summary": "P.) 11월 17일 화요일 채널A    11월 17일 화요일    00시00분~01시10분    채널A 화요드라마... 내 손주 (네팔 리아나 가족의 K-웨딩 성공기) OCN Movies2    11월 18일 수요일    12시40분~13시50분    플레이어2...",
+      "published": "2026-11-16 09:44",
+      "link": "https://www.ablenews.co.kr/news/articleView.html?idxno=234645",
+      "naver_link": "https://www.ablenews.co.kr/news/articleView.html?idxno=234645",
+      "is_photo": false
+    },
+    {
+      "field": "음악",
+      "keyword": "K-pop",
+      "title": "CJ문화재단, 20년간 917억원 지원…K컬처 창작 생태계 성장 이끌었다",
+      "summary": "이유석 동국대 교수는 'K-POP을 넘어 K-Music의 글로벌 확장'을 주제로 튠업의 운영 방식과 성과를 연구한다. 김상훈 한국예술경영학회장은 \"K-Culture의 지속가능한 성장을 위해서는 창작자의 다양성과 창작 생태계의...",
+      "published": "2026-11-16 09:42",
+      "link": "https://news.ifm.kr/news/articleView.html?idxno=484488",
+      "naver_link": "https://news.ifm.kr/news/articleView.html?idxno=484488",
+      "is_photo": false
+    },
+    {
+      "field": "음악",
+      "keyword": "K-pop",
+      "title": "CJ문화재단, 예술경영 학술대회서 20년간 창작자 지원 성과 발표",
+      "summary": "이 가운데 동국대학교 이유석 교수는 'K-POP을 넘어 K-Music의 글로벌 확장'을 주제로 CJ문화재단의 인디 뮤지션 지원사업 '튠업'의 운영 방식과 성과를 분석한다. 이 교수는 대형 기획사 중심으로 형성된 국내 음악산업...",
+      "published": "2026-11-16 09:40",
+      "link": "http://www.econonews.co.kr/news/articleView.html?idxno=447236",
+      "naver_link": "http://www.econonews.co.kr/news/articleView.html?idxno=447236",
+      "is_photo": false
+    },
+    {
+      "field": "관광",
+      "keyword": "방한 관광",
+      "title": "현대백화점, 챗GPT에 AI 쇼핑 서비스 론칭... \"추천부터 구매까지 한 번...",
+      "summary": "현대백화점은 이번 챗GPT 연동을 발판 삼아 내국인은 물론 외국인 관광객 등 글로벌 고객과의 접점을 한층 넓힌다는 목표를 밝혔다. 방한 전 챗GPT로 백화점 팝업스토어 및 브랜드 정보를 검색한 외국인 관광객의...",
+      "published": "2026-11-16 09:40",
+      "link": "https://www.getnews.co.kr/news/articleView.html?idxno=887258",
+      "naver_link": "https://www.getnews.co.kr/news/articleView.html?idxno=887258",
+      "is_photo": false
+    },
+    {
+      "field": "관광",
+      "keyword": "방한 관광",
+      "title": "[16일 성남시] 분당·판교 등 11개 지역 야외 테이블 영업 허용 추진 등",
+      "summary": "이번 조치는 2021년 1월 식품위생법 시행규칙 개정으로 관광지 외 지역에서도 일정 요건을 갖추면... 12월부터는 홀몸 어르신과 노숙인에게 목도리와 핫팩 등 방한용품을 지원해 한파로 인한 건강 피해를 예방할...",
+      "published": "2026-11-16 09:40",
+      "link": "https://www.asiatime.co.kr/article/20261116500050",
+      "naver_link": "https://www.asiatime.co.kr/article/20261116500050",
+      "is_photo": false
+    },
+    {
+      "field": "관광",
+      "keyword": "K-컬처 관광",
+      "title": "김상준 애경산업 대표 \"문화 콘텐츠와 브랜드 경험 연결\" … 홍대 K-컬처...",
+      "summary": "특히 젊은 소비자와 관광객이 밀집한 홍대 상권을 무대로 브랜드 체험과 K-컬처를 결합했다는 점에서 의미가 있다. 애경산업은 앞으로도 문화 콘텐츠와 브랜드 경험을 연계한 다양한 활동을 통해 소비자와의 접점을...",
+      "published": "2026-11-16 09:40",
+      "link": "https://biz.newdaily.co.kr/site/data/html/2026/11/16/2026111650030.html",
+      "naver_link": "https://biz.newdaily.co.kr/site/data/html/2026/11/16/2026111650030.html",
+      "is_photo": false
+    },
+    {
+      "field": "관광",
+      "keyword": "K-컬처 관광",
+      "title": "[유통갤러리] G마켓, ‘더모 뷰티’ 큐레이션 강화 外",
+      "summary": "G마켓은 외국인 관광객이 K-뷰티 화장품을 사기 위해 많이 방문하는 약국 매장 '레디영 약국'과 뷰티 분야... ◆애경산업, 홍대서 ‘K-컬처 페스티벌’ 성료 애경산업이 지난 13일 서울 홍대 걷고싶은거리 만남의광장에서...",
+      "published": "2026-11-16 09:38",
+      "link": "https://theviewers.co.kr/View.aspx?No=4313754",
+      "naver_link": "https://theviewers.co.kr/View.aspx?No=4313754",
+      "is_photo": false
+    },
+    {
+      "field": "음악",
+      "keyword": "K-pop",
+      "title": "아이들 미연·소연, 8년 만에 롤드컵 결승 귀환",
+      "summary": "뒤이어 아리를 상징하는 미연이 무대에 올라 대표 히트곡 'POP/STARS'를 열창하며 관객들을 매료시켰다. 특히 이번 무대의 하이라이트는 지난달 공개된 K/DA의 신곡 'FIRESTARTER (Feat. Sophie Powers, MIYEON, SOYEON)' 무대였다....",
+      "published": "2026-11-16 09:36",
+      "link": "https://www.newsinside.kr/news/articleView.html?idxno=5049188",
+      "naver_link": "https://www.newsinside.kr/news/articleView.html?idxno=5049188",
+      "is_photo": false
+    },
+    {
+      "field": "음악",
+      "keyword": "K-pop",
+      "title": "CJ문화재단, 설립 20주년…창작자 지원 성과 공유",
+      "summary": "동국대 이유석 교수는 사례집에서 'K-POP을 넘어 K-Music의 글로벌 확장'을 주제로 CJ문화재단의 인디 뮤지션 지원사업 '튠업'을 분석한다. 대형 기획사 중심의 국내 음악산업에서 튠업이 창작자 발굴과 음악 생태계 저변...",
+      "published": "2026-11-16 09:36",
+      "link": "https://www.pinpointnews.co.kr/news/articleView.html?idxno=504358",
+      "naver_link": "https://www.pinpointnews.co.kr/news/articleView.html?idxno=504358",
+      "is_photo": false
+    },
+    {
+      "field": "정책",
+      "keyword": "콘텐츠 수출",
+      "title": "롯데홈쇼핑, 광클절 오프라인 마켓 운영…20여개 브랜드 최대 90% 할인",
+      "summary": "브랜드존에서는 자체 기획 브랜드 '네메르', '엘보틀'과 K브랜드 수출 플랫폼 '이설' 입점 브랜드를... 오프라인 마켓까지 연계해 쇼핑과 문화 콘텐츠를 결합한 고객 참여형 행사로 발전시켰다. 롯데홈쇼핑은 기존 TV...",
+      "published": "2026-11-16 09:36",
+      "link": "https://www.etnews.com/20261116000072",
+      "naver_link": "https://n.news.naver.com/mnews/article/030/0003485885?sid=101",
+      "is_photo": false
+    },
+    {
+      "field": "관광",
+      "keyword": "방한 관광",
+      "title": "경기관광공사 \"말레이시아 기업 임직원 1천600명 포상 관광 유치\"",
+      "summary": "포상 관광을 유치했다고 16일 밝혔다. 공사에 따르면 쿠알라룸푸르에 본사가 있는 이 기업은 임직원들은 지난 13일부터 8회에 걸쳐 200여 명씩 방한한다. 이들은 고양시에 있는 '소노캄 고양'에 4박 5일 머무르면서...",
+      "published": "2026-11-16 09:34",
+      "link": "https://www.gukjenews.com/news/articleView.html?idxno=3752844",
+      "naver_link": "https://www.gukjenews.com/news/articleView.html?idxno=3752844",
+      "is_photo": false
+    },
+    {
+      "field": "관광",
+      "keyword": "방한 관광",
+      "title": "경기관광공사, 말련 '비 인터내셔널' 포상관광 1600명 유치",
+      "summary": "포상관광(인센티브 투어)을 위해 경기도를 순차 방문한다고 16일 밝혔다. 말레이시아 쿠알라룸푸르에 본사를 두고 있는 해당 기업은 지난 13일부터 총 8회에 걸쳐 200여 명씩 방한한다. 이들은 모두 고양시에 위치한...",
+      "published": "2026-11-16 09:33",
+      "link": "https://view.asiae.co.kr/article/2026111609330252884",
+      "naver_link": "https://n.news.naver.com/mnews/article/277/0005842976?sid=102",
+      "is_photo": false
+    },
+    {
+      "field": "관광",
+      "keyword": "방한 관광",
+      "title": "동국대 한류융합학술원, ‘K관광 3000만 시대’ 한류 인프라 논의",
+      "summary": "정길화 한류융합학술원장은 “K콘텐트가 이끄는 방한 관광 열풍이 단기적 흥행에 그치지 않고 지속 가능한 국가적 자산으로 자리잡으려면 관광 수용 인프라와 제도적 기반을 획기적으로 강화해야 한다”며 “이번...",
+      "published": "2026-11-16 09:32",
+      "link": "https://www.joongang.co.kr/article/25478901",
+      "naver_link": "https://n.news.naver.com/mnews/article/025/0003565402?sid=102",
+      "is_photo": false
+    },
+    {
+      "field": "관광",
+      "keyword": "방한 관광",
+      "title": "29CM 이구홈, 올해 300만명 다녀갔다… 성수 1호점 외국인 매출 66%",
+      "summary": "29CM 관계자는 “방한 관광객의 쇼핑 관심사가 패션·뷰티를 넘어 홈·리빙으로 넓어진 가운데, 입점사의 70%가 국내 브랜드인 이구홈이 K-라이프스타일 쇼핑 거점으로 자리매김하고 있다”라며 “올해 매장을 확대하며...",
+      "published": "2026-11-16 09:32",
+      "link": "https://www.fashionbiz.co.kr/article/231099",
+      "naver_link": "https://www.fashionbiz.co.kr/article/231099",
+      "is_photo": false
+    },
+    {
+      "field": "관광",
+      "keyword": "방한 관광",
+      "title": "[똑똑한유통] 롯데면세점, BAT로스만스 던힐, 파라다이스, 29CM, 신원, 컬...",
+      "summary": "29CM 관계자는 “방한 관광객의 쇼핑 관심사가 패션과 뷰티를 넘어 생활용품으로 확대되고 있다\"며 “입점사의 약 70%가 국내 브랜드인 이구홈을 한국 디자인 브랜드와 해외 고객을 연결하는 쇼핑 거점으로 육성하겠다...",
+      "published": "2026-11-16 09:30",
+      "link": "https://www.ekn.kr/web/view.php?key=20261116027369908",
+      "naver_link": "https://www.ekn.kr/web/view.php?key=20261116027369908",
+      "is_photo": false
+    },
+    {
+      "field": "음악",
+      "keyword": "K-pop",
+      "title": "CJ문화재단, 20년간 창작자 지원에 917억원…K컬처 성장 기반 넓혔다",
+      "summary": "이 가운데 동국대 이유석 교수는 'K-POP을 넘어 K-Music의 글로벌 확장'을 주제로 CJ문화재단의 인디 뮤지션 지원사업 튠업을 분석한다. 대형 기획사 중심의 음악산업 구조 속에서 튠업이 창작 생태계의 다양성을 확보하는...",
+      "published": "2026-11-16 09:28",
+      "link": "https://www.megaeconomy.co.kr/news/newsview.php?ncode=1065572418851635",
+      "naver_link": "https://www.megaeconomy.co.kr/news/newsview.php?ncode=1065572418851635",
+      "is_photo": false
+    },
+    {
+      "field": "정책",
+      "keyword": "한류 정책",
+      "title": "안동소주, 세계 주류시장서 일냈다…美 최고상·벨기에 금메달 석권",
+      "summary": "전통 제조방식에 품질 고급화와 공동브랜드 전략을 접목한 경북도의 안동소주 세계화 정책도 탄력을 받을... 구광모 경북도 식품한류산업국장은 \"이번 국제 품평회 수상은 안동소주의 품질과 경쟁력을 세계 무대에서...",
+      "published": "2026-11-16 09:27",
+      "link": "http://www.inews24.com/view/2026384",
+      "naver_link": "https://n.news.naver.com/mnews/article/031/0001075177?sid=102",
+      "is_photo": false
+    },
+    {
+      "field": "음악",
+      "keyword": "K-pop",
+      "title": "[유통갤러리] 컬리뷰티페스타 2026, 방문객 1만4000명·거래액 470%↑ 外",
+      "summary": "K-POP 팬덤 소비가 음반과 굿즈를 넘어 라이프스타일 전반으로 확대되는 트렌드에 따라 아티스트와의 협업을 통해 팬덤 고객을 일상적인 소비 경험으로 연결하고 브랜드 경쟁력을 강화한다는 취지다. CU는 그동안 협업...",
+      "published": "2026-11-16 09:26",
+      "link": "https://theviewers.co.kr/View.aspx?No=4313762",
+      "naver_link": "https://theviewers.co.kr/View.aspx?No=4313762",
+      "is_photo": false
+    },
+    {
+      "field": "관광",
+      "keyword": "방한 관광",
+      "title": "29CM 이구홈에 309만 명 몰렸다…성수점 매출 66%는 외국인",
+      "summary": "특히 성수 1호점은 외국인 매출 비중이 66%를 넘어서며 방한 관광객의 쇼핑 수요가 패션·뷰티에서 국내 디자인 생활용품으로 확대되는 양상을 보였다. 29CM는 올해 1월부터 11월 10일까지 이구홈 5개 매장의 누적...",
+      "published": "2026-11-16 09:26",
+      "link": "https://www.etoday.co.kr/news/view/2648477",
+      "naver_link": "https://www.etoday.co.kr/news/view/2648477",
+      "is_photo": false
+    },
+    {
+      "field": "음악",
+      "keyword": "K-pop",
+      "title": "에스파 윈터 화보, 독보적 여신 미모..도도함부터 장난기까지 ‘시선집...",
+      "summary": "Karina, Giselle, Winter, and Ningning)—became the first-ever recipient of the grand prize, \"Global K-Artist of the Year,\" at the recently held \"2026 Melon Music Awards\" (MMA2026), a premier K-pop awards ceremony.",
+      "published": "2026-11-16 09:24",
+      "link": "http://www.breaknews.com/1251135",
+      "naver_link": "http://www.breaknews.com/1251135",
+      "is_photo": false
+    },
+    {
+      "field": "음악",
+      "keyword": "K-pop",
+      "title": "빅뱅 데뷔 20주년 전시 'COSMOS', 전 세계 14개 도시 투어 진행",
+      "summary": "공유하고, K-POP IP와 첨단 미디어 기술이 결합된 새로운 전시 문화를 글로벌 시장 전반으로 확산해 나갈 것\"이라고 말했다. 'COSMOS' 글로벌 투어의 향후 상세 일정은 공식 SNS 채널(@cosmos.exh)을 통해 순차적으로...",
+      "published": "2026-11-16 09:24",
+      "link": "https://www.topstarnews.net/news/articleView.html?idxno=16277558",
+      "naver_link": "https://www.topstarnews.net/news/articleView.html?idxno=16277558",
+      "is_photo": false
+    },
+    {
+      "field": "영상",
+      "keyword": "K-드라마",
+      "title": "M83·스튜디오드래곤 등 핵심 콘텐츠 밸류체인 주목을",
+      "summary": "확대와 K-콘텐츠의 지식재산권(IP) 가치 상승 기대에 힘입어 투자자들의 관심을 받고 있다. 국내 제작사들의 글로벌 플랫폼 공급 확대와 대작 콘텐츠 제작 기대가 맞물리면서 시각특수효과(VFX), 드라마 제작, 방송 및...",
+      "published": "2026-11-16 09:24",
+      "link": "https://www.pinpointnews.co.kr/news/articleView.html?idxno=504338",
+      "naver_link": "https://www.pinpointnews.co.kr/news/articleView.html?idxno=504338",
+      "is_photo": false
+    },
+    {
+      "field": "관광",
+      "keyword": "방한 관광",
+      "title": "플리토, AI 통번역으로 전통시장 디지털 전환… K-관광 공략",
+      "summary": "이번 사업은 방한 외국인 관광객의 전통시장 방문이 늘어나는 가운데 관광객의 언어 불편을 해소하고 전통시장 상권의 디지털 전환을 지원하기 위해 추진됐다. 플리토는 서울 망원시장과 경동시장, 부산 해운대시장...",
+      "published": "2026-11-16 09:24",
+      "link": "https://www.koit.co.kr/news/articleView.html?idxno=209916",
+      "naver_link": "https://www.koit.co.kr/news/articleView.html?idxno=209916",
+      "is_photo": false
+    },
+    {
+      "field": "관광",
+      "keyword": "방한 관광",
+      "title": "관광공사, 말레이시아 포상관광객 1500명 유치",
+      "summary": "인도네시아 민영은행 BCA(Bank Central Asia)와 업무협약을 체결하고 카드 고객을 대상으로 방한 관광 판촉과 결제 혜택을 제공하는 프로모션을 추진한다. 필리핀 금융그룹 BDO 유니뱅크(Unibank)와는 가족 단위 관광객...",
+      "published": "2026-11-16 09:22",
+      "link": "https://www.pinpointnews.co.kr/news/articleView.html?idxno=504333",
+      "naver_link": "https://www.pinpointnews.co.kr/news/articleView.html?idxno=504333",
+      "is_photo": false
+    },
+    {
+      "field": "음악",
+      "keyword": "K-pop",
+      "title": "[NC On Site] TXT Reinvent Their Live Show with 'STEAL THE WIND'",
+      "summary": "The production made extensive use of physical movement, with elaborate choreography taking the place of the frequent conversation breaks familiar to K-pop concerts. There was no conventional...",
+      "published": "2026-11-16 09:19",
+      "link": "https://www.nc.press/news/articleView.html?idxno=631066",
+      "naver_link": "https://www.nc.press/news/articleView.html?idxno=631066",
+      "is_photo": false
+    },
+    {
+      "field": "음악",
+      "keyword": "K-pop",
+      "title": "강원정보문화산업진흥원·송곡대, 지역 대중음악 산업 육성 협력",
+      "summary": "K-POP 인재 양성·지역 뮤지션 지원 위한 업무협약 체결 교육·공연 공동 기획…시설·장비 등 인프라 상호 활용 강원정보문화산업진흥원과 송곡대학교가 지역 대중음악 인재 양성과 뮤지션 지원을 위해 협력한다....",
+      "published": "2026-11-16 09:18",
+      "link": "https://www.etnews.com/20261116000040",
+      "naver_link": "https://n.news.naver.com/mnews/article/030/0003485855?sid=105",
+      "is_photo": false
+    },
+    {
+      "field": "관광",
+      "keyword": "방한 관광",
+      "title": "서울관광재단-한국관광학회, '2026 서울관광 경쟁력 포럼' 개최… 야간관...",
+      "summary": "2026 서울관광 경쟁력 포럼 전경 [사진=서울관광재단]  방한 외래 관광객 규모가 가파르게 성장하면서 서울시가 향후 '3,000만 관광 시대'와 대규모 국제행사를 대비하기 위해 야간관광 콘텐츠 확충과 도심 내 숙박 인프라...",
+      "published": "2026-11-16 09:16",
+      "link": "https://www.discoverynews.kr/news/articleView.html?idxno=1106879",
+      "naver_link": "https://www.discoverynews.kr/news/articleView.html?idxno=1106879",
+      "is_photo": false
+    },
+    {
+      "field": "음악",
+      "keyword": "K-pop",
+      "title": "BTS·에스파·아이브·코르티스, 올해 멜론뮤직어워드 대상…총 29개 부...",
+      "summary": "특히 올해는 ‘연결(Connect)’을 핵심 키워드로 한 슬로건 ‘K-POP CONNECT: The New Pulse’ 아래, 멜론이 론칭하고 텐센트뮤직·라인뮤직이 참여한 한중일 통합 지표 ‘Global-K Chart’와 연계한 ‘글로벌 톱10’ 부문과...",
+      "published": "2026-11-16 09:14",
+      "link": "https://swtvnews.com/news/newsview.php?ncode=1065571370341767",
+      "naver_link": "https://swtvnews.com/news/newsview.php?ncode=1065571370341767",
+      "is_photo": false
+    },
+    {
+      "field": "음악",
+      "keyword": "K-pop",
+      "title": "\"제작비 얼마나 아낀 거야\"…아이들 미연·소연, 8년 만에 선 롤드컵이...",
+      "summary": "당시 두 사람은 K/DA의 데뷔곡 'POP/STARS' 공연에 참여했다. 이후 2020년 발매된 EP 'ALL OUT'에 이어 올해 신곡에도 참여하며 K/DA 활동을 이어왔다. 한편 미연은 민니와 함께 오는 12월 24일, 소연은 25일 '2026 SBS 가요대전...",
+      "published": "2026-11-16 09:14",
+      "link": "https://www.tenasia.co.kr/article/2026111679584",
+      "naver_link": "https://m.entertain.naver.com/article/312/0000784602",
+      "is_photo": false
+    },
+    {
+      "field": "정책",
+      "keyword": "콘텐츠 수출",
+      "title": "수출입 정보로 고객 접점 넓혔다···DHL 코리아, 13년 연속 '소셜미디...",
+      "summary": "콘텐츠를 제공했다. 링크드인에서는 B2B 고객에 필요한 물류·비즈니스 정보를 선별해 전달하고, 기업 고객 대상 웨비나 정보도 공유했다. 올해 소통 활동은 글로벌 통상환경 변화 속에서 기업 고객의 실제 수출입...",
+      "published": "2026-11-16 09:13",
+      "link": "http://www.enewstoday.co.kr/news/articleView.html?idxno=2492670",
+      "naver_link": "http://www.enewstoday.co.kr/news/articleView.html?idxno=2492670",
+      "is_photo": false
+    },
+    {
+      "field": "관광",
+      "keyword": "방한 관광",
+      "title": "29CM 이구홈, 올해 누적 방문객 300만명 돌파",
+      "summary": "29CM 관계자는 \"방한 관광객의 쇼핑 관심사가 패션·뷰티를 넘어 홈·리빙으로 넓어진 가운데 입점사의 약 70%가 국내 브랜드인 이구홈 매장이 한국 디자인 브랜드와 해외 고객을 연결하는 K-라이프스타일 쇼핑...",
+      "published": "2026-11-16 09:12",
+      "link": "http://www.metroseoul.co.kr/article/20261116500022",
+      "naver_link": "http://www.metroseoul.co.kr/article/20261116500022",
+      "is_photo": false
+    },
+    {
+      "field": "정책",
+      "keyword": "콘텐츠 수출",
+      "title": "맘스터치, 카자흐스탄 이어 우즈벡 개점⋯ “중앙아시아 공략 본격화”",
+      "summary": "농식품 수출액은 2021년 640만 달러에서 지난해 1870만 달러로 약 3배 증가했다. 타슈켄트를 중심으로 라면·스낵·음료에서 떡볶이·김밥·한국식 디저트로 소비 품목이 확대되고 있다. 젊은 소비층은 한류 콘텐츠와 SNS를...",
+      "published": "2026-11-16 09:12",
+      "link": "https://www.viva100.com/article/20261116500100",
+      "naver_link": "https://www.viva100.com/article/20261116500100",
+      "is_photo": false
+    },
+    {
+      "field": "음악",
+      "keyword": "K-pop",
+      "title": "'파이어스타터' 아이들 미연·소연, 8년 만에 롤드컵 결승 무대 불 질렀...",
+      "summary": "미연은 'POP/STARS'를 열창하며 등장해 관객들의 열띤 호응을 이끌어냈다. 이어 미연과 소연은 지난달 21일 발매된 K/DA의 신곡 'FIRESTARTER (Feat. Sophie Powers, MIYEON, SOYEON)'를 선보이며 공연의 열기를 더했다. 두...",
+      "published": "2026-11-16 09:10",
+      "link": "https://swtvnews.com/news/newsview.php?ncode=1065571120347020",
+      "naver_link": "https://swtvnews.com/news/newsview.php?ncode=1065571120347020",
+      "is_photo": false
+    },
+    {
+      "field": "음악",
+      "keyword": "케이팝 월드투어",
+      "title": "전 세계 '케데헌' 응원봉 흔든다…넷플릭스, 월드투어 내년 6월 확정",
+      "summary": "16일 넷플릭스에 따르면 '케데헌'은 내년 6월 5일(현지시간) 미국 볼티모어를 시작으로 '케이팝 데몬 헌터스 골든 월드투어'에 나선다. 이번 월드투어는 2년간 북미와 유럽, 아시아·태평양, 중남미 등 전 세계 50개...",
+      "published": "2026-11-16 09:10",
+      "link": "https://www.nocutnews.co.kr/news/6607149?utm_source=naver&utm_medium=article&utm_campaign=20261116090954",
+      "naver_link": "https://n.news.naver.com/mnews/article/079/0004209996?sid=103",
+      "is_photo": false
+    },
+    {
+      "field": "관광",
+      "keyword": "방한 관광",
+      "title": "플리토, 전국 전통시장 4곳에 AI 통번역 공급…외국인 관광객 편의 확대",
+      "summary": "이번 사업은 방한 외국인 관광객의 전통시장 방문 증가에 대응하기 위해 추진됐다. 관광객이 익숙하지 않은 한국 음식의 종류와 특징을 쉽게 이해하고, 상인 역시 별도의 외국어 구사 능력 없이 상품 정보를 안내할 수...",
+      "published": "2026-11-16 09:10",
+      "link": "http://www.hansbiz.co.kr/news/articleView.html?idxno=883499",
+      "naver_link": "http://www.hansbiz.co.kr/news/articleView.html?idxno=883499",
+      "is_photo": false
+    },
+    {
+      "field": "관광",
+      "keyword": "방한 관광",
+      "title": "빙그레, '바나나맛우유 양보 사연' 주인공에 화답…명예 앰버서더 10인 ...",
+      "summary": "최근 빙그레 바나나맛우유는 방한 외국인 관광객들 사이에서 한국 여행 시 반드시 구매해야 하는 'K-푸드 필수 쇼핑 아이템'으로 입소문을 타며 인천국제공항을 비롯한 주요 관광 상권에서 높은 판매고를 올리고 있다.",
+      "published": "2026-11-16 09:08",
+      "link": "http://www.ftoday.co.kr/news/articleView.html?idxno=369785",
+      "naver_link": "http://www.ftoday.co.kr/news/articleView.html?idxno=369785",
+      "is_photo": false
+    },
+    {
+      "field": "관광",
+      "keyword": "방한 관광",
+      "title": "외국인도 반한 29CM 이구홈…방문객 300만명 돌파",
+      "summary": "29CM 관계자는 “방한 관광객의 쇼핑 관심사가 패션·뷰티를 넘어 홈·리빙으로 넓어지면서 이구홈이 한국 디자인 브랜드와 해외 고객을 연결하는 쇼핑 거점으로 자리 잡고 있다”며 “앞으로도 신규 출점을 통해 더...",
+      "published": "2026-11-16 09:08",
+      "link": "https://www.edaily.co.kr/News/Read?newsId=01502246645646376&mediaCodeNo=257&utm_source=naver&utm_medium=referral&utm_campaign=news_syndication&utm_content=original_article",
+      "naver_link": "https://n.news.naver.com/mnews/article/018/0006410268?sid=101",
+      "is_photo": false
+    },
+    {
+      "field": "정책",
+      "keyword": "콘텐츠 수출",
+      "title": "경북도, K-푸드 세계화 전략 제시…농협서 1억원 기금 전달",
+      "summary": "관광·콘텐츠를 연계하는 산업구조 전환이 필요하다고 강조했다. 특히 지난해 경주에서 개최된 아시아태평양경제협력체(APEC) 정상회의를 계기로 K-푸드에 대한 국제적 관심이 높아졌다고 평가하며 경북이 농식품 수출...",
+      "published": "2026-11-16 09:06",
+      "link": "https://www.shinailbo.co.kr/news/articleView.html?idxno=5083585",
+      "naver_link": "https://www.shinailbo.co.kr/news/articleView.html?idxno=5083585",
+      "is_photo": false
+    },
+    {
+      "field": "음악",
+      "keyword": "K-pop",
+      "title": "아이들 미연·소연, 8년만 롤드컵 결승 무대 귀환…'K/DA 전설' 다시 썼...",
+      "summary": "아이들 미연 소연 '2026 리그오브레전드 월드 챔피언십' 결승전 오프닝 무대 영상 갈무리 [사진=라이엇 게임즈 중계 영상 캡처] 이날 두 사람은 K/DA의 대표곡 'MORE'와 'POP/STARS'를 각각 선보인 데 이어, 지난달...",
+      "published": "2026-11-16 09:02",
+      "link": "http://www.joynews24.com/view/2026392",
+      "naver_link": "http://www.joynews24.com/view/2026392",
+      "is_photo": false
+    },
+    {
+      "field": "영상",
+      "keyword": "한국 영화 해외",
+      "title": "'올해 최고의 한국 영화' 해외영화제서 극찬받은 이 작품…상 휩쓰는 중...",
+      "summary": "한국에서 장기 흥행을 기록한 뒤 해외 영화제 수상과 각국 개봉으로 활동 무대를 계속 넓혀가는 모습이다. 한국영화 최초로 토론토국제영화제 플랫폼 경쟁 섹션에 진출한 뒤 국내외 영화상을 휩쓸고 40여 개 영화제에...",
+      "published": "2026-11-16 09:01",
+      "link": "https://mhnse.com/news/articleView.html?idxno=1695923",
+      "naver_link": "https://m.entertain.naver.com/article/445/0000490573",
+      "is_photo": false
+    },
+    {
+      "field": "정책",
+      "keyword": "콘텐츠 수출",
+      "title": "\"송가인·박서진 공연이 공짜?\"…34만명 몰린 콘서트의 정체 [현장+]",
+      "summary": "유홍석 롯데홈쇼핑 해외사업팀장은 홈쇼핑에서 파는 브랜드들이 회사의 수출 창구를 통해 해외에서도... 유입되고 콘텐츠를 경험하도록 투자한 것\"이라고 말했다. 광클마켓 역시 현장 판매만으로는 비용을 회수하기...",
+      "published": "2026-11-16 09:01",
+      "link": "https://www.hankyung.com/article/202611167846g",
+      "naver_link": "https://n.news.naver.com/mnews/article/015/0005354112?sid=101",
+      "is_photo": false
+    },
+    {
+      "field": "정책",
+      "keyword": "콘텐츠 수출",
+      "title": "\"수출입 실무정보 한 번에\"…DHL코리아, 소셜미디어 대상 13년 연속 수상",
+      "summary": "변화, 수출 인증, 정부 해외 진출 지원사업 등 기업 고객에게 필요한 정보를 다뤘다. 국제배송 비용과 포장 방법도 쉽게 설명해 실무에 활용하도록 했다. 채널별 콘텐츠도 차별화했다. 페이스북에서는 여러 장의...",
+      "published": "2026-11-16 08:57",
+      "link": "https://www.news1.kr/industry/sb-founded/6354746",
+      "naver_link": "https://n.news.naver.com/mnews/article/421/0009290450?sid=101",
+      "is_photo": false
+    },
+    {
+      "field": "음악",
+      "keyword": "K-pop",
+      "title": "몽골 사로잡은 K-POP 걸그룹 나빌레라…한·몽 잇는 한류 주역",
+      "summary": "특히 멜로디는 2022년 창원 K-POP 월드 페스티벌에서 가창 부문 우수상을 수상한 이력도 갖고 있다. 한국인 멤버 사야와 릴라 역시 걸그룹 KELT9b 출신으로 무대 경험을 쌓았다. 멤버 전원이 성인이 된 이후 데뷔했다는...",
+      "published": "2026-11-16 08:56",
+      "link": "https://news.tf.co.kr/read/entertain/2389020.htm",
+      "naver_link": "https://m.entertain.naver.com/article/629/0000552081",
+      "is_photo": false
+    },
+    {
+      "field": "관광",
+      "keyword": "방한 관광",
+      "title": "대신證 \"신세계 목표가 28%↓…백화점·면세점 이익체력 개선\"",
+      "summary": "신세계인터내셔날과 센트럴시티도 의류 판매 호조와 방한 관광객 증가 등에 힘입어 영업이익이 전년 동기 대비 각각 71억 원, 36억 원 증가했다. 지배주주 순이익은 풋옵션 평가이익 640억 원 반영 등의 영향으로 169...",
+      "published": "2026-11-16 08:56",
+      "link": "https://www.news1.kr/finance/general-stock/6354686",
+      "naver_link": "https://n.news.naver.com/mnews/article/421/0009290444?sid=101",
+      "is_photo": false
+    },
+    {
+      "field": "음악",
+      "keyword": "K-pop",
+      "title": "TWS, 싱글 2집 활동 마무리…음반·음원 성과로 '청춘 아이콘' 입지 강화",
+      "summary": "밝고 희망찬 청춘의 모습뿐 아니라 그 이면의 고민과 불안을 함께 드러내며 TWS만의 '보이후드 팝(Boyhood Pop)' 색채를 확장했다. 이 같은 진솔한 메시지는 성과로도 이어졌다. 신보는 발매 직후 일주일간 음반...",
+      "published": "2026-11-16 08:54",
+      "link": "https://www.topstarnews.net/news/articleView.html?idxno=16277516",
+      "naver_link": "https://www.topstarnews.net/news/articleView.html?idxno=16277516",
+      "is_photo": false
+    },
+    {
+      "field": "관광",
+      "keyword": "방한 관광",
+      "title": "빙그레, 국내 사업 효율화·해외 수출 확대…내년 성장 기대",
+      "summary": "이를 통해 수익성이 낮은 제품을 축소하고 사업 운영 효율성을 높이는 한편 방한 외국인 관광객의 국내 소비 증가도 실적에 긍정적으로 작용할 것으로 예상된다. 해외에서는 수출 품목 확대가 성장동력으로 꼽힌다....",
+      "published": "2026-11-16 08:54",
+      "link": "http://www.newsprime.co.kr/news/article.html?no=755003",
+      "naver_link": "http://www.newsprime.co.kr/news/article.html?no=755003",
+      "is_photo": false
+    },
+    {
+      "field": "음악",
+      "keyword": "K-pop",
+      "title": "[문화 이슈] 투어스, 싱글 2집으로 ‘보이후드 팝’ 확장",
+      "summary": "다채로운 청춘의 감정을 아우르며 독자 장르 ‘보이후드 팝(Boyhood Pop)’의 외연도 넓혔다. TWS의 진솔한 이야기에 대중도 응답했다. 신보는 초동 판매량(발매 직후 일주일간 음반 판매량) 82만 5360장으로 국내 주요...",
+      "published": "2026-11-16 08:50",
+      "link": "http://www.beyondpost.co.kr/view.php?ud=202611160848551594d3244b4fed_30",
+      "naver_link": "http://www.beyondpost.co.kr/view.php?ud=202611160848551594d3244b4fed_30",
+      "is_photo": false
+    },
+    {
+      "field": "관광",
+      "keyword": "방한 관광",
+      "title": "K-디자인 브랜드에 외국인도 반했다…이구홈 방문객 300만명 돌파",
+      "summary": "29CM 관계자는 \"방한 관광객의 쇼핑 관심사가 패션·뷰티를 넘어 홈·리빙으로 넓어진 가운데 이구홈 매장이 한국 디자인 브랜드와 해외 고객을 연결하는 K-라이프스타일 쇼핑 거점으로 자리매김하고 있다\"고 말했다....",
+      "published": "2026-11-16 08:44",
+      "link": "https://www.news1.kr/industry/distribution/6354709",
+      "naver_link": "https://n.news.naver.com/mnews/article/421/0009290382?sid=101",
+      "is_photo": false
+    },
+    {
+      "field": "정책",
+      "keyword": "콘텐츠 수출",
+      "title": "롯데홈쇼핑, 광클절에 오프라인 마켓 결합…쇼핑·공연 시너지↑",
+      "summary": "브랜드존에서는 '네메르', '엘보틀' 등 롯데홈쇼핑의 자체 기획 브랜드와 K-브랜드 수출 플랫폼 '이설' 입점... 상품을 일방적으로 소개하는 방식에서 벗어나 고객이 브랜드와 상품을 직접 경험할 수 있는 체험형 콘텐츠의...",
+      "published": "2026-11-16 08:44",
+      "link": "https://www.newsis.com/view/NISX20261116_0003868953",
+      "naver_link": "https://n.news.naver.com/mnews/article/003/0014323578?sid=101",
+      "is_photo": false
+    },
+    {
+      "field": "관광",
+      "keyword": "방한 관광",
+      "title": "29CM 이구홈, 올해 방문객 300만명 돌파",
+      "summary": "29CM 관계자는 \"방한 관광객의 쇼핑 관심사가 패션·뷰티를 넘어 홈·리빙으로 넓어진 가운데 입점사의 약 70%가 국내 브랜드인 이구홈 매장이 한국 디자인 브랜드와 해외 고객을 연결하는 K-라이프스타일 쇼핑 거점으로...",
+      "published": "2026-11-16 08:41",
+      "link": "https://view.asiae.co.kr/article/2026111608334579564",
+      "naver_link": "https://n.news.naver.com/mnews/article/277/0005842895?sid=101",
+      "is_photo": false
+    },
+    {
+      "field": "관광",
+      "keyword": "방한 관광",
+      "title": "\"튀르키예 제치고 한국행\"…말레이시아 포상관광단 1500명 방한",
+      "summary": "공사에 따르면 올해 1~10월 공사가 직접 유치하거나 지원한 기업회의·포상관광 방한객은 25만명으로 전년 동기보다 13.5% 늘었다. 홍현선 코리아컨벤션뷰로 실장은 \"이번 비이 인터내셔널 유치는 현지 네트워크를...",
+      "published": "2026-11-16 08:41",
+      "link": "https://www.hankyung.com/article/202611168072g",
+      "naver_link": "https://n.news.naver.com/mnews/article/015/0005354106?sid=103",
+      "is_photo": false
+    },
+    {
+      "field": "음악",
+      "keyword": "K-pop",
+      "title": "아이들 미연·소연, 8년 만에 롤드컵 결승 오프닝 재장식… K/DA로 완벽한...",
+      "summary": "이날 소연은 K/DA의 'MORE' 래핑으로 현장 분위기를 끌어올렸고, 미연은 'POP/STARS'를 열창하며 등장해 시선을 사로잡았다. 이어 지난달 발매된 K/DA의 신곡 'FIRESTARTER' 무대를 소피 파워스, 미미 웹 등과 함께...",
+      "published": "2026-11-16 08:40",
+      "link": "https://www.cbci.co.kr/news/articleView.html?idxno=627172",
+      "naver_link": "https://www.cbci.co.kr/news/articleView.html?idxno=627172",
+      "is_photo": false
+    },
+    {
+      "field": "정책",
+      "keyword": "콘텐츠 수출",
+      "title": "장영진 무보 사장, 수출 1조달러 시대 맞아 원전·중기·서비스 '全방위...",
+      "summary": "그동안 K-콘텐츠와 한류 인기로 서비스 수출의 중요성이 커졌지만, 실적증명 발급기관이 업종별로 나뉘고 기관 간 정보 연계가 부족해 기업들이 무역보험 등 지원제도 이용 시 증빙자료를 별도로 제출해야 하는 부담이...",
+      "published": "2026-11-16 08:40",
+      "link": "https://view.asiae.co.kr/article/2026111608403252830",
+      "naver_link": "https://n.news.naver.com/mnews/article/277/0005842892?sid=101",
+      "is_photo": false
+    },
+    {
+      "field": "정책",
+      "keyword": "콘텐츠 수출",
+      "title": "이철우, '경북 농식품 세계화' 전략 제시…농식품 수출 확대 강조",
+      "summary": "이철우 경북지사는 16일 농협 경북본부에서 농·축협 조합장 등 160여 명을 대상으로 농식품 수출 확대와... 또 지역 농산물을 고부가가치 가공식품으로 육성하고 문화·관광·콘텐츠와 연결할 것을 제안했다. 경북농협은...",
+      "published": "2026-11-16 08:39",
+      "link": "https://www.news1.kr/local/daegu-gyeongbuk/6354726",
+      "naver_link": "https://n.news.naver.com/mnews/article/421/0009290359?sid=102",
+      "is_photo": false
+    },
+    {
+      "field": "관광",
+      "keyword": "방한 관광",
+      "title": "말레이시아 포상관광단 1500명 한국 찾는다…한국관광공사 유치",
+      "summary": "인도네시아 1위 민영은행인 BCA와 업무협약을 맺고 카드 고객 대상 방한 관광 판촉과 결제 혜택을 추진한다. 필리핀 최대 금융그룹인 BDO 유니뱅크와는 가족 단위 방한 관광객 확대를 위한 공동 마케팅을 진행한다. 특히...",
+      "published": "2026-11-16 08:36",
+      "link": "https://www.news1.kr/industry/sb-founded/6354717",
+      "naver_link": "https://n.news.naver.com/mnews/article/421/0009290353?sid=101",
+      "is_photo": false
+    },
+    {
+      "field": "음악",
+      "keyword": "K-pop",
+      "title": "코요태, 북미 3개 도시 투어 마무리…산호세부터 시애틀까지 뜨겁게 물...",
+      "summary": "코요태 덕분에 청춘을 다시 느끼고 있다\"는 현지 팬의 유창한 한국어 감사 인사가 소개됐고, K-POP을 좋아해 공연장을 찾은 10대 학생 팬들의 메시지도 무대 위에서 전해졌다. 우울증으로 힘든 시간을 보내던 중...",
+      "published": "2026-11-16 08:32",
+      "link": "https://www.topstarnews.net/news/articleView.html?idxno=16277487",
+      "naver_link": "https://www.topstarnews.net/news/articleView.html?idxno=16277487",
+      "is_photo": false
+    },
+    {
+      "field": "관광",
+      "keyword": "방한 관광",
+      "title": "관광공사, 말레이시아 포상관광단 1천500명 유치…13∼24일 방한",
+      "summary": "관광공사가 올해 1∼10월 직접 유치하거나 지원한 기업회의·포상관광 방한객은 25만명으로 지난해 같은 기간보다 13.5% 증가했다. 홍현선 코리아컨벤션뷰로 실장은 \"이번 비이 인터내셔널 유치는 현지 네트워크를...",
+      "published": "2026-11-16 08:32",
+      "link": "https://www.yna.co.kr/view/AKR20261116021000030?input=1195m",
+      "naver_link": "https://n.news.naver.com/mnews/article/001/0016442991?sid=103",
+      "is_photo": false
+    },
+    {
+      "field": "음악",
+      "keyword": "K-pop",
+      "title": "엔하이픈, '듄: 파트 3'와 컬래버…20일(금) 시네마틱 무대 ('듄: 파트 3...",
+      "summary": "이번 협업은 할리우드 블록버스터와 K-POP 그룹이 함께하는 의미 있는 사례다. '2026 MAMA AWARDS'는 오는 20일(금)과 21일(토) 일본 교세라 돔 오사카에서 개최된다. 엔하이픈은 데뷔 이후 독보적인 뱀파이어 콘셉트로...",
+      "published": "2026-11-16 08:31",
+      "link": "https://mhnse.com/news/articleView.html?idxno=1698064",
+      "naver_link": "https://m.entertain.naver.com/article/445/0000490560",
+      "is_photo": false
+    },
+    {
+      "field": "관광",
+      "keyword": "방한 관광",
+      "title": "[강원 24시] 강원특별자치도, '대한민국 AI 브랜드 대상' 수상…디지털...",
+      "summary": "이번 협약은 양양국제공항의 국제선 재개를 앞두고 신규 노선의 조기 안착과 외국인 관광객 유치를 위한 실질적인 협력 기반을 마련하는 데 초점이 맞춰졌다. 실제 최근 방한 외래객의 지방공항 직접 입국이 늘면서...",
+      "published": "2026-11-16 08:31",
+      "link": "https://www.sisajournal.com/news/articleView.html?idxno=394052",
+      "naver_link": "https://n.news.naver.com/mnews/article/586/0000142316?sid=102",
+      "is_photo": false
+    },
+    {
+      "field": "음악",
+      "keyword": "K-pop",
+      "title": "'K/DA 전설의 귀환' 아이들 미연·소연, 美 롤드컵 결승 오프닝 홀렸다",
+      "summary": "2018년 'POP/STARS'를 시작으로 2020년 EP 'ALL OUT', 올해 새 EP 'FIRESTARTER'에 이르기까지 K/DA의 8년 여정을 굳건히 이끌어온 이들은, 오랜 시간 축적된 탄탄한 라이브와 퍼포먼스 내공을 바탕으로 게임과 음악의 경계를...",
+      "published": "2026-11-16 08:29",
+      "link": "https://www.nc.press/news/articleView.html?idxno=631058",
+      "naver_link": "https://www.nc.press/news/articleView.html?idxno=631058",
+      "is_photo": false
+    },
+    {
+      "field": "음악",
+      "keyword": "K-pop",
+      "title": "JAY B, 방콕 'K*Pop Masterz'로 1만 8천 석 매진 기록",
+      "summary": "JAY B는 14일과 15일 태국 방콕 썬더돔 스타디움(Thunder Dome Stadium)에서 열린 '2026 K*Pop Masterz SPECIAL LIVE IN BANGKOK'에 출연해 탄탄한 라이브와 퍼포먼스로 공연을 마쳤다. 이번 공연은 당초 14일 단일 회차로...",
+      "published": "2026-11-16 08:26",
+      "link": "https://www.topstarnews.net/news/articleView.html?idxno=16277471",
+      "naver_link": "https://www.topstarnews.net/news/articleView.html?idxno=16277471",
+      "is_photo": false
+    },
+    {
+      "field": "음악",
+      "keyword": "K-pop",
+      "title": "아이들 소연, 롤 월즈 현장 포착…강렬 시선 속 솔로 행보",
+      "summary": "전소연은 리그 오브 레전드 프로젝트 그룹 K/DA와 True Damage에서 아칼리 파트를 맡아 롤 월드 챔피언십 무대 등에 섰고, 'POP/STARS', 'THE BADDEST', 'MORE' 등으로 전 세계 게임·K-POP 팬들에게 강렬한 인상을 남겼다. 2026년에는...",
+      "published": "2026-11-16 08:26",
+      "link": "https://www.topstarnews.net/news/articleView.html?idxno=16277474",
+      "naver_link": "https://www.topstarnews.net/news/articleView.html?idxno=16277474",
+      "is_photo": false
+    },
+    {
+      "field": "영상",
+      "keyword": "K-드라마",
+      "title": "'재혼 황후' 신민아·주지훈·이종석, 긴장감과 딴판인 유쾌 비하인드 ...",
+      "summary": "SCREENRANT는 \"2026년 최고의 K-드라마가 마침내 등장했다\"고 평했고, Collider는 \"한번 발을 들이면 깊이 빠져 헤어나올 수 없는 매력적인 세계\"라고 작품의 세계관을 소개했다. JTBC 엔터뉴스 조연경은 \"화제성을 담보로 하는...",
+      "published": "2026-11-16 08:26",
+      "link": "https://www.topstarnews.net/news/articleView.html?idxno=16277475",
+      "naver_link": "https://www.topstarnews.net/news/articleView.html?idxno=16277475",
+      "is_photo": false
+    },
+    {
+      "field": "음악",
+      "keyword": "K-pop",
+      "title": "이재, '키즈 초이스 어워드' 수상 추가..'골든' 페이보릿 송[스타이슈]",
+      "summary": "가수 겸 작곡가 이재(EJAE)의 메가 히트곡 '골든(Golden)'이 미국 '2026 키즈 초이스 어워즈'까지 사로잡았다. 14일(현지시간) 공개된 수상 결과에 따르면 넷플릭스 애니메이션 영화 '케이팝 데몬 헌터스(KPop Demon Hunters)...",
+      "published": "2026-11-16 08:22",
+      "link": "https://www.starnewskorea.com/music/2026/11/16/2026111608193554325",
+      "naver_link": "https://m.entertain.naver.com/article/108/0003487750",
+      "is_photo": false
+    },
+    {
+      "field": "음악",
+      "keyword": "K-pop",
+      "title": "'케데헌' 이재, 골든으로 美 '키즈 초이스 어워즈' 수상",
+      "summary": "가수 겸 작곡가 이재(EJAE)가 공동 작사·작곡하고 부른 '골든(Golden)'이 미국 '2026 키즈 초이스 어워즈'에서 팬 투표로 선정되는 '페이보릿 송 프롬 어 무비(Favorite Song From a Movie)' 부문을 수상했다. 14일(현지시간)...",
+      "published": "2026-11-16 08:20",
+      "link": "https://www.slist.kr/news/articleView.html?idxno=782048",
+      "naver_link": "https://www.slist.kr/news/articleView.html?idxno=782048",
+      "is_photo": false
+    },
+    {
+      "field": "음악",
+      "keyword": "K-pop",
+      "title": "JAY B, 방콕 'K*Pop Masterz' 마무리…첫날 1만8000석 매진",
+      "summary": "JAY B는 11월 14~15일 태국 방콕 썬더돔 스타디움에서 열린 '2026 K*Pop Masterz SPECIAL LIVE IN BANGKOK'에 출연했다. 당초 14일 한 차례만 예정됐던 공연은 티켓 오픈 직후 1만8000석이 매진되며 15일 추가 공연으로...",
+      "published": "2026-11-16 08:18",
+      "link": "https://www.slist.kr/news/articleView.html?idxno=782045",
+      "naver_link": "https://www.slist.kr/news/articleView.html?idxno=782045",
+      "is_photo": false
+    },
     {
       "field": "음악",
       "keyword": "K-pop",
@@ -194,21 +954,11 @@
     {
       "field": "정책",
       "keyword": "콘텐츠 수출",
-      "title": "[르포]\"엄마, 공연 보러 가요\"…트로트 팬심에 구매액 늘어난 롯데홈쇼...",
+      "title": "\"딸이 50만원 쓴 덕분에 당첨\"…TV 앞에서 쇼핑하던 고객들의 '공연 나들...",
       "summary": "자체 기획 패션 브랜드 '네메르'와 건강음료 '엘보틀', 수출 플랫폼 '이설'에서 소개하는 브랜드도 선보였다.... 이어 \"콘서트를 계속 제공하는 게 맞을지, 다른 형태의 콘텐츠가 좋을지 고객에게 드릴 볼거리와 즐길...",
       "published": "2026-11-16 08:00",
       "link": "https://view.asiae.co.kr/article/2026111523252276206",
       "naver_link": "https://n.news.naver.com/mnews/article/277/0005842847?sid=101",
-      "is_photo": false
-    },
-    {
-      "field": "음악",
-      "keyword": "K-pop",
-      "title": "Fan Fiction Site AO3 Returns, and So Do Its Readers",
-      "summary": "of K-pop bands. It is run entirely by volunteers, and operated by the Organization for Transformative Works. “Modern audiences are voracious,” Ms. Bryce said. “We want more, always. And...",
-      "published": "2026-11-16 07:56",
-      "link": "https://www.nytimes.com/2026/11/15/arts/ao3-fan-fiction-site.html?partner=naver",
-      "naver_link": "https://www.nytimes.com/2026/11/15/arts/ao3-fan-fiction-site.html?partner=naver",
       "is_photo": false
     },
     {
@@ -219,6 +969,16 @@
       "published": "2026-11-16 07:56",
       "link": "http://www.joynews24.com/view/2026366",
       "naver_link": "http://www.joynews24.com/view/2026366",
+      "is_photo": false
+    },
+    {
+      "field": "음악",
+      "keyword": "K-pop",
+      "title": "Fan Fiction Site AO3 Returns, and So Do Its Readers",
+      "summary": "of K-pop bands. It is run entirely by volunteers, and operated by the Organization for Transformative Works. “Modern audiences are voracious,” Ms. Bryce said. “We want more, always. And...",
+      "published": "2026-11-16 07:56",
+      "link": "https://www.nytimes.com/2026/11/15/arts/ao3-fan-fiction-site.html?partner=naver",
+      "naver_link": "https://www.nytimes.com/2026/11/15/arts/ao3-fan-fiction-site.html?partner=naver",
       "is_photo": false
     },
     {
@@ -384,16 +1144,6 @@
     {
       "field": "정책",
       "keyword": "콘텐츠 수출",
-      "title": "[Who Is ?] 김정수 삼양식품 대표이사 회장",
-      "summary": "삼양식품 관계자는 \"미국과 중국 등 주력 시장 내 유통망 확장을 통해 수출 성장세를 이어갔다\"며... △'불닭' 브랜드 마스코트 교체, 콘텐츠·굿즈로 사업 확장 김정수는 '불닭' 브랜드 마스코트 교체 결정을 내렸다....",
-      "published": "2026-11-16 07:02",
-      "link": "https://www.businesspost.co.kr/BP?command=article_view&num=451896",
-      "naver_link": "https://www.businesspost.co.kr/BP?command=article_view&num=451896",
-      "is_photo": false
-    },
-    {
-      "field": "정책",
-      "keyword": "콘텐츠 수출",
       "title": "'박정부의 다이소' 차기 경영 누가…차녀 박영주 승계에 쏠린 눈",
       "summary": "아성은 해외에서 생활용품을 발굴·조달하는 회사며, 아성HMP는 생활용품 개발과 국내 공급·수출을 담당하고... 김동민 로지브릿지 유통콘텐츠 총괄은 \"다이소는 박정부 회장의 색이 강한 회사다. 상품 선정부터 해외...",
       "published": "2026-11-16 07:02",
@@ -402,23 +1152,13 @@
       "is_photo": false
     },
     {
-      "field": "영상",
-      "keyword": "K-드라마",
-      "title": "[아프리카 K-컬처 붐] ② 보고 듣는 한류서 먹고 쓰는 K-일상으로",
-      "summary": "그는 이처럼 한식에 관한 현지의 관심이 커진 것이 2~3년 전부터 넷플릭스 등 온라인동영상서비스(OTT)를 통해 보다 많은 K-드라마가 현지 시청자들에게 전파된 것과 맞물린 현상으로 해석했다. 고객들의 요구도...",
-      "published": "2026-11-16 07:01",
-      "link": "https://www.yna.co.kr/view/AKR20261113009200099?input=1195m",
-      "naver_link": "https://n.news.naver.com/mnews/article/001/0016442936?sid=104",
-      "is_photo": false
-    },
-    {
-      "field": "영상",
-      "keyword": "K-드라마",
-      "title": "[아프리카 K-컬처 붐] ④ \"왜 한국이야\"에서 \"어떻게 가나\"로 바뀐 질문",
-      "summary": "재한 아프리카인들이 전한 변화…K-콘텐츠에서 한국 전반으로 관심 확대 전문가 \"'보내는' 한류에서 '함께... 하지만 지금은 K팝과 한국 드라마의 영향으로 한국이라는 나라와 문화에 관심을 갖는 젊은이들이 늘었다는 게...",
-      "published": "2026-11-16 07:01",
-      "link": "https://www.yna.co.kr/view/AKR20261108045500898?input=1195m",
-      "naver_link": "https://n.news.naver.com/mnews/article/001/0016442938?sid=102",
+      "field": "정책",
+      "keyword": "콘텐츠 수출",
+      "title": "[Who Is ?] 김정수 삼양식품 대표이사 회장",
+      "summary": "삼양식품 관계자는 \"미국과 중국 등 주력 시장 내 유통망 확장을 통해 수출 성장세를 이어갔다\"며... △'불닭' 브랜드 마스코트 교체, 콘텐츠·굿즈로 사업 확장 김정수는 '불닭' 브랜드 마스코트 교체 결정을 내렸다....",
+      "published": "2026-11-16 07:02",
+      "link": "https://www.businesspost.co.kr/BP?command=article_view&num=451896",
+      "naver_link": "https://www.businesspost.co.kr/BP?command=article_view&num=451896",
       "is_photo": false
     },
     {
@@ -439,6 +1179,26 @@
       "published": "2026-11-16 07:01",
       "link": "https://www.yna.co.kr/view/AKR20261113060500004?input=1195m",
       "naver_link": "https://n.news.naver.com/mnews/article/001/0016442937?sid=103",
+      "is_photo": false
+    },
+    {
+      "field": "영상",
+      "keyword": "K-드라마",
+      "title": "[아프리카 K-컬처 붐] ② 보고 듣는 한류서 먹고 쓰는 K-일상으로",
+      "summary": "그는 이처럼 한식에 관한 현지의 관심이 커진 것이 2~3년 전부터 넷플릭스 등 온라인동영상서비스(OTT)를 통해 보다 많은 K-드라마가 현지 시청자들에게 전파된 것과 맞물린 현상으로 해석했다. 고객들의 요구도...",
+      "published": "2026-11-16 07:01",
+      "link": "https://www.yna.co.kr/view/AKR20261113009200099?input=1195m",
+      "naver_link": "https://n.news.naver.com/mnews/article/001/0016442936?sid=104",
+      "is_photo": false
+    },
+    {
+      "field": "영상",
+      "keyword": "K-드라마",
+      "title": "[아프리카 K-컬처 붐] ④ \"왜 한국이야\"에서 \"어떻게 가나\"로 바뀐 질문",
+      "summary": "재한 아프리카인들이 전한 변화…K-콘텐츠에서 한국 전반으로 관심 확대 전문가 \"'보내는' 한류에서 '함께... 하지만 지금은 K팝과 한국 드라마의 영향으로 한국이라는 나라와 문화에 관심을 갖는 젊은이들이 늘었다는 게...",
+      "published": "2026-11-16 07:01",
+      "link": "https://www.yna.co.kr/view/AKR20261108045500898?input=1195m",
+      "naver_link": "https://n.news.naver.com/mnews/article/001/0016442938?sid=102",
       "is_photo": false
     },
     {
@@ -764,21 +1524,21 @@
     {
       "field": "정책",
       "keyword": "콘텐츠 수출",
-      "title": "[2026상하이 K-푸드＆관광 월드 엑스포] 상하이 홀린 '강원의 맛·멋' 50...",
-      "summary": "밀착 수출 상담을 통해 세계 온오프라인 유통망도 적극 공략했다. 정선군│곤드레·황기 정선 향토 먹거리... 관광 콘텐츠도 함께 소개했다. 고성군│청정식품·접경지 연계 '고성 알리기' 고성군은 청정한 자연 환경을...",
-      "published": "2026-11-16 00:05",
-      "link": "https://www.kado.net/news/articleView.html?idxno=2084893",
-      "naver_link": "https://n.news.naver.com/mnews/article/654/0000211343?sid=102",
-      "is_photo": false
-    },
-    {
-      "field": "정책",
-      "keyword": "콘텐츠 수출",
       "title": "[2026상하이 K-푸드＆관광 월드 엑스포] 사계절 관광자원·청정 먹거리 ...",
       "summary": "관광 콘텐츠를 세계에 알렸고, 해외 바이어 상담에도 적극적으로 나서 최소 500만 달러(약 67억원) 규모의 수출 실적을 확보했다. 강원도 │ 강원도 한류 관심 타고 '강원 브랜드' 위상 강화 강원도는 18개 시군 관광 명소와...",
       "published": "2026-11-16 00:05",
       "link": "https://www.kado.net/news/articleView.html?idxno=2084892",
       "naver_link": "https://n.news.naver.com/mnews/article/654/0000211342?sid=102",
+      "is_photo": false
+    },
+    {
+      "field": "정책",
+      "keyword": "콘텐츠 수출",
+      "title": "[2026상하이 K-푸드＆관광 월드 엑스포] 상하이 홀린 '강원의 맛·멋' 50...",
+      "summary": "밀착 수출 상담을 통해 세계 온오프라인 유통망도 적극 공략했다. 정선군│곤드레·황기 정선 향토 먹거리... 관광 콘텐츠도 함께 소개했다. 고성군│청정식품·접경지 연계 '고성 알리기' 고성군은 청정한 자연 환경을...",
+      "published": "2026-11-16 00:05",
+      "link": "https://www.kado.net/news/articleView.html?idxno=2084893",
+      "naver_link": "https://n.news.naver.com/mnews/article/654/0000211343?sid=102",
       "is_photo": false
     },
     {
@@ -984,22 +1744,22 @@
     {
       "field": "음악",
       "keyword": "K-pop",
-      "title": "[포토] 사쿠야, 미남이시네요",
-      "summary": "멜론뮤직어워드 사상 처음으로 14일과 15일 이틀간 열리는 이번 시상식은 ‘K-POP CONNECT: The New Pulse’를 슬로건으로 내걸고, K팝을 통해 전 세계 음악 팬들이 하나가 되는 무대를 선보인다. 15일...",
-      "published": "2026-11-15 20:54",
-      "link": "https://www.heraldmuse.com/article/10937740?ref=naver",
-      "naver_link": "https://m.entertain.naver.com/article/112/0003813362",
-      "is_photo": true
-    },
-    {
-      "field": "음악",
-      "keyword": "K-pop",
       "title": "고양시 효자동, 북한산 효랑이 축제·주민총회 개최",
       "summary": "이어 개회식과 축하공연이 진행됐으며, 케이팝(K-POP) 댄스와 라인댄스, 기타 연주, 합창, 국악 공연 등이 펼쳐져 행사장에 활기를 더했다. 체험 공간에서는 캘리그래피와 캐리커처, 티코스터 만들기, 심폐소생술 교육 등이...",
       "published": "2026-11-15 20:54",
       "link": "https://www.job-post.co.kr/news/articleView.html?idxno=238458",
       "naver_link": "https://www.job-post.co.kr/news/articleView.html?idxno=238458",
       "is_photo": false
+    },
+    {
+      "field": "음악",
+      "keyword": "K-pop",
+      "title": "[포토] 사쿠야, 미남이시네요",
+      "summary": "멜론뮤직어워드 사상 처음으로 14일과 15일 이틀간 열리는 이번 시상식은 ‘K-POP CONNECT: The New Pulse’를 슬로건으로 내걸고, K팝을 통해 전 세계 음악 팬들이 하나가 되는 무대를 선보인다. 15일...",
+      "published": "2026-11-15 20:54",
+      "link": "https://www.heraldmuse.com/article/10937740?ref=naver",
+      "naver_link": "https://m.entertain.naver.com/article/112/0003813362",
+      "is_photo": true
     },
     {
       "field": "음악",
@@ -1254,22 +2014,22 @@
     {
       "field": "음악",
       "keyword": "K-pop",
-      "title": "늦가을 원도심 수놓은 세계의 면요리… 맛과 추억에 빠지다 [2026 누들대...",
-      "summary": "로봇축구와 K-POP 댄스, AI 바둑로봇 대결 등 다양한 프로그램이 마련돼 어린이부터 어르신까지 폭넓은 연령층의 관심을 끌었다. AI 바둑로봇 대결 부스는 세대를 아우르는 체험 공간으로 눈길을 끌었다. 어린이들은 바둑과...",
-      "published": "2026-11-15 19:20",
-      "link": "https://www.daejonilbo.com/news/articleView.html?idxno=2313785",
-      "naver_link": "https://n.news.naver.com/mnews/article/656/0000192472?sid=103",
-      "is_photo": false
-    },
-    {
-      "field": "음악",
-      "keyword": "K-pop",
       "title": "[포토] 장하오, 블랙홀 눈빛",
       "summary": "멜론뮤직어워드 사상 처음으로 14일과 15일 이틀간 열리는 이번 시상식은 ‘K-POP CONNECT: The New Pulse’를 슬로건으로 내걸고, K팝을 통해 전 세계 음악 팬들이 하나가 되는 무대를 선보인다. 15일...",
       "published": "2026-11-15 19:20",
       "link": "https://www.heraldmuse.com/article/10937690?ref=naver",
       "naver_link": "https://m.entertain.naver.com/article/112/0003813354",
       "is_photo": true
+    },
+    {
+      "field": "음악",
+      "keyword": "K-pop",
+      "title": "늦가을 원도심 수놓은 세계의 면요리… 맛과 추억에 빠지다 [2026 누들대...",
+      "summary": "로봇축구와 K-POP 댄스, AI 바둑로봇 대결 등 다양한 프로그램이 마련돼 어린이부터 어르신까지 폭넓은 연령층의 관심을 끌었다. AI 바둑로봇 대결 부스는 세대를 아우르는 체험 공간으로 눈길을 끌었다. 어린이들은 바둑과...",
+      "published": "2026-11-15 19:20",
+      "link": "https://www.daejonilbo.com/news/articleView.html?idxno=2313785",
+      "naver_link": "https://n.news.naver.com/mnews/article/656/0000192472?sid=103",
+      "is_photo": false
     },
     {
       "field": "음악",
@@ -1324,21 +2084,21 @@
     {
       "field": "음악",
       "keyword": "K-pop",
-      "title": "[포토] 아르노, 파워풀 엄지척",
-      "summary": "멜론뮤직어워드 사상 처음으로 14일과 15일 이틀간 열리는 이번 시상식은 ‘K-POP CONNECT: The New Pulse’를 슬로건으로 내걸고, K팝을 통해 전 세계 음악 팬들이 하나가 되는 무대를 선보인다. 15일...",
-      "published": "2026-11-15 19:12",
-      "link": "https://www.heraldmuse.com/article/10937685?ref=naver",
-      "naver_link": "https://m.entertain.naver.com/article/112/0003813349",
-      "is_photo": true
-    },
-    {
-      "field": "음악",
-      "keyword": "K-pop",
       "title": "[포토] 아이브 장원영-안유진 '권력있는 안녕즈 비주얼'",
       "summary": "한편, 올해로 18회를 맞이한 MMA2026은 메인 슬로건 ‘K-POP CONNECT: The New Pulse’ 아래 한중일 통합 차트 ‘Global-K Chart’와 연계한 ‘글로벌 TOP10’ 부문을 신설해 세계적 영향력을 한층 확대했다.",
       "published": "2026-11-15 19:12",
       "link": "https://mhnse.com/news/articleView.html?idxno=1697457",
       "naver_link": "https://m.entertain.naver.com/article/445/0000490482",
+      "is_photo": true
+    },
+    {
+      "field": "음악",
+      "keyword": "K-pop",
+      "title": "[포토] 아르노, 파워풀 엄지척",
+      "summary": "멜론뮤직어워드 사상 처음으로 14일과 15일 이틀간 열리는 이번 시상식은 ‘K-POP CONNECT: The New Pulse’를 슬로건으로 내걸고, K팝을 통해 전 세계 음악 팬들이 하나가 되는 무대를 선보인다. 15일...",
+      "published": "2026-11-15 19:12",
+      "link": "https://www.heraldmuse.com/article/10937685?ref=naver",
+      "naver_link": "https://m.entertain.naver.com/article/112/0003813349",
       "is_photo": true
     },
     {
@@ -1354,21 +2114,21 @@
     {
       "field": "음악",
       "keyword": "K-pop",
-      "title": "[포토] 안신, 반듯한 잘생김",
-      "summary": "멜론뮤직어워드 사상 처음으로 14일과 15일 이틀간 열리는 이번 시상식은 ‘K-POP CONNECT: The New Pulse’를 슬로건으로 내걸고, K팝을 통해 전 세계 음악 팬들이 하나가 되는 무대를 선보인다. 15일...",
-      "published": "2026-11-15 19:10",
-      "link": "https://www.heraldmuse.com/article/10937684?ref=naver",
-      "naver_link": "https://m.entertain.naver.com/article/112/0003813348",
-      "is_photo": true
-    },
-    {
-      "field": "음악",
-      "keyword": "K-pop",
       "title": "[포토] NCT 위시 료 '귀여운 하트'",
       "summary": "한편, 올해로 18회를 맞이한 MMA2026은 메인 슬로건 ‘K-POP CONNECT: The New Pulse’ 아래 한중일 통합 차트 ‘Global-K Chart’와 연계한 ‘글로벌 TOP10’ 부문을 신설해 세계적 영향력을 한층...",
       "published": "2026-11-15 19:10",
       "link": "https://mhnse.com/news/articleView.html?idxno=1697440",
       "naver_link": "https://m.entertain.naver.com/article/445/0000490479",
+      "is_photo": true
+    },
+    {
+      "field": "음악",
+      "keyword": "K-pop",
+      "title": "[포토] 안신, 반듯한 잘생김",
+      "summary": "멜론뮤직어워드 사상 처음으로 14일과 15일 이틀간 열리는 이번 시상식은 ‘K-POP CONNECT: The New Pulse’를 슬로건으로 내걸고, K팝을 통해 전 세계 음악 팬들이 하나가 되는 무대를 선보인다. 15일...",
+      "published": "2026-11-15 19:10",
+      "link": "https://www.heraldmuse.com/article/10937684?ref=naver",
+      "naver_link": "https://m.entertain.naver.com/article/112/0003813348",
       "is_photo": true
     },
     {
@@ -1384,21 +2144,21 @@
     {
       "field": "음악",
       "keyword": "K-pop",
-      "title": "[포토] 원규빈 '긴장되네'",
-      "summary": "한편, 올해로 18회를 맞이한 MMA2026은 메인 슬로건 ‘K-POP CONNECT: The New Pulse’ 아래 한중일 통합 차트 ‘Global-K Chart’와 연계한 ‘글로벌 TOP10’ 부문을 신설해 세계적 영향력을 한층 확대했다.",
-      "published": "2026-11-15 19:09",
-      "link": "https://mhnse.com/news/articleView.html?idxno=1697432",
-      "naver_link": "https://m.entertain.naver.com/article/445/0000490477",
-      "is_photo": true
-    },
-    {
-      "field": "음악",
-      "keyword": "K-pop",
       "title": "[포토] NCT 위시 재희 '다정한 인사'",
       "summary": "한편, 올해로 18회를 맞이한 MMA2026은 메인 슬로건 ‘K-POP CONNECT: The New Pulse’ 아래 한중일 통합 차트 ‘Global-K Chart’와 연계한 ‘글로벌 TOP10’ 부문을 신설해 세계적 영향력을 한층 확대했다.",
       "published": "2026-11-15 19:09",
       "link": "https://mhnse.com/news/articleView.html?idxno=1697434",
       "naver_link": "https://m.entertain.naver.com/article/445/0000490478",
+      "is_photo": true
+    },
+    {
+      "field": "음악",
+      "keyword": "K-pop",
+      "title": "[포토] 원규빈 '긴장되네'",
+      "summary": "한편, 올해로 18회를 맞이한 MMA2026은 메인 슬로건 ‘K-POP CONNECT: The New Pulse’ 아래 한중일 통합 차트 ‘Global-K Chart’와 연계한 ‘글로벌 TOP10’ 부문을 신설해 세계적 영향력을 한층 확대했다.",
+      "published": "2026-11-15 19:09",
+      "link": "https://mhnse.com/news/articleView.html?idxno=1697432",
+      "naver_link": "https://m.entertain.naver.com/article/445/0000490477",
       "is_photo": true
     },
     {
@@ -1432,174 +2192,14 @@
       "is_photo": false
     },
     {
-      "field": "음악",
-      "keyword": "K-pop",
-      "title": "[포토] 키키 키야 '사랑에 빠지는 하트'",
-      "summary": "한편, 올해로 18회를 맞이한 MMA2026은 메인 슬로건 ‘K-POP CONNECT: The New Pulse’ 아래 한중일 통합 차트 ‘Global-K Chart’와 연계한 ‘글로벌 TOP10’ 부문을 신설해 세계적 영향력을 한층 확대했다.",
-      "published": "2026-11-15 19:05",
-      "link": "https://mhnse.com/news/articleView.html?idxno=1697426",
-      "naver_link": "https://m.entertain.naver.com/article/445/0000490475",
-      "is_photo": true
-    },
-    {
-      "field": "음악",
-      "keyword": "K-pop",
-      "title": "[포토] 상원, 조각 꽃미모",
-      "summary": "멜론뮤직어워드 사상 처음으로 14일과 15일 이틀간 열리는 이번 시상식은 ‘K-POP CONNECT: The New Pulse’를 슬로건으로 내걸고, K팝을 통해 전 세계 음악 팬들이 하나가 되는 무대를 선보인다. 15일...",
-      "published": "2026-11-15 19:03",
-      "link": "https://www.heraldmuse.com/article/10937679?ref=naver",
-      "naver_link": "https://m.entertain.naver.com/article/112/0003813345",
-      "is_photo": true
-    },
-    {
-      "field": "음악",
-      "keyword": "K-pop",
-      "title": "[포토] 앤더블 장하오 '핑크 프린스'",
-      "summary": "한편, 올해로 18회를 맞이한 MMA2026은 메인 슬로건 ‘K-POP CONNECT: The New Pulse’ 아래 한중일 통합 차트 ‘Global-K Chart’와 연계한 ‘글로벌 TOP10’ 부문을 신설해 세계적 영향력을 한층 확대했다.",
-      "published": "2026-11-15 19:03",
-      "link": "https://mhnse.com/news/articleView.html?idxno=1697424",
-      "naver_link": "https://m.entertain.naver.com/article/445/0000490474",
-      "is_photo": true
-    },
-    {
-      "field": "음악",
-      "keyword": "K-pop",
-      "title": "[포토] 노정의, 볼하트에 심쿵",
-      "summary": "멜론뮤직어워드 사상 처음으로 14일과 15일 이틀간 열리는 이번 시상식은 ‘K-POP CONNECT: The New Pulse’를 슬로건으로 내걸고, K팝을 통해 전 세계 음악 팬들이 하나가 되는 무대를 선보인다. 15일...",
-      "published": "2026-11-15 19:02",
-      "link": "https://www.heraldmuse.com/article/10937676?ref=naver",
-      "naver_link": "https://m.entertain.naver.com/article/112/0003813344",
-      "is_photo": true
-    },
-    {
-      "field": "음악",
-      "keyword": "K-pop",
-      "title": "[포토] 노정의, 섹시 오프 숄더 드레스",
-      "summary": "멜론뮤직어워드 사상 처음으로 14일과 15일 이틀간 열리는 이번 시상식은 ‘K-POP CONNECT: The New Pulse’를 슬로건으로 내걸고, K팝을 통해 전 세계 음악 팬들이 하나가 되는 무대를 선보인다. 15일...",
-      "published": "2026-11-15 19:01",
-      "link": "https://www.heraldmuse.com/article/10937675?ref=naver",
-      "naver_link": "https://m.entertain.naver.com/article/112/0003813343",
-      "is_photo": true
-    },
-    {
-      "field": "음악",
-      "keyword": "K-pop",
-      "title": "[포토] 알파드라이브원 상원 '자랑의 센터'",
-      "summary": "한편, 올해로 18회를 맞이한 MMA2026은 메인 슬로건 ‘K-POP CONNECT: The New Pulse’ 아래 한중일 통합 차트 ‘Global-K Chart’와 연계한 ‘글로벌 TOP10’ 부문을 신설해 세계적 영향력을 한층 확대했다.",
-      "published": "2026-11-15 19:01",
-      "link": "https://mhnse.com/news/articleView.html?idxno=1697418",
-      "naver_link": "https://m.entertain.naver.com/article/445/0000490471",
-      "is_photo": true
-    },
-    {
-      "field": "음악",
-      "keyword": "K-pop",
-      "title": "이세영, 공주님이 따로 없네…화려한 드레스 입고 미모까지 '반짝', 10년...",
-      "summary": "이어 \"그 10년이라는 시간 동안 K-POP은 상상할 수 없을 만큼 성장을 이뤘다. 그 놀라운 변화를 저 역시 팬으로서 지켜봤다\"며 K팝의 눈부신 발전을 언급했다. 그러면서 \"앞으로 더 얼마나 놀라운 역사를 써 내려갈지...",
-      "published": "2026-11-15 19:00",
-      "link": "https://www.xportsnews.com/article/2219832",
-      "naver_link": "https://m.entertain.naver.com/article/311/0002080885",
-      "is_photo": false
-    },
-    {
-      "field": "음악",
-      "keyword": "K-pop",
-      "title": "[HD포토] 아이브 장원영, '예쁨 뽐내며' (2026 멜론뮤직어워드 레드카펫...",
-      "summary": "11월 15일 서울시 구로구 고척동 고척스카이돔에서 '2026 멜론 뮤직 어워드(이하 2026 MMA) 레드카펫'이 진행됐다. 아이브 장원영이 포토타임을 갖고 있다. '2026 MMA'는 음원 스트리밍 사이트 멜론의 이용 데이터와...",
-      "published": "2026-11-15 19:00",
-      "link": "https://www.topstarnews.net/news/articleView.html?idxno=16277199",
-      "naver_link": "https://www.topstarnews.net/news/articleView.html?idxno=16277199",
-      "is_photo": true
-    },
-    {
-      "field": "음악",
-      "keyword": "K-pop",
+      "field": "영상",
+      "keyword": "K-드라마",
       "title": "안효섭, ‘케데헌’으로 ‘2026 키즈 초이스 어워즈’ 성우상",
-      "summary": "배우 안효섭이 목소리 연기로 글로벌 시상식을 석권했다. 14일(현지시간) 안효섭은 ‘2026 키즈 초이스 어워즈’에서 넷플릭스 애니메이션 영화 ‘케이팝 데몬 헌터스(KPop Demon Hunters)’로 ‘가장 좋아하는...",
+      "summary": "주연을 맡은 SBS 드라마 ‘오늘도 매진했습니다’는 넷플릭스 글로벌 비영어 TV 부문 1위에 올랐고... 한편, 안효섭은 JTBC 토일드라마 ‘파이널 테이블’에서 해외파 셰프 강한 역을 맡아 시청자와 만나고...",
       "published": "2026-11-15 18:59",
       "link": "https://www.munhwa.com/article/11631417?ref=naver",
       "naver_link": "https://m.entertain.naver.com/article/021/0002832905",
       "is_photo": false
-    },
-    {
-      "field": "음악",
-      "keyword": "K-pop",
-      "title": "[포토] 노정의, 완전 여신 그 자체",
-      "summary": "멜론뮤직어워드 사상 처음으로 14일과 15일 이틀간 열리는 이번 시상식은 ‘K-POP CONNECT: The New Pulse’를 슬로건으로 내걸고, K팝을 통해 전 세계 음악 팬들이 하나가 되는 무대를 선보인다. 15일...",
-      "published": "2026-11-15 18:59",
-      "link": "https://www.heraldmuse.com/article/10937674?ref=naver",
-      "naver_link": "https://m.entertain.naver.com/article/112/0003813342",
-      "is_photo": true
-    },
-    {
-      "field": "음악",
-      "keyword": "K-pop",
-      "title": "[포토] 노정의 '사랑스러운 인사'",
-      "summary": "한편, 올해로 18회를 맞이한 MMA2026은 메인 슬로건 ‘K-POP CONNECT: The New Pulse’ 아래 한중일 통합 차트 ‘Global-K Chart’와 연계한 ‘글로벌 TOP10’ 부문을 신설해 세계적 영향력을 한층 확대했다.",
-      "published": "2026-11-15 18:59",
-      "link": "https://mhnse.com/news/articleView.html?idxno=1697400",
-      "naver_link": "https://m.entertain.naver.com/article/445/0000490470",
-      "is_photo": true
-    },
-    {
-      "field": "음악",
-      "keyword": "K-pop",
-      "title": "[포토] 조나단, 올블랙 패션",
-      "summary": "멜론뮤직어워드 사상 처음으로 14일과 15일 이틀간 열리는 이번 시상식은 ‘K-POP CONNECT: The New Pulse’를 슬로건으로 내걸고, K팝을 통해 전 세계 음악 팬들이 하나가 되는 무대를 선보인다. 15일...",
-      "published": "2026-11-15 18:58",
-      "link": "https://www.heraldmuse.com/article/10937673?ref=naver",
-      "naver_link": "https://m.entertain.naver.com/article/112/0003813341",
-      "is_photo": true
-    },
-    {
-      "field": "음악",
-      "keyword": "K-pop",
-      "title": "'2026 KBS 가요대축제', 김재중·마마무→A2O 총출동…누리꾼 반응 엇갈...",
-      "summary": "KBS 공식 홈페이지는 \"무엇이든 가능하고, 무엇이든 될 수 있는 곳\"이라며 \"무한한 즐거움과 상상이 현실이 되는 'PLAYVERSE'를 향한 K-POP의 새로운 여정이 시작된다\"고 프로그램을 소개했다. 이번 행사는 같은...",
-      "published": "2026-11-15 18:58",
-      "link": "https://www.topstarnews.net/news/articleView.html?idxno=16277183",
-      "naver_link": "https://www.topstarnews.net/news/articleView.html?idxno=16277183",
-      "is_photo": false
-    },
-    {
-      "field": "음악",
-      "keyword": "K-pop",
-      "title": "[포토] 민주, 숨길 수 없는 귀요미 매력",
-      "summary": "멜론뮤직어워드 사상 처음으로 14일과 15일 이틀간 열리는 이번 시상식은 ‘K-POP CONNECT: The New Pulse’를 슬로건으로 내걸고, K팝을 통해 전 세계 음악 팬들이 하나가 되는 무대를 선보인다. 15일...",
-      "published": "2026-11-15 18:56",
-      "link": "https://www.heraldmuse.com/article/10937672?ref=naver",
-      "naver_link": "https://m.entertain.naver.com/article/112/0003813340",
-      "is_photo": true
-    },
-    {
-      "field": "음악",
-      "keyword": "K-pop",
-      "title": "[HD포토] 아이브 안유진, '할 말 잃게 만드는 각선미' (2026 멜론뮤직어...",
-      "summary": "11월 15일 서울시 구로구 고척동 고척스카이돔에서 '2026 멜론 뮤직 어워드(이하 2026 MMA) 레드카펫'이 진행됐다. 아이브 안유진이 포토타임을 갖고 있다. '2026 MMA'는 음원 스트리밍 사이트 멜론의 이용 데이터와...",
-      "published": "2026-11-15 18:56",
-      "link": "https://www.topstarnews.net/news/articleView.html?idxno=16277195",
-      "naver_link": "https://www.topstarnews.net/news/articleView.html?idxno=16277195",
-      "is_photo": true
-    },
-    {
-      "field": "음악",
-      "keyword": "K-pop",
-      "title": "[포토] 조나단 '대한흑인협회 회원'",
-      "summary": "한편, 올해로 18회를 맞이한 MMA2026은 메인 슬로건 ‘K-POP CONNECT: The New Pulse’ 아래 한중일 통합 차트 ‘Global-K Chart’와 연계한 ‘글로벌 TOP10’ 부문을 신설해 세계적 영향력을 한층 확대했다.",
-      "published": "2026-11-15 18:55",
-      "link": "https://mhnse.com/news/articleView.html?idxno=1697398",
-      "naver_link": "https://m.entertain.naver.com/article/445/0000490469",
-      "is_photo": true
-    },
-    {
-      "field": "음악",
-      "keyword": "K-pop",
-      "title": "[포토] 이로하, 젠더리스 테일러드룩",
-      "summary": "멜론뮤직어워드 사상 처음으로 14일과 15일 이틀간 열리는 이번 시상식은 ‘K-POP CONNECT: The New Pulse’를 슬로건으로 내걸고, K팝을 통해 전 세계 음악 팬들이 하나가 되는 무대를 선보인다. 15일...",
-      "published": "2026-11-15 18:54",
-      "link": "https://www.heraldmuse.com/article/10937670?ref=naver",
-      "naver_link": "https://m.entertain.naver.com/article/112/0003813339",
-      "is_photo": true
     },
     {
       "field": "정책",
@@ -1610,116 +2210,6 @@
       "link": "http://www.kookje.co.kr/news2011/asp/newsbody.asp?code=0200&key=20261116.22013004484",
       "naver_link": "https://n.news.naver.com/mnews/article/658/0000161291?sid=101",
       "is_photo": false
-    },
-    {
-      "field": "음악",
-      "keyword": "K-pop",
-      "title": "[포토] 82메이저 'MMA 2026 찢었다'",
-      "summary": "한편, 올해로 18회를 맞이한 MMA2026은 메인 슬로건 ‘K-POP CONNECT: The New Pulse’ 아래 한중일 통합 차트 ‘Global-K Chart’와 연계한 ‘글로벌 TOP10’ 부문을 신설해 세계적 영향력을 한층 확대했다.",
-      "published": "2026-11-15 18:53",
-      "link": "https://mhnse.com/news/articleView.html?idxno=1697396",
-      "naver_link": "https://m.entertain.naver.com/article/445/0000490468",
-      "is_photo": true
-    },
-    {
-      "field": "음악",
-      "keyword": "K-pop",
-      "title": "[포토] 키키 지유 '사랑스러운 볼하트'",
-      "summary": "한편, 올해로 18회를 맞이한 MMA2026은 메인 슬로건 ‘K-POP CONNECT: The New Pulse’ 아래 한중일 통합 차트 ‘Global-K Chart’와 연계한 ‘글로벌 TOP10’ 부문을 신설해 세계적 영향력을 한층 확대했다.",
-      "published": "2026-11-15 18:52",
-      "link": "https://mhnse.com/news/articleView.html?idxno=1697392",
-      "naver_link": "https://m.entertain.naver.com/article/445/0000490466",
-      "is_photo": true
-    },
-    {
-      "field": "음악",
-      "keyword": "K-pop",
-      "title": "[포토] 감스트 '축구 사랑'",
-      "summary": "한편, 올해로 18회를 맞이한 MMA2026은 메인 슬로건 ‘K-POP CONNECT: The New Pulse’ 아래 한중일 통합 차트 ‘Global-K Chart’와 연계한 ‘글로벌 TOP10’ 부문을 신설해 세계적 영향력을 한층 확대했다.",
-      "published": "2026-11-15 18:52",
-      "link": "https://mhnse.com/news/articleView.html?idxno=1697394",
-      "naver_link": "https://m.entertain.naver.com/article/445/0000490467",
-      "is_photo": true
-    },
-    {
-      "field": "음악",
-      "keyword": "K-pop",
-      "title": "[HD포토] 아이브 안유진, '각선미의 아이콘 압도적인 다리 길이' (2026 멜...",
-      "summary": "11월 15일 서울시 구로구 고척동 고척스카이돔에서 '2026 멜론 뮤직 어워드(이하 2026 MMA) 레드카펫'이 진행됐다. 아이브 안유진이 포토타임을 갖고 있다. '2026 MMA'는 음원 스트리밍 사이트 멜론의 이용 데이터와...",
-      "published": "2026-11-15 18:50",
-      "link": "https://www.topstarnews.net/news/articleView.html?idxno=16277192",
-      "naver_link": "https://www.topstarnews.net/news/articleView.html?idxno=16277192",
-      "is_photo": true
-    },
-    {
-      "field": "음악",
-      "keyword": "K-pop",
-      "title": "[포토] 키키 이솔 '돋보이는 비주얼'",
-      "summary": "한편, 올해로 18회를 맞이한 MMA2026은 메인 슬로건 ‘K-POP CONNECT: The New Pulse’ 아래 한중일 통합 차트 ‘Global-K Chart’와 연계한 ‘글로벌 TOP10’ 부문을 신설해 세계적 영향력을 한층 확대했다.",
-      "published": "2026-11-15 18:50",
-      "link": "https://mhnse.com/news/articleView.html?idxno=1697371",
-      "naver_link": "https://m.entertain.naver.com/article/445/0000490464",
-      "is_photo": true
-    },
-    {
-      "field": "음악",
-      "keyword": "K-pop",
-      "title": "[포토] 윤아, 깜짝 안대 등장",
-      "summary": "멜론뮤직어워드 사상 처음으로 14일과 15일 이틀간 열리는 이번 시상식은 ‘K-POP CONNECT: The New Pulse’를 슬로건으로 내걸고, K팝을 통해 전 세계 음악 팬들이 하나가 되는 무대를 선보인다. 15일...",
-      "published": "2026-11-15 18:49",
-      "link": "https://www.heraldmuse.com/article/10937668?ref=naver",
-      "naver_link": "https://m.entertain.naver.com/article/112/0003813338",
-      "is_photo": true
-    },
-    {
-      "field": "음악",
-      "keyword": "K-pop",
-      "title": "[포토] 키키 하음 '점점 더 예뻐져'",
-      "summary": "한편, 올해로 18회를 맞이한 MMA2026은 메인 슬로건 ‘K-POP CONNECT: The New Pulse’ 아래 한중일 통합 차트 ‘Global-K Chart’와 연계한 ‘글로벌 TOP10’ 부문을 신설해 세계적 영향력을 한층 확대했다.",
-      "published": "2026-11-15 18:48",
-      "link": "https://mhnse.com/news/articleView.html?idxno=1697369",
-      "naver_link": "https://m.entertain.naver.com/article/445/0000490463",
-      "is_photo": true
-    },
-    {
-      "field": "음악",
-      "keyword": "K-pop",
-      "title": "[포토] 원희, ‘머리 많이 길렀죠?’",
-      "summary": "멜론뮤직어워드 사상 처음으로 14일과 15일 이틀간 열리는 이번 시상식은 ‘K-POP CONNECT: The New Pulse’를 슬로건으로 내걸고, K팝을 통해 전 세계 음악 팬들이 하나가 되는 무대를 선보인다. 15일...",
-      "published": "2026-11-15 18:48",
-      "link": "https://www.heraldmuse.com/article/10937667?ref=naver",
-      "naver_link": "https://m.entertain.naver.com/article/112/0003813337",
-      "is_photo": true
-    },
-    {
-      "field": "음악",
-      "keyword": "K-pop",
-      "title": "[포토] 최지수 '해맑은 인사'",
-      "summary": "한편, 올해로 18회를 맞이한 MMA2026은 메인 슬로건 ‘K-POP CONNECT: The New Pulse’ 아래 한중일 통합 차트 ‘Global-K Chart’와 연계한 ‘글로벌 TOP10’ 부문을 신설해 세계적 영향력을 한층 확대했다.",
-      "published": "2026-11-15 18:47",
-      "link": "https://mhnse.com/news/articleView.html?idxno=1697367",
-      "naver_link": "https://m.entertain.naver.com/article/445/0000490462",
-      "is_photo": true
-    },
-    {
-      "field": "음악",
-      "keyword": "K-pop",
-      "title": "[HD포토] 아이브 장원영, '인형이 아닐리 없어요' (2026 멜론뮤직어워드...",
-      "summary": "11월 15일 서울시 구로구 고척동 고척스카이돔에서 '2026 멜론 뮤직 어워드(이하 2026 MMA) 레드카펫'이 진행됐다. 아이브 장원영이 포토타임을 갖고 있다. '2026 MMA'는 음원 스트리밍 사이트 멜론의 이용 데이터와...",
-      "published": "2026-11-15 18:46",
-      "link": "https://www.topstarnews.net/news/articleView.html?idxno=16277188",
-      "naver_link": "https://www.topstarnews.net/news/articleView.html?idxno=16277188",
-      "is_photo": true
-    },
-    {
-      "field": "음악",
-      "keyword": "K-pop",
-      "title": "[포토] 최지수, 천사 같은 자태",
-      "summary": "멜론뮤직어워드 사상 처음으로 14일과 15일 이틀간 열리는 이번 시상식은 ‘K-POP CONNECT: The New Pulse’를 슬로건으로 내걸고, K팝을 통해 전 세계 음악 팬들이 하나가 되는 무대를 선보인다. 15일...",
-      "published": "2026-11-15 18:45",
-      "link": "https://www.heraldmuse.com/article/10937666?ref=naver",
-      "naver_link": "https://m.entertain.naver.com/article/112/0003813336",
-      "is_photo": true
     },
     {
       "field": "영상",
@@ -1834,21 +2324,21 @@
     {
       "field": "영상",
       "keyword": "K-드라마",
-      "title": "이시강, 카페에서 전한 여유로운 미소…'언더 문보우' 무대 행보 잇는다",
-      "summary": "2019년 웹드라마 '뽕당 빠지다'에서 이정훈 역으로 주연을 맡아 온라인 플랫폼 시청자들과 만났고, 드라마 'K-팝 최강 서바이벌'에서는 권지우 역으로 출연해 음악 소재 작품에서 가수 경험을 살린 연기를 선보였다. SBS...",
-      "published": "2026-11-15 16:36",
-      "link": "https://www.topstarnews.net/news/articleView.html?idxno=16277123",
-      "naver_link": "https://www.topstarnews.net/news/articleView.html?idxno=16277123",
-      "is_photo": false
-    },
-    {
-      "field": "영상",
-      "keyword": "K-드라마",
       "title": "SF9 찬희, 뷰티 팝업 앞두고 거울앞 스킨 케어…무대 전 준비",
       "summary": "이어 \"Catch Holiday Dreamland K-beauty pop-up starting Nov 14 at American Dream Mall, NJ\"라고 적어 미국 뉴저지에서... 또한 그는 여러 드라마와 영화를 통해 연기 스펙트럼을 넓혀 왔다. 드라마 'SKY 캐슬'에서 황우주 역을 맡아...",
       "published": "2026-11-15 16:36",
       "link": "https://www.topstarnews.net/news/articleView.html?idxno=16277121",
       "naver_link": "https://www.topstarnews.net/news/articleView.html?idxno=16277121",
+      "is_photo": false
+    },
+    {
+      "field": "영상",
+      "keyword": "K-드라마",
+      "title": "이시강, 카페에서 전한 여유로운 미소…'언더 문보우' 무대 행보 잇는다",
+      "summary": "2019년 웹드라마 '뽕당 빠지다'에서 이정훈 역으로 주연을 맡아 온라인 플랫폼 시청자들과 만났고, 드라마 'K-팝 최강 서바이벌'에서는 권지우 역으로 출연해 음악 소재 작품에서 가수 경험을 살린 연기를 선보였다. SBS...",
+      "published": "2026-11-15 16:36",
+      "link": "https://www.topstarnews.net/news/articleView.html?idxno=16277123",
+      "naver_link": "https://www.topstarnews.net/news/articleView.html?idxno=16277123",
       "is_photo": false
     },
     {
@@ -2284,21 +2774,21 @@
     {
       "field": "영상",
       "keyword": "K-드라마",
-      "title": "'올해의 앨범'은 BTS '아리랑'…'K팝 축제' 2026 MMA, 첫날 마무리",
-      "summary": "메인 슬로건은 'K-POP CONNECT: The New Pulse'다. 특히 멜론과 텐센트뮤직, 라인뮤직의 차트를 통합한 'Global... 음악과 드라마, 영화 등 각 분야에서 활약한 인물들이 한자리에 모이며 K컬처의 연결이라는 취지를...",
-      "published": "2026-11-15 12:42",
-      "link": "https://www.sidae.com/article/2026111421464054230",
-      "naver_link": "https://m.entertain.naver.com/article/417/0001164347",
-      "is_photo": false
-    },
-    {
-      "field": "영상",
-      "keyword": "K-드라마",
       "title": "2AM 이창민, 신곡 '어데가노'로 장르 넘나든 귀환",
       "summary": "드라마 '상속자들'의 삽입곡 'Moment'를 부르며 드라마의 감정을 살리는 보컬을 선보였고, 이 곡으로 2013년... 'KBS 스타 골든벨'을 시작으로 예능과 교양 프로그램에 출연해 왔고, 'K-STAR 식신로드', 'KBS 명받았습니다...",
       "published": "2026-11-15 12:42",
       "link": "https://www.topstarnews.net/news/articleView.html?idxno=16276989",
       "naver_link": "https://www.topstarnews.net/news/articleView.html?idxno=16276989",
+      "is_photo": false
+    },
+    {
+      "field": "영상",
+      "keyword": "K-드라마",
+      "title": "'올해의 앨범'은 BTS '아리랑'…'K팝 축제' 2026 MMA, 첫날 마무리",
+      "summary": "메인 슬로건은 'K-POP CONNECT: The New Pulse'다. 특히 멜론과 텐센트뮤직, 라인뮤직의 차트를 통합한 'Global... 음악과 드라마, 영화 등 각 분야에서 활약한 인물들이 한자리에 모이며 K컬처의 연결이라는 취지를...",
+      "published": "2026-11-15 12:42",
+      "link": "https://www.sidae.com/article/2026111421464054230",
+      "naver_link": "https://m.entertain.naver.com/article/417/0001164347",
       "is_photo": false
     },
     {
@@ -3104,21 +3594,21 @@
     {
       "field": "영상",
       "keyword": "K-드라마",
-      "title": "강다니엘, 군복무 중 올블랙 수트 자태…신곡·무대로 이어가는 행보",
-      "summary": "디즈니+ 오리지널 드라마 '너와 나의 경찰수업'에서 위승현 역을 맡아 첫 주연에 나선 그는, 이 작품으로 제1회 청룡시리즈어워즈 드라마 부문 남자 신인상과 인기스타상 후보에 올랐고 인기스타상을 수상했다. 이...",
-      "published": "2026-11-14 21:28",
-      "link": "https://www.topstarnews.net/news/articleView.html?idxno=16276694",
-      "naver_link": "https://www.topstarnews.net/news/articleView.html?idxno=16276694",
-      "is_photo": false
-    },
-    {
-      "field": "영상",
-      "keyword": "K-드라마",
       "title": "티파니 영, 포근한 눈빛으로 전한 'Edge of Calm' 투어 열기",
       "summary": "그는 드라마 '재벌집 막내아들'에서 레이첼 아리에프 역을 맡아 존재감을 드러낸 데 이어, '삼식이... 이후 '걸스플래닛999 : 소녀대전'의 K-POP 포지션 마스터, '피크타임' 심사위원으로 출연해 후배...",
       "published": "2026-11-14 21:28",
       "link": "https://www.topstarnews.net/news/articleView.html?idxno=16276696",
       "naver_link": "https://www.topstarnews.net/news/articleView.html?idxno=16276696",
+      "is_photo": false
+    },
+    {
+      "field": "영상",
+      "keyword": "K-드라마",
+      "title": "강다니엘, 군복무 중 올블랙 수트 자태…신곡·무대로 이어가는 행보",
+      "summary": "디즈니+ 오리지널 드라마 '너와 나의 경찰수업'에서 위승현 역을 맡아 첫 주연에 나선 그는, 이 작품으로 제1회 청룡시리즈어워즈 드라마 부문 남자 신인상과 인기스타상 후보에 올랐고 인기스타상을 수상했다. 이...",
+      "published": "2026-11-14 21:28",
+      "link": "https://www.topstarnews.net/news/articleView.html?idxno=16276694",
+      "naver_link": "https://www.topstarnews.net/news/articleView.html?idxno=16276694",
       "is_photo": false
     },
     {
@@ -3173,16 +3663,6 @@
     },
     {
       "field": "영상",
-      "keyword": "K-드라마",
-      "title": "AI가 바꾸는 영상 제작 환경…포바이포 등 관련주 '신바람'",
-      "summary": "글로벌 온라인동영상서비스(OTT)를 통한 K-콘텐츠의 해외 흥행 기대가 이어지는 가운데 인공지능(AI) 기반... 및 드라마 제작 관련 중소형주가 강세를 보이며 업종 상승을 이끌었다. 포바이포가 업종 내 가장 높은...",
-      "published": "2026-11-14 18:20",
-      "link": "https://www.pinpointnews.co.kr/news/articleView.html?idxno=504086",
-      "naver_link": "https://www.pinpointnews.co.kr/news/articleView.html?idxno=504086",
-      "is_photo": false
-    },
-    {
-      "field": "영상",
       "keyword": "한국 영화 해외",
       "title": "영화 '워낭소리' 프로듀서 고영재· 백재호 영화인연대 공공대표, 서울...",
       "summary": "(PGK)과 한국영화제작가협회는 빠져 있다고 답변하고, 센터 내 상업영화 상영 여부에 대해서도 \"안성기... 구체적으로 ▲해외 고전영화 상영권 협상 및 필름 수급이 불가능한 1년 단기 계약 구조, ▲정량평가에서 '상설...",
@@ -3193,9 +3673,9 @@
     },
     {
       "field": "영상",
-      "keyword": "K-드라마",
+      "keyword": "한국 영화 해외",
       "title": "코퍼스코리아, 일본 한류 배급 넘어 드라마 제작까지…K-콘텐츠 승부수",
-      "summary": "코퍼스코리아가 일본 시장에서 축적한 한류 콘텐츠 배급 경험과 드라마 제작 역량을 결합해 K-콘텐츠 종합 스튜디오로의 도약을 추진하고 있다. NICE평가정보는 13일 발표한 기업분석 자료에서 코퍼스코리아를 일본 한류...",
+      "summary": "한국 드라마와 영화가 해외 시청자들에게 꾸준히 소비되면서 콘텐츠 판권과 지식재산권(IP)의 경제적 가치도 높아지는 추세다. 글로벌 OTT 업체들이 오리지널 콘텐츠 확보에 적극적으로 나서면서 제작사와 배급사의 사업...",
       "published": "2026-11-14 17:40",
       "link": "https://www.pinpointnews.co.kr/news/articleView.html?idxno=504079",
       "naver_link": "https://www.pinpointnews.co.kr/news/articleView.html?idxno=504079",
@@ -3219,16 +3699,6 @@
       "published": "2026-11-14 17:32",
       "link": "https://www.joongangenews.com/news/articleView.html?idxno=563867",
       "naver_link": "https://www.joongangenews.com/news/articleView.html?idxno=563867",
-      "is_photo": false
-    },
-    {
-      "field": "영상",
-      "keyword": "K-드라마",
-      "title": "엔터주 상승세…팬엔터테인먼트·디어유 강세 속 K콘텐츠 기대 확산",
-      "summary": "디지털 팬덤 플랫폼의 구독자 증가와 드라마·영상 콘텐츠 제작 부문의 수익성 개선 전망도 업종 전반에 긍정적으로 작용했다. 이날 대형 연예기획사와 팬덤 플랫폼 기업을 중심으로 매수세가 유입된 가운데 드라마...",
-      "published": "2026-11-14 17:20",
-      "link": "https://www.pinpointnews.co.kr/news/articleView.html?idxno=504074",
-      "naver_link": "https://www.pinpointnews.co.kr/news/articleView.html?idxno=504074",
       "is_photo": false
     },
     {
@@ -3339,16 +3809,6 @@
       "published": "2026-11-14 16:02",
       "link": "http://www.worldkorean.net/news/articleView.html?idxno=58223",
       "naver_link": "http://www.worldkorean.net/news/articleView.html?idxno=58223",
-      "is_photo": false
-    },
-    {
-      "field": "영상",
-      "keyword": "K-드라마",
-      "title": "성훈X오세영 ‘보스의 노골적 취향’, 글로벌 흥행 시동..190여 개국 선판...",
-      "summary": "“K드라마는 여전히 비키에서 가장 강력한 인기 콘텐츠”라고 강조한 바 있다. 글로벌 시장에서 K-로맨틱 코미디의 강세가 계속되는 가운데, 탄탄한 해외 인지도를 보유한 성훈·이정신과 안정적인 연기력의...",
-      "published": "2026-11-14 15:38",
-      "link": "http://www.osen.co.kr/article/G1112909960",
-      "naver_link": "https://m.entertain.naver.com/article/109/0005640296",
       "is_photo": false
     },
     {
@@ -3724,6 +4184,16 @@
     {
       "field": "관광",
       "keyword": "K-컬처 관광",
+      "title": "롤드컵 결승전, 11월 서울아레나서 열린다",
+      "summary": "시는 라이엇 게임즈와 세부 지원 사항 및 공식 계약 체결을 위한 후속 절차를 진행하고 K-컬처와 연계한 관광 프로그램도 마련할 방침이다. 김현우 서울시 경제실장은 \"내년 롤드컵은 서울을 찾는 해외 게임팬들이 K...",
+      "published": "2026-11-14 08:00",
+      "link": "https://news.tf.co.kr/read/life/2388766.htm",
+      "naver_link": "https://n.news.naver.com/mnews/article/629/0000551880?sid=102",
+      "is_photo": false
+    },
+    {
+      "field": "관광",
+      "keyword": "K-컬처 관광",
       "title": "2027 롤드컵 결승전, 창동 서울아레나 개최 확정",
       "summary": "시는 이번 협상 과정에서 대규모 국제행사 운영 경험과 우수한 대중교통망, 숙박시설, 다양한 문화·관광... 게임팬들이 K-컬처의 매력을 한껏 느낄 수 있는 축제로 만드는 것은 물론 강북 균형발전의 동력이 되도록...",
       "published": "2026-11-14 08:00",
@@ -3739,16 +4209,6 @@
       "published": "2026-11-14 08:00",
       "link": "https://view.asiae.co.kr/article/2026111400394915464",
       "naver_link": "https://n.news.naver.com/mnews/article/277/0005842542?sid=102",
-      "is_photo": false
-    },
-    {
-      "field": "관광",
-      "keyword": "K-컬처 관광",
-      "title": "롤드컵 결승전, 11월 서울아레나서 열린다",
-      "summary": "시는 라이엇 게임즈와 세부 지원 사항 및 공식 계약 체결을 위한 후속 절차를 진행하고 K-컬처와 연계한 관광 프로그램도 마련할 방침이다. 김현우 서울시 경제실장은 \"내년 롤드컵은 서울을 찾는 해외 게임팬들이 K...",
-      "published": "2026-11-14 08:00",
-      "link": "https://news.tf.co.kr/read/life/2388766.htm",
-      "naver_link": "https://n.news.naver.com/mnews/article/629/0000551880?sid=102",
       "is_photo": false
     },
     {
@@ -3974,7 +4434,7 @@
     {
       "field": "관광",
       "keyword": "방한 관광",
-      "title": "K팝 인기에 외국인도 찾는 노래연습장…술 주문했다간 ‘큰일’",
+      "title": "K팝 인기에 외국인도 찾는 노래연습장…술 주문했다간 ‘큰일’?",
       "summary": "한국관광공사의 ‘2024 잠재 방한 여행객 조사’에 따르면 외국인 응답자의 48.9%는 방한 시 경험하고 싶은 활동으로 ‘노래연습장 등 이색·테마 놀이 문화 공간’을 꼽았다. 외국인 관광객의 실제 소비도 늘었다....",
       "published": "2026-11-13 21:12",
       "link": "https://www.segye.com/newsView/20261113514627?OutUrl=naver",
@@ -4072,26 +4532,6 @@
       "is_photo": false
     },
     {
-      "field": "관광",
-      "keyword": "방한 관광",
-      "title": "강원랜드, 양양국제공항 활성화 4개 기관과 협약",
-      "summary": "외래관광객 유치 확대 위한 협력 기반 마련…관광상품 개발·공동 마케팅 추진 ‘지방공항 연계 지역 방한 관광’ 정부 정책 이행 적극 나서 강원랜드(대표이사 김도균)가 공공기관으로서 정부의 지방공항 활성화 및 지역...",
-      "published": "2026-11-13 18:46",
-      "link": "https://www.pressian.com/pages/articles/2026111317350123560?utm_source=naver&utm_medium=search",
-      "naver_link": "https://n.news.naver.com/mnews/article/002/0002465836?sid=102",
-      "is_photo": false
-    },
-    {
-      "field": "관광",
-      "keyword": "방한 관광",
-      "title": "강원랜드, 양양국제공항 연계 외국인 관광객 유치 나선다",
-      "summary": "이번 협약은 지방공항과 지역 관광자원을 연계해 방한 관광을 확대하려는 정부 정책에 발맞춰 마련됐다. 이번 협약을 통해 각 기관은 실무협력 네트워크를 구축하고 양양국제공항 직항 노선과 연계한 관광상품 개발...",
-      "published": "2026-11-13 18:39",
-      "link": "https://www.kwnews.co.kr/article/20261113500437",
-      "naver_link": "https://n.news.naver.com/mnews/article/087/0001230739?sid=102",
-      "is_photo": false
-    },
-    {
       "field": "정책",
       "keyword": "콘텐츠 수출",
       "title": "“세계의 잔을 채우자”…‘2026 대한민국 우리술 대축제’ 개막",
@@ -4112,16 +4552,6 @@
       "is_photo": false
     },
     {
-      "field": "관광",
-      "keyword": "방한 관광",
-      "title": "무사증 입국에 하이원 인프라 연계…강원랜드, 양양공항서 4자 협약",
-      "summary": "정부는 지방공항과 지역 관광자원을 엮어 방한 관광을 키우는 정책을 펴고 있다. 이번 협약으로 네 기관은 외래관광객 유치를 위한 협력체계를 만들고, 실제 사업과 구체적인 추진 방안은 이를 바탕으로 논의해 나간다....",
-      "published": "2026-11-13 18:22",
-      "link": "https://www.ekn.kr/web/view.php?key=20261113022229512",
-      "naver_link": "https://www.ekn.kr/web/view.php?key=20261113022229512",
-      "is_photo": false
-    },
-    {
       "field": "정책",
       "keyword": "콘텐츠 수출",
       "title": "충남도의회 농수위, 2027 논산세계딸기산업엑스포 준비상황 현장 점검",
@@ -4129,16 +4559,6 @@
       "published": "2026-11-13 18:20",
       "link": "https://www.newsworker.co.kr/news/articleView.html?idxno=514047",
       "naver_link": "https://www.newsworker.co.kr/news/articleView.html?idxno=514047",
-      "is_photo": false
-    },
-    {
-      "field": "관광",
-      "keyword": "방한 관광",
-      "title": "구글 맵 한국시장 공략 본격…네이버·카카오와 '지도 전쟁'",
-      "summary": "방한 외국인 관광객을 둘러싼 경쟁도 치열해질 전망이다. 문화체육관광부에 따르면 올해 방한 외국인 관광객은 지난 12일 사상 처음 2000만명을 넘어선 것으로 추산됐다. 구글 지도가 국내 도보 길찾기를 지원하면 외국인...",
-      "published": "2026-11-13 18:06",
-      "link": "http://www.4th.kr/news/articleView.html?idxno=2121842",
-      "naver_link": "http://www.4th.kr/news/articleView.html?idxno=2121842",
       "is_photo": false
     },
     {
@@ -4189,36 +4609,6 @@
       "published": "2026-11-13 17:52",
       "link": "https://news.unn.net/news/articleView.html?idxno=600523",
       "naver_link": "https://news.unn.net/news/articleView.html?idxno=600523",
-      "is_photo": false
-    },
-    {
-      "field": "관광",
-      "keyword": "방한 관광",
-      "title": "'구글내비'로 길찾기 가능…국내 지도앱 지각변동 예고",
-      "summary": "방한 관광객은 지금도 구글맵에서 호텔이나 식당을 검색하고 버스·지하철 경로를 확인할 수 있다. 하지만 공항에서 빌린 렌터카로 숙소까지 가거나, 지하철역에서 골목 안 식당까지 걸어가는 길을 찾으려면...",
-      "published": "2026-11-13 17:48",
-      "link": "https://www.mk.co.kr/article/12208295",
-      "naver_link": "https://n.news.naver.com/mnews/article/009/0005763518?sid=101",
-      "is_photo": false
-    },
-    {
-      "field": "관광",
-      "keyword": "방한 관광",
-      "title": "“명의 빌려 규제 피하는 식”…문체부 ‘덤핑관광’ 수수료 상한제 실...",
-      "summary": "업계에서는 저가 관광상품으로 인한 사회적 비용과 방한관광 상품의 품질 저하에는 공감하면서도, 수수료 상한에 앞서 전담여행사 명의를 빌려 영업하는 비전담여행사에 대한 관리·감독을 강화해야 한다고 입을 모았다....",
-      "published": "2026-11-13 17:48",
-      "link": "https://www.ddaily.co.kr/page/view/2026111316481796406",
-      "naver_link": "https://n.news.naver.com/mnews/article/138/0002248509?sid=101",
-      "is_photo": false
-    },
-    {
-      "field": "관광",
-      "keyword": "방한 관광",
-      "title": "강원랜드, 양양국제공항 활성화 위한 4자 업무협약 체결",
-      "summary": "이번 협약은 지방공항과 지역 관광자원을 연계해 외국인 관광객 유치를 확대하고, 정부의 지방공항 활성화 및 지역 방한 관광 확대 정책에 대응하기 위한 것이다. 협약에 따라 4개 기관은 실무협력 네트워크를 구축하고...",
-      "published": "2026-11-13 17:48",
-      "link": "https://www.lawissue.co.kr/view.php?ud=202611131747036619f4ab64559d_12",
-      "naver_link": "https://www.lawissue.co.kr/view.php?ud=202611131747036619f4ab64559d_12",
       "is_photo": false
     },
     {
@@ -4273,19 +4663,9 @@
     },
     {
       "field": "관광",
-      "keyword": "방한 관광",
-      "title": "강원랜드, 양양공항 거점 외국인 관광객 유치…4자 협약",
-      "summary": "강원랜드는 이번 협약이 지방공항과 지역 관광자원을 연계해 방한 관광을 활성화하려는 정부 정책에 맞춰 추진됐다고 밝혔다. 협약을 통해 각 기관은 실무협력 네트워크 구축, 양양국제공항 직항 노선과 연계한 관광상품...",
-      "published": "2026-11-13 17:36",
-      "link": "https://www.gukjenews.com/news/articleView.html?idxno=3751579",
-      "naver_link": "https://www.gukjenews.com/news/articleView.html?idxno=3751579",
-      "is_photo": false
-    },
-    {
-      "field": "관광",
-      "keyword": "방한 관광",
+      "keyword": "K-컬처 관광",
       "title": "다날, 3분기 누적 매출 1746억…스테이블코인 결제 인프라 구축 완료",
-      "summary": "오프라인과 인바운드(방한 외국인) 결제 접점 확대에도 속도를 낸다. 올해 출시한 외국인 전용 선불카드 ‘콘다(KONDA)’는 주요 관광 상권 키오스크 배치와 온·오프라인 결제, 교통카드, 현금자동입출금기(ATM) 출금...",
+      "summary": "다날은 연내 은행 창구 충전과 해외 이용자용 간편결제 연동 기능을 추가하고, 다국어 ATM 위치 안내와 K컬처·여행 정보 등 외국인 관광객 맞춤형 콘텐츠를 탑재할 예정이다. 공항 등 주요 입국 거점을 중심으로 카드 발급...",
       "published": "2026-11-13 17:34",
       "link": "https://www.etoday.co.kr/news/view/2648079",
       "naver_link": "https://www.etoday.co.kr/news/view/2648079",
@@ -4299,16 +4679,6 @@
       "published": "2026-11-13 17:34",
       "link": "https://www.busan.com/view/busan/view.php?code=2026111317253487287",
       "naver_link": "https://n.news.naver.com/mnews/article/082/0001407064?sid=101",
-      "is_photo": false
-    },
-    {
-      "field": "관광",
-      "keyword": "방한 관광",
-      "title": "롯데웰푸드, '프리미엄 가나 쇼콜라 립파이' K-에디션 출시",
-      "summary": "컨슈머타임스=안솔지 기자 | 롯데웰푸드가 방한 외국인 관광객을 겨냥해 포장 전면에 무궁화를 담은 '프리미엄 가나 쇼콜라 립파이 K-에디션'을 선보인다. 11월 중 롯데마트 외국인 특화매장 10곳과 일부 시판 매장에서...",
-      "published": "2026-11-13 17:30",
-      "link": "https://www.cstimes.com/news/articleView.html?idxno=727816",
-      "naver_link": "https://www.cstimes.com/news/articleView.html?idxno=727816",
       "is_photo": false
     },
     {
@@ -4352,16 +4722,6 @@
       "is_photo": false
     },
     {
-      "field": "관광",
-      "keyword": "방한 관광",
-      "title": "외국인 관광객 2000만명 시대…서울 호텔에 빅머니 몰린다 [시그널]",
-      "summary": "문화체육관광부에 따르면 올해 누적 방한 외국인 관광객은 역대 처음으로 2000만 명을 넘어섰다. 반면 서울 시내 숙박 인프라는 사실상 제자리걸음이다. 글로벌 상업용 부동산 서비스 기업 CBRE에 따르면 서울 호텔...",
-      "published": "2026-11-13 17:14",
-      "link": "https://www.sedaily.com/article/20114085?ref=naver",
-      "naver_link": "https://n.news.naver.com/mnews/article/011/0004681987?sid=101",
-      "is_photo": false
-    },
-    {
       "field": "정책",
       "keyword": "한류 정책",
       "title": "한글 점자 100년…\"AI 시대에도 점자는 대체 불가\"",
@@ -4369,36 +4729,6 @@
       "published": "2026-11-13 17:13",
       "link": "https://www.nocutnews.co.kr/news/6606785?utm_source=naver&utm_medium=article&utm_campaign=20261113171223",
       "naver_link": "https://n.news.naver.com/mnews/article/079/0004209690?sid=102",
-      "is_photo": false
-    },
-    {
-      "field": "관광",
-      "keyword": "방한 관광",
-      "title": "\"스위트룸도 아닌데 140만원?\"…하룻밤 호텔 방값에 '화들짝'",
-      "summary": "연간 방한 외국인 관광객이 처음으로 2000만 명을 넘어선 가운데 신규 호텔 공급은 더디고 글로벌 럭셔리 브랜드는 연이어 서울에 진출하고 있기 때문이다. 호텔이 단순 숙박시설에서 미식과 웰니스, 문화, 뷰티...",
-      "published": "2026-11-13 17:09",
-      "link": "https://www.hankyung.com/article/202611135702i",
-      "naver_link": "https://n.news.naver.com/mnews/article/015/0005353627?sid=101",
-      "is_photo": false
-    },
-    {
-      "field": "관광",
-      "keyword": "방한 관광",
-      "title": "[경북소식] 도, 재생의료 세계적 연구기관들과 협력 강화 등",
-      "summary": "참석차 방한해 이날 양 부지사를 만났다. 도는 WFIRM 한국분원 설립, 핵심 지식재산권 확보를 위한 공동... 희망정원은 코레일관광개발의 기부로 조성되고 있으며 현재까지 132개가 전달됐다. 희망정원은 산불로 삶의...",
-      "published": "2026-11-13 17:07",
-      "link": "https://www.newsis.com/view/NISX20261113_0003866662",
-      "naver_link": "https://n.news.naver.com/mnews/article/003/0014321424?sid=102",
-      "is_photo": false
-    },
-    {
-      "field": "관광",
-      "keyword": "방한 관광",
-      "title": "신라스테이, 외국인 방한 수요 정조준···K-뷰티·쇼핑 결합 전용 패키...",
-      "summary": "신라스테이가 외국인 관광객 증가 추세에 발맞춰 K-뷰티와 쇼핑 경험을 접목한 전용 패키지 상품을 전 지점에서 선보인다. 최근 외국인 객실 판매가 증가세를 보이는 가운데 방한 수요를 겨냥한 맞춤형 공략에 나선...",
-      "published": "2026-11-13 17:06",
-      "link": "https://www.ngonews.kr/news/articleView.html?idxno=243122",
-      "naver_link": "https://www.ngonews.kr/news/articleView.html?idxno=243122",
       "is_photo": false
     },
     {
@@ -4422,16 +4752,6 @@
       "is_photo": false
     },
     {
-      "field": "관광",
-      "keyword": "방한 관광",
-      "title": "외국인 관광객 잡아라, 발 벗고 나선 기업들 [뉴스Q]",
-      "summary": "방한 관광객의 소비 품목이 화장품과 패션을 넘어 한국 전통 식품과 건강 관련 제품으로 확대되는 흐름에 대응한다는 구상이다. 식품업계는 한국을 방문한 외국인 관광객에게 K-푸드를 직접 경험할 기회를 제공하는...",
-      "published": "2026-11-13 16:56",
-      "link": "https://www.newsq.co.kr/news/articleView.html?idxno=500885",
-      "naver_link": "https://www.newsq.co.kr/news/articleView.html?idxno=500885",
-      "is_photo": false
-    },
-    {
       "field": "정책",
       "keyword": "콘텐츠 수출",
       "title": "경북과학대, ‘디지털커머스 크리에이터 양성과정’ 개강",
@@ -4439,36 +4759,6 @@
       "published": "2026-11-13 16:52",
       "link": "https://www.kukinews.com/article/view/kuk202611130147",
       "naver_link": "https://www.kukinews.com/article/view/kuk202611130147",
-      "is_photo": false
-    },
-    {
-      "field": "관광",
-      "keyword": "방한 관광",
-      "title": "강원랜드 등 4개 기관, 양양국제공항 활성화 '맞손'",
-      "summary": "이번 협약은 지방공항과 지역 관광자원을 연계해 방한 관광 활성화를 추진하는 정부 정책에 발맞춰 관계 기관 간 협력체계를 구축하고, 사업 추진과 구체적인 방안을 논의하기 위한 기반을 마련하고자 이뤄졌다. 협약에...",
-      "published": "2026-11-13 16:45",
-      "link": "https://www.yna.co.kr/view/AKR20261113148000062?input=1195m",
-      "naver_link": "https://n.news.naver.com/mnews/article/001/0016441131?sid=101",
-      "is_photo": false
-    },
-    {
-      "field": "관광",
-      "keyword": "방한 관광",
-      "title": "박상진 네이버파이낸셜 대표, Npay 앞세워 '외국인 지갑' 정조준",
-      "summary": "박상진 네이버파이낸셜 대표가 방한 외국인 관광객을 겨냥한 결제사업 확대에 속도를 내고 있다. 국내 간편결제를 넘어 외국인이 한국에서 여행하고 소비하는 과정까지 네이버페이 생태계를 넓히기 위한 전략으로...",
-      "published": "2026-11-13 16:42",
-      "link": "https://www.insightkorea.co.kr/news/articleView.html?idxno=258860",
-      "naver_link": "https://www.insightkorea.co.kr/news/articleView.html?idxno=258860",
-      "is_photo": false
-    },
-    {
-      "field": "관광",
-      "keyword": "방한 관광",
-      "title": "“양양국제공항 활성화” 4개 기관 맞손",
-      "summary": "이번 협약은 지방공항과 지역 관광자원을 연계해 방한 관광 활성화를 추진하는 정부 정책에 발맞춰 외래관광객 유치를 위한 유관기관 간 협력체계를 구축하고 향후 실질적인 사업 추진과 구체적인 방안을 논의하기 위한...",
-      "published": "2026-11-13 16:30",
-      "link": "https://www.mk.co.kr/article/12208146",
-      "naver_link": "https://n.news.naver.com/mnews/article/009/0005763407?sid=102",
       "is_photo": false
     },
     {
@@ -4482,16 +4772,6 @@
       "is_photo": false
     },
     {
-      "field": "관광",
-      "keyword": "방한 관광",
-      "title": "강원랜드, 양양공항 통해 외국인 관광객 유치 확대",
-      "summary": "이번 협약은 지방공항과 지역 관광자원을 연계해 방한 관광을 활성화하려는 정부 정책에 발맞춰 관계기관 간 협력체계를 구축하기 위해 마련됐다. 특히 해외 관광객의 강원권 방문을 확대할 수 있는 관광상품과 공동...",
-      "published": "2026-11-13 16:20",
-      "link": "http://www.enewstoday.co.kr/news/articleView.html?idxno=2492381",
-      "naver_link": "http://www.enewstoday.co.kr/news/articleView.html?idxno=2492381",
-      "is_photo": false
-    },
-    {
       "field": "정책",
       "keyword": "콘텐츠 수출",
       "title": "거제시, 중국 치둥시서 우호 협력 강화…10억원어치 농수산물 수출키로",
@@ -4499,26 +4779,6 @@
       "published": "2026-11-13 16:18",
       "link": "https://www.kukinews.com/article/view/kuk202611130143",
       "naver_link": "https://www.kukinews.com/article/view/kuk202611130143",
-      "is_photo": false
-    },
-    {
-      "field": "관광",
-      "keyword": "방한 관광",
-      "title": "외국인 관광객 늘자…신라스테이, K뷰티·면세 쇼핑 패키지 확대",
-      "summary": "[사진=호텔신라]  신라스테이가 외국인 관광객을 겨냥해 K뷰티와 면세 쇼핑을 결합한 객실 패키지 3종을... 방한 수요가 이어지는 가운데 한국 여행에서 선호도가 높은 쇼핑과 뷰티 콘텐츠를 투숙 경험에 결합한 상품을...",
-      "published": "2026-11-13 16:16",
-      "link": "https://www.joongangenews.com/news/articleView.html?idxno=563721",
-      "naver_link": "https://www.joongangenews.com/news/articleView.html?idxno=563721",
-      "is_photo": false
-    },
-    {
-      "field": "관광",
-      "keyword": "방한 관광",
-      "title": "강원랜드·양양군·강원관광재단·한국공항공사 양양국제공항, 양양국제...",
-      "summary": "뉴데일리 이달수 기자 = 강원랜드·양양군·강원관광재단·한국공항공사 양양국제공항이 정부의 지방공항 활성화 및 지역 방한 관광 확대 정책에 적극 부응하기 위해 양양국제공항을 거점으로 한 외국인 관광객 유치에...",
-      "published": "2026-11-13 16:16",
-      "link": "https://gw.newdaily.co.kr/site/data/html/2026/11/13/2026111300254.html",
-      "naver_link": "https://gw.newdaily.co.kr/site/data/html/2026/11/13/2026111300254.html",
       "is_photo": false
     },
     {
@@ -4544,16 +4804,6 @@
     {
       "field": "관광",
       "keyword": "K-컬처 관광",
-      "title": "[K-게임 연말 총력전②] 올해 최고 K-게임은?…게임대상, '붉은사막' 우...",
-      "summary": "엔씨의 '아이온2'를 비롯한 다중접속역할수행게임(MMORPG) 흥행작과 서브컬처 게임, 독창적인 시스템을 갖춘... 최고상인 대상에는 대통령상, 최우수상에는 국무총리상, 우수상에는 문화체육관광부 장관상이 주어진다....",
-      "published": "2026-11-13 16:08",
-      "link": "https://www.ddaily.co.kr/page/view/2026111314574241399",
-      "naver_link": "https://n.news.naver.com/mnews/article/138/0002248477?sid=105",
-      "is_photo": false
-    },
-    {
-      "field": "관광",
-      "keyword": "K-컬처 관광",
       "title": "500만 돌파 앞둔 청주공항...'스쳐가는 공항' 벗어날까",
       "summary": "인바운드 관광 활성화가 시급한 과제로 떠올랐습니다. 유소라 기자가 보도합니다. [기사내용] 지난 2024년... 참가자들은 음성 한독의약박물관과 품바재생예술체험촌 등을 돌며 K-컬처와 웰니스 콘텐츠의 상품성을 꼼꼼히...",
       "published": "2026-11-13 16:08",
@@ -4563,12 +4813,12 @@
     },
     {
       "field": "관광",
-      "keyword": "방한 관광",
-      "title": "구글 지도, 한국서 도보·차량 길찾기 기능 지원 추가된다",
-      "summary": "구글 지도에서 도보 길찾기가 가능해지면 방한 관광객이 식당이나 숙소를 검색한 뒤 같은 앱에서 이동 경로까지 확인할 수 있다. 10월 모바일인덱스 기준 국내 월간 활성 이용자(MAU)는 네이버지도 3121만명, 티맵 1511만명...",
-      "published": "2026-11-13 16:06",
-      "link": "https://www.smartbizn.com/news/articleView.html?idxno=159421",
-      "naver_link": "https://www.smartbizn.com/news/articleView.html?idxno=159421",
+      "keyword": "K-컬처 관광",
+      "title": "[K-게임 연말 총력전②] 올해 최고 K-게임은?…게임대상, '붉은사막' 우...",
+      "summary": "엔씨의 '아이온2'를 비롯한 다중접속역할수행게임(MMORPG) 흥행작과 서브컬처 게임, 독창적인 시스템을 갖춘... 최고상인 대상에는 대통령상, 최우수상에는 국무총리상, 우수상에는 문화체육관광부 장관상이 주어진다....",
+      "published": "2026-11-13 16:08",
+      "link": "https://www.ddaily.co.kr/page/view/2026111314574241399",
+      "naver_link": "https://n.news.naver.com/mnews/article/138/0002248477?sid=105",
       "is_photo": false
     },
     {
@@ -4583,9 +4833,9 @@
     },
     {
       "field": "관광",
-      "keyword": "방한 관광",
+      "keyword": "K-컬처 관광",
       "title": "방한 2000만 시대 일등공신 K컬처...산업까지 '껑충' [엔터코노미]",
-      "summary": "아시아권에서는 드라마 속 일상 장면에 반복적으로 등장하는 화장품과 생활용품, 농수산식품 등의 수출 증가 효과도 관찰됐다.제공=뉴스1해외에서 형성된 한국 제품에 대한 호감은 외국인 관광객의 방한 이후 국내...",
+      "summary": "제공=뉴스1K컬처 인기가 외국인 관광객 2000만명 시대를 열었다. 음악과 드라마를 통해 형성된 한국에 대한 호감이 방한 수요를 높이고, 나아가 식품과 화장품, 패션 등의 소비로 확산하고 있다. 이에 따라 K컬처의 경제적...",
       "published": "2026-11-13 16:02",
       "link": "https://news.mtn.co.kr/article/2026111313463317584",
       "naver_link": "https://news.mtn.co.kr/article/2026111313463317584",
@@ -4599,16 +4849,6 @@
       "published": "2026-11-13 16:02",
       "link": "https://www.lawissue.co.kr/view.php?ud=202611131600476289f4ab64559d_12",
       "naver_link": "https://www.lawissue.co.kr/view.php?ud=202611131600476289f4ab64559d_12",
-      "is_photo": false
-    },
-    {
-      "field": "관광",
-      "keyword": "방한 관광",
-      "title": "밀양시, 요가 종주국 인도와 '치유관광' 동맹…모디 총리 방한까지 추진",
-      "summary": "관광도시'로의 도약에 속도를 낸다. 안병구 밀양시장은 '세계 요가의 날'을 계기로 양국이 함께하는 대형 국제행사 공동 개최를 공식 제안하고, 나렌드라 모디 인도 총리의 행사 참석을 요청하는 등 굵직한 외교·관광...",
-      "published": "2026-11-13 16:00",
-      "link": "https://www.asiatoday.co.kr/kn/view.php?key=20261113010005268",
-      "naver_link": "https://www.asiatoday.co.kr/kn/view.php?key=20261113010005268",
       "is_photo": false
     },
     {
@@ -4642,26 +4882,6 @@
       "is_photo": false
     },
     {
-      "field": "관광",
-      "keyword": "방한 관광",
-      "title": "강원랜드, 양양국제공항 활성화 위해 4개 기관과 맞손",
-      "summary": "이번 협약은 지방공항과 지역 관광자원을 연계해 방한 관광 활성화를 추진하는 정부 정책에 발맞춰 외래관광객 유치를 위한 유관기관 간 협력체계를 구축하고, 향후 실질적인 사업 추진과 구체적인 방안을 논의하기 위한...",
-      "published": "2026-11-13 15:54",
-      "link": "https://www.kado.net/news/articleView.html?idxno=2084707",
-      "naver_link": "https://n.news.naver.com/mnews/article/654/0000211192?sid=102",
-      "is_photo": false
-    },
-    {
-      "field": "관광",
-      "keyword": "방한 관광",
-      "title": "투숙에 K뷰티·면세점 혜택 더했다…신라스테이, 외국인 전용 패키지 선...",
-      "summary": "최근 방한 외국인 관광객의 발길이 꾸준히 이어지는 가운데, 한국 여행 시 선호도가 높은 뷰티·쇼핑 요소를 호텔 체류 경험과 엮어 고객 접점을 넓히겠다는 취지다. 실제로 지난 10월 신라스테이의 외국인 객실...",
-      "published": "2026-11-13 15:51",
-      "link": "https://www.donga.com/news/Economy/article/all/20261113/135021172/1",
-      "naver_link": "https://n.news.naver.com/mnews/article/020/0003762327?sid=101",
-      "is_photo": false
-    },
-    {
       "field": "정책",
       "keyword": "한류 정책",
       "title": "인도-한국 포럼, 국제학술대회 2026 성료",
@@ -4672,16 +4892,6 @@
       "is_photo": false
     },
     {
-      "field": "정책",
-      "keyword": "콘텐츠 수출",
-      "title": "동국대 창업동아리 우수 사례 ‘서스티랩’, 생물자원의 가치를 더하는...",
-      "summary": "중소벤처기업부 수출바우처 사업에도 선정돼 일본과 베트남, 태국 등 K뷰티 수요가 높은 시장을 중심으로 현지 마케팅과 판로 개척을 본격화하고 있다. 로컬성과 사업성 인정받아··· 경기콘텐츠진흥원...",
-      "published": "2026-11-13 15:40",
-      "link": "https://it.donga.com/109916/",
-      "naver_link": "https://it.donga.com/109916/",
-      "is_photo": false
-    },
-    {
       "field": "관광",
       "keyword": "K-컬처 관광",
       "title": "문체위, 유홍준 논란에 '국중박' 질책성 예산 삭감..'패노메논' 예산도...",
@@ -4689,16 +4899,6 @@
       "published": "2026-11-13 15:37",
       "link": "https://www.fnnews.com/news/202611131405108188",
       "naver_link": "https://n.news.naver.com/mnews/article/014/0005604024?sid=100",
-      "is_photo": false
-    },
-    {
-      "field": "정책",
-      "keyword": "콘텐츠 수출",
-      "title": "K-푸드에 뷰티·콘텐츠 더한다…aT, 수출 협업기업 모집",
-      "summary": "식품기업 중심이던 K-푸드 수출 협업이 내년부터 뷰티와 콘텐츠, 유통·푸드테크 등 다른 산업으로 확대된다. 농림축산식품부와 한국농수산식품유통공사(aT)는 오는 30일 서울 성동구에서 ‘2027 NEXT K-푸드 매칭...",
-      "published": "2026-11-13 15:37",
-      "link": "https://www.munhwa.com/article/11631181?ref=naver",
-      "naver_link": "https://n.news.naver.com/mnews/article/021/0002832670?sid=101",
       "is_photo": false
     },
     {
@@ -4732,26 +4932,6 @@
       "is_photo": false
     },
     {
-      "field": "정책",
-      "keyword": "콘텐츠 수출",
-      "title": "EU 확률형 규제 강화…K게임 수익모델 경고등",
-      "summary": "한국콘텐츠진흥원의 '2025 대한민국 게임백서'에 따르면 2024년 국내 게임 수출액은 85억346만달러 가운데 유럽 비중은 7.7%로, 중국과 동남아·남아시아, 북미, 일본에 이은 다섯 번째 수출 시장입니다. 비중이 상대적으로...",
-      "published": "2026-11-13 15:24",
-      "link": "http://www.newstomato.com/ReadNews.aspx?no=1320369&inflow=N",
-      "naver_link": "http://www.newstomato.com/ReadNews.aspx?no=1320369&inflow=N",
-      "is_photo": false
-    },
-    {
-      "field": "정책",
-      "keyword": "콘텐츠 수출",
-      "title": "\"너무 바빠서 하루 1시간만 자요\"...수익 ‘잭팟’ 터뜨린 걸그룹 누구...",
-      "summary": "브랜디드 콘텐츠 등 부가 수익 창출에도 청신호가 켜졌다. 가파른 성장세에 발맞춰 민간 자본의 신뢰도... 리센느는 문화체육관광부가 신인 K팝 아이돌 보유 중소기획사 10곳에 연간 최대 약 3억원씩 최장 3년간 수출...",
-      "published": "2026-11-13 15:09",
-      "link": "https://economist.co.kr/article/view/ecn202611130028",
-      "naver_link": "https://n.news.naver.com/mnews/article/243/0000105642?sid=101",
-      "is_photo": false
-    },
-    {
       "field": "관광",
       "keyword": "K-컬처 관광",
       "title": "[금주의 이천시] 이천시, 시내버스 201번 신규 개통… 11월 16일부터 운...",
@@ -4772,16 +4952,6 @@
       "is_photo": false
     },
     {
-      "field": "정책",
-      "keyword": "콘텐츠 수출",
-      "title": "\"손님 찾아 해외 간 백화점\"…일본 찍고 파리까지",
-      "summary": "국내에서 상품을 팔던 백화점이 해외에서 한국 브랜드를 알리고 판매하는 '수출 플랫폼'으로 변신하고 있다.... 현대백화점 관계자는 \"더현대 글로벌은 K콘텐츠의 우수성을 알리는 동시에 국내 브랜드들이 글로벌 무대로...",
-      "published": "2026-11-13 14:39",
-      "link": "http://www.wowtv.co.kr/NewsCenter/News/Read?articleId=A202611130084&t=NN",
-      "naver_link": "https://n.news.naver.com/mnews/article/215/0001272674?sid=103",
-      "is_photo": false
-    },
-    {
       "field": "영상",
       "keyword": "한국 영화 해외",
       "title": "‘토르’ 크리스 헴스워스, 자택 털렸다…흉기 든 괴한 4명 침입 [IS해외...",
@@ -4789,26 +4959,6 @@
       "published": "2026-11-13 14:34",
       "link": "https://isplus.com/article/view/isp202611130063",
       "naver_link": "https://m.entertain.naver.com/article/241/0003541623",
-      "is_photo": false
-    },
-    {
-      "field": "정책",
-      "keyword": "콘텐츠 수출",
-      "title": "거제시, 중국시장 공략 본격화…관광·교육·수출 '3박자 협력' 성과",
-      "summary": "치둥시와 관광·교육 협력 강화 지역 농수산식품 74만4000 달러 수출협약 체결 경남 거제시가 중국시장 공략에... 관광 콘텐츠와 관광객 체류시간을 늘릴 수 있는 체험형 관광상품 개발을 제안했다. 거제시는 이러한 현장...",
-      "published": "2026-11-13 14:32",
-      "link": "https://news.tf.co.kr/read/national/2388561.htm",
-      "naver_link": "https://n.news.naver.com/mnews/article/629/0000551702?sid=102",
-      "is_photo": false
-    },
-    {
-      "field": "정책",
-      "keyword": "콘텐츠 수출",
-      "title": "중국 SNS서 K-푸드 요리대결 '청홍요리사2' 조회수 1억2천만 회",
-      "summary": "한국 식재료를 활용한 중국 소비자들의 K-푸드 요리대결 콘텐츠가 중국 주요 사회관계망서비스(SNS)에서... 전기찬 aT 수출식품이사는 \"이번 청홍요리사2는 중국 소비자와 다양한 분야의 인플루언서들이 K-푸드를...",
-      "published": "2026-11-13 14:26",
-      "link": "https://www.youngnong.co.kr/news/articleView.html?idxno=71735",
-      "naver_link": "https://www.youngnong.co.kr/news/articleView.html?idxno=71735",
       "is_photo": false
     },
     {
@@ -4859,16 +5009,6 @@
       "published": "2026-11-13 14:01",
       "link": "https://www.dailian.co.kr/news/view/1714502/?sc=Naver",
       "naver_link": "https://n.news.naver.com/mnews/article/119/0003154872?sid=103",
-      "is_photo": false
-    },
-    {
-      "field": "정책",
-      "keyword": "콘텐츠 수출",
-      "title": "K뷰티 훈풍에…글로벌 뻗는 K물류·유통 스타트업",
-      "summary": "화장품 수출액이 고공행진하면서 인디 브랜드의 해외 진출과 판로 확장을 전문적으로 뒷받침해주는 공급망... 기반으로 콘텐츠와 커머스 및 물류가 통합된 새로운 형태의 협업과 생태계를 선보일 것”이라고 말했다....",
-      "published": "2026-11-13 13:51",
-      "link": "https://www.edaily.co.kr/News/Read?newsId=03545686645645392&mediaCodeNo=257&utm_source=naver&utm_medium=referral&utm_campaign=news_syndication&utm_content=original_article",
-      "naver_link": "https://n.news.naver.com/mnews/article/018/0006409469?sid=101",
       "is_photo": false
     },
     {
@@ -4942,16 +5082,6 @@
       "is_photo": false
     },
     {
-      "field": "정책",
-      "keyword": "콘텐츠 수출",
-      "title": "[한일경제연대] '비즈니스맨 교류'에서 2030 세대 중심의 '국민 교류 시...",
-      "summary": "아베 정권 당시 수출 규제가 대표적인 사례입니다. 인적 교류가 활성화되면 역사·정치 문제와 경제 협력을... 오늘날에는 서로 문화 콘텐츠에 공감하거나 생활방식이 비슷하고, 인간적인 매력을 느껴 자발적으로 관계를...",
-      "published": "2026-11-13 12:06",
-      "link": "https://monthly.chosun.com/news/articleView.html?idxno=71956",
-      "naver_link": "https://monthly.chosun.com/news/articleView.html?idxno=71956",
-      "is_photo": false
-    },
-    {
       "field": "영상",
       "keyword": "한국 영화 해외",
       "title": "허윤정 시의원 \"서울영화센터 40억 중 상영기획비 11%뿐\"..사업 변질",
@@ -4959,46 +5089,6 @@
       "published": "2026-11-13 11:55",
       "link": "https://www.newspim.com/news/view/20261113000781",
       "naver_link": "https://www.newspim.com/news/view/20261113000781",
-      "is_photo": false
-    },
-    {
-      "field": "정책",
-      "keyword": "콘텐츠 수출",
-      "title": "GICON, '글로벌 시장 정조준'... 대만 TCCF서 71건 상담",
-      "summary": "우수 콘텐츠 IP의 글로벌 시장 경쟁력과 현지 수요를 확인할 수 있었다\"며 현지 기업 및 방송사 등과 심도 있게 논의한 공동 제작과 투자 협의가 실질적인 수출 계약 성과로 이어질 수 있도록 체계적인 후속...",
-      "published": "2026-11-13 11:46",
-      "link": "https://www.newsworker.co.kr/news/articleView.html?idxno=513918",
-      "naver_link": "https://www.newsworker.co.kr/news/articleView.html?idxno=513918",
-      "is_photo": false
-    },
-    {
-      "field": "정책",
-      "keyword": "콘텐츠 수출",
-      "title": "[EBN 칼럼] 스타트업을 무너뜨리는 건 실패 아닌 '거짓'",
-      "summary": "그러나 실제로는 해외 수출물량과 가격을 부풀리고 허위 수출채권을 만들어 매출을 조작하고 있었다.... 최근 국내 벤처투자업계에 충격을 준 또 다른 사례는 시각장애인을 위한 점자 콘텐츠를 개발하는 스타트업 센시...",
-      "published": "2026-11-13 11:42",
-      "link": "https://www.ebn.co.kr/news/articleView.html?idxno=1731567",
-      "naver_link": "https://www.ebn.co.kr/news/articleView.html?idxno=1731567",
-      "is_photo": false
-    },
-    {
-      "field": "정책",
-      "keyword": "콘텐츠 수출",
-      "title": "[VC경영분석] 컴퍼니케이, 외형 확대 지속…연간 관리보수 120억 눈앞",
-      "summary": "우선 뉴스페이스펀드2호는 수출입은행 출자금을 추가로 확보해 연내 멀티클로징(증액)을 앞두고 있다.... 펀드별로 보면 디지털콘텐츠코리아펀드에서 14억원, 퀄컴 모바일생태계 상생펀드에서 5억원이 발생했다....",
-      "published": "2026-11-13 11:36",
-      "link": "https://www.topdaily.kr/articles/112896",
-      "naver_link": "https://www.topdaily.kr/articles/112896",
-      "is_photo": false
-    },
-    {
-      "field": "정책",
-      "keyword": "콘텐츠 수출",
-      "title": "차세대 K-푸드 매칭 콘퍼런스 참가모집… K-푸드 키워드 영상 공모전도...",
-      "summary": "이를 통해 기업 간 강점을 결합한 새로운 수출 비즈니스 모델을 발굴하고, 해외시장 진출을 위한 협력 기반을 마련할 예정이다.참가 대상은 식품·외식·유통·뷰티·콘텐츠·라이프스타일 등 관련 분야 기업과...",
-      "published": "2026-11-13 11:36",
-      "link": "https://weeklytrade.co.kr/news/view.html?section=1&category=3&item=&no=102213",
-      "naver_link": "https://weeklytrade.co.kr/news/view.html?section=1&category=3&item=&no=102213",
       "is_photo": false
     },
     {
@@ -5034,21 +5124,21 @@
     {
       "field": "영상",
       "keyword": "한국 영화 해외",
-      "title": "'취권' 성룡 상대역 황정리 별세-홍금보 태권도 스승",
-      "summary": "태권도 사범으로 출발해 국제적인 액션 스타로 성장한 그의 이력은 한국 무술영화의 해외 진출과도 맞닿아 있다. 배우로서의 활동에만 머물지 않았다. 1983년에는 '광동살무사'를 통해 감독으로 데뷔하며 연출 영역까지...",
-      "published": "2026-11-13 11:04",
-      "link": "https://www.mediafine.co.kr/news/articleView.html?idxno=95162",
-      "naver_link": "https://www.mediafine.co.kr/news/articleView.html?idxno=95162",
-      "is_photo": false
-    },
-    {
-      "field": "영상",
-      "keyword": "한국 영화 해외",
       "title": "에이티즈, '배드' 신드롬 속 꿈 같은 나날들→조인성, '방이동 미남'의...",
       "summary": "저희가 어떤 예능 촬영을 가거나 인터뷰 현장을 가면 해외에서 얼마나 잘된 그룹인지 설명할 일이 많았는데... 베니스국제영화제에서 한국 영화 최초로 심사위원대상을 거머쥐었다. 극 중 조인성은 이예지(조여정)의 남편...",
       "published": "2026-11-13 11:04",
       "link": "http://www.stoo.com/article.php?aid=109876455661",
       "naver_link": "http://www.stoo.com/article.php?aid=109876455661",
+      "is_photo": false
+    },
+    {
+      "field": "영상",
+      "keyword": "한국 영화 해외",
+      "title": "'취권' 성룡 상대역 황정리 별세-홍금보 태권도 스승",
+      "summary": "태권도 사범으로 출발해 국제적인 액션 스타로 성장한 그의 이력은 한국 무술영화의 해외 진출과도 맞닿아 있다. 배우로서의 활동에만 머물지 않았다. 1983년에는 '광동살무사'를 통해 감독으로 데뷔하며 연출 영역까지...",
+      "published": "2026-11-13 11:04",
+      "link": "https://www.mediafine.co.kr/news/articleView.html?idxno=95162",
+      "naver_link": "https://www.mediafine.co.kr/news/articleView.html?idxno=95162",
       "is_photo": false
     },
     {
@@ -5344,16 +5434,6 @@
     {
       "field": "관광",
       "keyword": "K-컬처 관광",
-      "title": "“게임도 제작비 세액공제해야”…K게임 성장 위한 제도 개선 한목소리",
-      "summary": "고대유 대진대학교 교수는 12일 서울 여의도 국회의원회관에서 열린 ‘K-컬처 수출 50조 달성을 위한 정부의... 최원석 문화체육관광부 게임콘텐츠산업과 과장은 기존 연구개발(R&D) 세액공제만으로는 게임업계의 지원...",
-      "published": "2026-11-13 05:00",
-      "link": "https://www.sedaily.com/article/20113612?ref=naver",
-      "naver_link": "https://n.news.naver.com/mnews/article/011/0004681693?sid=105",
-      "is_photo": false
-    },
-    {
-      "field": "관광",
-      "keyword": "K-컬처 관광",
       "title": "하이브·SM·YG·JYP 뭉친 '패노메논'…K컬처 플랫폼 실험",
       "summary": "상표권 논란 거쳐 협력 체계 정비 패노메논은 '팬'(Fan)과 '현상'(Phenomenon)을 결합한 이름으로, 팬을 K컬처... 대중문화교류위원회는 지난 7월 총방문객 52만명, 외국인 관광객 20만명, 약 1조원의 경제효과를 전망했다....",
       "published": "2026-11-13 05:00",
@@ -5364,11 +5444,11 @@
     {
       "field": "관광",
       "keyword": "K-컬처 관광",
-      "title": "[패트롤] 인천시의회 신영희-양인모-윤희정-이범석-이연주-김동민",
-      "summary": "송기우 기자 kwsong@ekn.kr 신영희 인천시의원, 원도심 개발서 섬·연안 소외 지적…관광 연계 촉구 양인모 인천시의원, K-컬처 스타디움 공모 일정 차질 지적…대안 마련 요구 윤희정 인천시의원, 동인천역 4351억 개발사업...",
-      "published": "2026-11-13 04:36",
-      "link": "https://www.ekn.kr/web/view.php?key=20261113025029151",
-      "naver_link": "https://www.ekn.kr/web/view.php?key=20261113025029151",
+      "title": "“게임도 제작비 세액공제해야”…K게임 성장 위한 제도 개선 한목소리",
+      "summary": "고대유 대진대학교 교수는 12일 서울 여의도 국회의원회관에서 열린 ‘K-컬처 수출 50조 달성을 위한 정부의... 최원석 문화체육관광부 게임콘텐츠산업과 과장은 기존 연구개발(R&D) 세액공제만으로는 게임업계의 지원...",
+      "published": "2026-11-13 05:00",
+      "link": "https://www.sedaily.com/article/20113612?ref=naver",
+      "naver_link": "https://n.news.naver.com/mnews/article/011/0004681693?sid=105",
       "is_photo": false
     },
     {
@@ -5384,6 +5464,16 @@
     {
       "field": "관광",
       "keyword": "K-컬처 관광",
+      "title": "[패트롤] 인천시의회 신영희-양인모-윤희정-이범석-이연주-김동민",
+      "summary": "송기우 기자 kwsong@ekn.kr 신영희 인천시의원, 원도심 개발서 섬·연안 소외 지적…관광 연계 촉구 양인모 인천시의원, K-컬처 스타디움 공모 일정 차질 지적…대안 마련 요구 윤희정 인천시의원, 동인천역 4351억 개발사업...",
+      "published": "2026-11-13 04:36",
+      "link": "https://www.ekn.kr/web/view.php?key=20261113025029151",
+      "naver_link": "https://www.ekn.kr/web/view.php?key=20261113025029151",
+      "is_photo": false
+    },
+    {
+      "field": "관광",
+      "keyword": "K-컬처 관광",
       "title": "[포인트뉴스] \"수면·영양·면역관리\"…수능 D-7 컨디션 조절법 外",
       "summary": "▶K-관광 새 역사…외국인 관광객 첫 2천만명 돌파 우리나라를 찾은 외국인 관광객이 올해 사상 처음으로 2천만명을 돌파했습니다. 지난 2012년 천만명 시대를 연 이후 14년 만에 달성한 기록인데요. K-컬처의 인기가...",
       "published": "2026-11-12 23:15",
@@ -5394,21 +5484,21 @@
     {
       "field": "관광",
       "keyword": "K-컬처 관광",
-      "title": "K-웨이브, 역대 최초 '외국인 관광객 2000만명 시대' 열었다",
-      "summary": "외국인 관광객 2,000만 명 시대의 막이 올랐다. 역사상 단 한 번도 가보지 못했던 '연간 외래 관광객 2,000만 명... 이처럼 세계인을 사로잡은 비결의 중심에는 단연 지구촌을 휩쓸고 있는 'K-컬처'의 막강한 파급력이...",
-      "published": "2026-11-12 22:44",
-      "link": "https://www.newscj.com/news/articleView.html?idxno=3448328",
-      "naver_link": "https://www.newscj.com/news/articleView.html?idxno=3448328",
-      "is_photo": false
-    },
-    {
-      "field": "관광",
-      "keyword": "K-컬처 관광",
       "title": "방한 관광객 2000만명 시대 열렸다…K컬처 타고 한국 관광 전성기",
       "summary": "최휘영 문화체육관광부 장관은 K팝과 K드라마 등 K컬처의 경쟁력을 활용해 한국 관광의 성장세를 이어가겠다는 뜻을 밝혔다. 다만 방한 관광객 2000만명 돌파가 관광산업의 질적 성장까지 보장하는 것은 아니다....",
       "published": "2026-11-12 22:44",
       "link": "https://www.newsian.co.kr/news/articleView.html?idxno=101174",
       "naver_link": "https://www.newsian.co.kr/news/articleView.html?idxno=101174",
+      "is_photo": false
+    },
+    {
+      "field": "관광",
+      "keyword": "K-컬처 관광",
+      "title": "K-웨이브, 역대 최초 '외국인 관광객 2000만명 시대' 열었다",
+      "summary": "외국인 관광객 2,000만 명 시대의 막이 올랐다. 역사상 단 한 번도 가보지 못했던 '연간 외래 관광객 2,000만 명... 이처럼 세계인을 사로잡은 비결의 중심에는 단연 지구촌을 휩쓸고 있는 'K-컬처'의 막강한 파급력이...",
+      "published": "2026-11-12 22:44",
+      "link": "https://www.newscj.com/news/articleView.html?idxno=3448328",
+      "naver_link": "https://www.newscj.com/news/articleView.html?idxno=3448328",
       "is_photo": false
     },
     {
@@ -5572,16 +5662,6 @@
       "is_photo": false
     },
     {
-      "field": "관광",
-      "keyword": "K-컬처 관광",
-      "title": "인천시의회 양인모 의원, K-컬처 스타디움 공모 탈락 대비책 촉구...운영...",
-      "summary": "송도와 인천항, 상상플랫폼, 차이나타운 등 지역별 관광·문화자원을 공연 프로그램과 연결할 경우 K-컬처 스타디움의 활용 범위를 넓히는 운영 방안으로 검토할 수 있다. 양 의원은 이러한 지역 연계 방안을...",
-      "published": "2026-11-12 18:36",
-      "link": "https://www.kmaeil.com/news/articleView.html?idxno=658128",
-      "naver_link": "https://www.kmaeil.com/news/articleView.html?idxno=658128",
-      "is_photo": false
-    },
-    {
       "field": "영상",
       "keyword": "한국 영화 해외",
       "title": "허윤정 서울시의원 “서울영화센터 15년 합의 무너졌다”…영화인들 행...",
@@ -5592,46 +5672,6 @@
       "is_photo": false
     },
     {
-      "field": "관광",
-      "keyword": "K-컬처 관광",
-      "title": "양인모 인천시의원, K-컬처 스타디움 국비 공모 탈락 대비해야...플랜B ...",
-      "summary": "국비 공모 탈락 시나리오에 대비한 철저한 플랜B 구축과 원도심 관광 인프라와의 유기적인 연계 전략은 문학경기장 유휴화를 막고 K-컬처 스타디움의 지속 가능한 자생력을 확보하는 핵심 열쇠가 될 것으로 보인다....",
-      "published": "2026-11-12 18:26",
-      "link": "https://www.tournews21.com/news/articleView.html?idxno=148277",
-      "naver_link": "https://www.tournews21.com/news/articleView.html?idxno=148277",
-      "is_photo": false
-    },
-    {
-      "field": "관광",
-      "keyword": "K-컬처 관광",
-      "title": "우리의 전통문화 즐겨요…문화역서울284 ‘오늘전통축제-복작복작’ [한...",
-      "summary": "문화체육관광부는 이번 행사에는 전통문화 창업기업 39개사·104개 브랜드가 참여, 다양한 팝업스토와 전시, 체험프로그램, 공연, 강연 등을 진행한다. K-컬처 뿌리를 이루는 한국 전통문화를 체험하고 공연과 강연으로...",
-      "published": "2026-11-12 18:12",
-      "link": "https://www.segye.com/newsView/20261112514599?OutUrl=naver",
-      "naver_link": "https://n.news.naver.com/mnews/article/022/0004174728?sid=103",
-      "is_photo": false
-    },
-    {
-      "field": "관광",
-      "keyword": "K-컬처 관광",
-      "title": "인천시의회 김우성 의원, 인천공항 접근성 활용한 글로벌 공연도시 육성...",
-      "summary": "추진하는 K-컬처 스타디움 조성사업의 실현 가능성을 높이려면 공연장 규모와 입지, 기존 시설 활용 여부를 종합적으로 검토하고 지역상권 활성화 방안까지 마련해야 한다는 요구가 제기됐다. 대형 공연 유치에 따른 관광...",
-      "published": "2026-11-12 18:10",
-      "link": "https://www.kmaeil.com/news/articleView.html?idxno=658110",
-      "naver_link": "https://www.kmaeil.com/news/articleView.html?idxno=658110",
-      "is_photo": false
-    },
-    {
-      "field": "관광",
-      "keyword": "K-컬처 관광",
-      "title": "게임 제작비 세액공제 도입 촉구... 정치권·정부·학계 “산업 재도약...",
-      "summary": "주관한 'K-컬처 수출 50조 달성을 위한 정부의 역할' 세미나가 전날 국회의원회관에서 열렸다. 참석자들은... 주무부처인 문화체육관광부에서도 제작비 세액공제의 필요성을 강조했다. 최원석 문체부 게임콘텐츠산업과장은...",
-      "published": "2026-11-12 17:55",
-      "link": "https://www.etnews.com/20261112000457",
-      "naver_link": "https://n.news.naver.com/mnews/article/030/0003485206?sid=105",
-      "is_photo": false
-    },
-    {
       "field": "정책",
       "keyword": "한류 정책",
       "title": "[기고] 북한의 '통일 포기'는 대한민국에 기회다",
@@ -5639,16 +5679,6 @@
       "published": "2026-11-12 17:54",
       "link": "https://www.asiatoday.co.kr/kn/view.php?key=20261112010004819",
       "naver_link": "https://www.asiatoday.co.kr/kn/view.php?key=20261112010004819",
-      "is_photo": false
-    },
-    {
-      "field": "관광",
-      "keyword": "K-컬처 관광",
-      "title": "K웨이브의 힘…외국인 관광객 2000만 시대",
-      "summary": "방한 관광객 증가 배경으로 K컬처의 글로벌 확산과 출입국 편의 개선, 지방 공항 국제선 확충 등이 꼽힌다. 늘어난 외국인 관광객은 관광 소비 확대로 이어졌다. 지난 9월까지 외국인의 관광 분야 소비액은...",
-      "published": "2026-11-12 17:48",
-      "link": "https://www.hankyung.com/article/2026111235881",
-      "naver_link": "https://n.news.naver.com/mnews/article/015/0005353317?sid=101",
       "is_photo": false
     },
     {
@@ -5692,16 +5722,6 @@
       "is_photo": false
     },
     {
-      "field": "관광",
-      "keyword": "K-컬처 관광",
-      "title": "김영선 고양시의원, K-컬처밸리 및 킨텍스 지원부지 문제 제기",
-      "summary": "고양시의회 문화복지위원회 김영선 의원(국민의힘·비례대표)은 제309회 제2차 정례회 시정질문에서 K-컬처... 한류월드는 2004년 경기도가 장항동 및 대화동 일대 약 30만 평에 외국인 관광객을 위한 6천실 규모의...",
-      "published": "2026-11-12 17:36",
-      "link": "https://www.jeonmae.co.kr/news/articleView.html?idxno=1311482",
-      "naver_link": "https://www.jeonmae.co.kr/news/articleView.html?idxno=1311482",
-      "is_photo": false
-    },
-    {
       "field": "정책",
       "keyword": "한류 정책",
       "title": "조현, 13일 베이징서 왕이와 회담…정상회담 의제 조율 관심",
@@ -5712,10 +5732,10 @@
       "is_photo": false
     },
     {
-      "field": "관광",
-      "keyword": "K-컬처 관광",
+      "field": "정책",
+      "keyword": "한류 정책",
       "title": "외국인 관광객 2,000만 명 돌파…14년 만의 기록, 한국 관광 새 도약",
-      "summary": "사진/유지현 기자 원화 약세에 더해 여러 분야 K-의 약진으로 방한 관광 실적이 고공행진을 이어가고... 문체부는 '케이-컬처'의 세계적 확산과 범부처 협력, 국민의 환대 정신이 방한 관광 성장의 주요 요인이라고...",
+      "summary": "한류 콘텐츠가 인기를 얻는 분야는 음악(54%), 드라마(51%), 영화(49%)뿐만 아니라 음식(55%), 미용(53%)까지... 다양한 정책을 추진해왔다. 또한, 인천공항 편의점 직원이 관광객의 무선이어폰을 찾아주기 위해 진열대를...",
       "published": "2026-11-12 17:28",
       "link": "https://www.gukjenews.com/news/articleView.html?idxno=3750299",
       "naver_link": "https://www.gukjenews.com/news/articleView.html?idxno=3750299",
@@ -6542,16 +6562,6 @@
       "is_photo": false
     },
     {
-      "field": "정책",
-      "keyword": "한류 정책",
-      "title": "경북도·국민의힘, 2027년 국비 확보 '원팀'…행정통합·신공항 지원 총...",
-      "summary": "국민의힘-경상북도 예산정책협의회 단체 기념 촬영 장면. [사진=경상북도] 2027년도 국비 증액 건의는 광역 도로·철도망, 인공지능 산업 대전환, 초대형산불 피해 극복, 식품한류산업 육성 등 4대 분야에 집중됐다. 교통...",
-      "published": "2026-11-11 17:24",
-      "link": "https://www.ajunews.com/view/20261111171652123",
-      "naver_link": "https://www.ajunews.com/view/20261111171652123",
-      "is_photo": false
-    },
-    {
       "field": "영상",
       "keyword": "한국 영화 해외",
       "title": "봉준호가 바꾼 판도, ‘고인물’ 이창동의 반란 [씨네블루]",
@@ -6569,26 +6579,6 @@
       "published": "2026-11-11 17:00",
       "link": "http://www.celuvmedia.com/article.php?aid=1794381051530717012",
       "naver_link": "http://www.celuvmedia.com/article.php?aid=1794381051530717012",
-      "is_photo": false
-    },
-    {
-      "field": "정책",
-      "keyword": "한류 정책",
-      "title": "국힘, 경북·대구 예산협의서 “李 정부, TK 패싱…미래대응기금에 지방...",
-      "summary": "이투데이=유진의 기자 | 국민의힘, 경북 미래성장 예산정책협의회 개최 정점식 “경북 보통교부세 4조5000억원... 인공지능(AI) 산업 대전환과 식품 한류산업 육성, 구미 반도체·방산, 포항 이차전지 등 지역 전략산업에 대한...",
-      "published": "2026-11-11 16:48",
-      "link": "https://www.etoday.co.kr/news/view/2646986",
-      "naver_link": "https://www.etoday.co.kr/news/view/2646986",
-      "is_photo": false
-    },
-    {
-      "field": "정책",
-      "keyword": "한류 정책",
-      "title": "국민의힘, 대구·경북 예산 챙기기…행정통합특별법 추진",
-      "summary": "국민의힘은 대구광역시와 경상북도 예산정책협의회를 잇달아 열었습니다. 국민의힘은 대구·경북... 식품한류산업 국가 테스트베드 구축 역시 기업투자와 양질의 일자리 창출을 위해서 꼭 필요한 사업들입니다.” 한편...",
-      "published": "2026-11-11 16:38",
-      "link": "https://www.natv.go.kr/natv/news/newsView.do?newsId=514546",
-      "naver_link": "https://www.natv.go.kr/natv/news/newsView.do?newsId=514546",
       "is_photo": false
     },
     {
@@ -6644,21 +6634,21 @@
     {
       "field": "영상",
       "keyword": "한국 영화 해외",
-      "title": "청강문화산업대, 장편영화 '공무도하' 언론배급시사회",
-      "summary": "그린 영화다. 한국의 고대가요 '공무도하가'와 무연고 탈북 청소년의 실화에서 영감을 받아 디아스포라와... 받으며 해외 영화제 4곳에서 수상했다. 한정국 감독은 \"코로나19의 여파가 남아 있던 2023년, 프로덕션 수업을...",
-      "published": "2026-11-11 14:54",
-      "link": "http://dhnews.co.kr/news/view/1065583131101695",
-      "naver_link": "http://dhnews.co.kr/news/view/1065583131101695",
-      "is_photo": false
-    },
-    {
-      "field": "영상",
-      "keyword": "한국 영화 해외",
       "title": "\"완벽에 가까운 영화\"...'가능한 사랑' 찬사, 오스카 한 걸음 더",
       "summary": "베니스국제영화제 심사위원대상을 비롯해 세계 유수 영화제를 석권하며 한국 영화의 위상을 높인 이창동... /사진=넷플릭스 제공 특히 해외 주요 매체들은 이창동 감독이 선사하는 특유의 인문학적 시선과 배우들의...",
       "published": "2026-11-11 14:54",
       "link": "https://www.mediapen.com/news/view/1136644",
       "naver_link": "https://www.mediapen.com/news/view/1136644",
+      "is_photo": false
+    },
+    {
+      "field": "영상",
+      "keyword": "한국 영화 해외",
+      "title": "청강문화산업대, 장편영화 '공무도하' 언론배급시사회",
+      "summary": "그린 영화다. 한국의 고대가요 '공무도하가'와 무연고 탈북 청소년의 실화에서 영감을 받아 디아스포라와... 받으며 해외 영화제 4곳에서 수상했다. 한정국 감독은 \"코로나19의 여파가 남아 있던 2023년, 프로덕션 수업을...",
+      "published": "2026-11-11 14:54",
+      "link": "http://dhnews.co.kr/news/view/1065583131101695",
+      "naver_link": "http://dhnews.co.kr/news/view/1065583131101695",
       "is_photo": false
     },
     {
@@ -6829,16 +6819,6 @@
       "published": "2026-11-11 10:58",
       "link": "https://www.koreadaily.com/article/20261110175726275",
       "naver_link": "https://www.koreadaily.com/article/20261110175726275",
-      "is_photo": false
-    },
-    {
-      "field": "영상",
-      "keyword": "한국 영화 해외",
-      "title": "‘세계의 주인’, 홍콩·프랑스 장기상영 이어 영국·일본·북미로",
-      "summary": "‘세계의 주인’은 해외 영화제에서도 상영을 이어왔다. 한국영화 최초로 제50회 토론토국제영화제 플랫폼 경쟁 부문에 초청된 데 이어 제9회 핑야오국제영화제 2관왕, 제41회 바르샤바국제영화제...",
-      "published": "2026-11-11 10:46",
-      "link": "https://www.dailian.co.kr/news/view/1713442/?sc=Naver",
-      "naver_link": "https://m.entertain.naver.com/article/119/0003153787",
       "is_photo": false
     },
     {
@@ -7370,16 +7350,6 @@
       "link": "http://enews.imbc.com/News/RetrieveNewsInfo/522254",
       "naver_link": "https://m.entertain.naver.com/article/408/0000325408",
       "is_photo": false
-    },
-    {
-      "field": "음악",
-      "keyword": "케이팝 월드투어",
-      "title": "‘컴백’ 에릭남 “‘Psycho’, 사랑에 빠진 사람의 비이성적인 순간 담...",
-      "summary": "파라마운트와 하이브 아메리카가 제작하는 글로벌 영화 ‘K-POP: The Debut’(케이팝: 더 데뷔)에도 참여했다.... 또 2027년에는 월드 투어를 통해 이번 앨범을 전 세계 관객들에게 직접 들려줄 수 있기를 기대한다. Q. 최근...",
-      "published": "2026-10-23 16:58",
-      "link": "https://www.mk.co.kr/article/12184343",
-      "naver_link": "https://m.entertain.naver.com/article/410/0001144407",
-      "is_photo": false
     }
   ],
   "trend": {
@@ -7479,7 +7449,7 @@
         },
         {
           "period": "2026-11",
-          "ratio": 23.5,
+          "ratio": 24.32,
           "partial": true
         }
       ],
@@ -7541,7 +7511,7 @@
         },
         {
           "period": "2026-11",
-          "ratio": 27.34,
+          "ratio": 29.45,
           "partial": true
         }
       ],
@@ -7603,7 +7573,7 @@
         },
         {
           "period": "2026-11",
-          "ratio": 39.85,
+          "ratio": 42.38,
           "partial": true
         }
       ],
@@ -7665,7 +7635,7 @@
         },
         {
           "period": "2026-11",
-          "ratio": 25.19,
+          "ratio": 25.99,
           "partial": true
         }
       ]
@@ -7791,7 +7761,7 @@
         },
         {
           "period": "2026-11",
-          "ratio": 27.34,
+          "ratio": 29.45,
           "partial": true
         }
       ],
@@ -7853,7 +7823,7 @@
         },
         {
           "period": "2026-11",
-          "ratio": 0.2,
+          "ratio": 0.21,
           "partial": true
         }
       ],
@@ -7915,27 +7885,677 @@
         },
         {
           "period": "2026-11",
-          "ratio": 1.83,
+          "ratio": 1.89,
           "partial": true
         }
       ]
     }
   },
   "trend_note": "ratio는 실제 검색 횟수가 아닌 상대값. compare = 전 분야 중 최대 달을 100으로 둔 값(분야 간 비교용), by_field = 분야별 최대 달을 100으로 둔 값(분야 내 흐름용). 검색량이 너무 적어 데이터랩이 제공하지 않은 달은 null(데이터 없음). trend.keywords = 트렌드 조회에 실제 쓴 키워드(뉴스 키워드와 다를 수 있음). partial: true = 집계 중인 이번 달(조회일까지의 값이라 낮게 나옴). 화면 기본값은 by_field.",
+  "youtube": {
+    "collected_at": "2026-11-16T09:51:25+09:00",
+    "source": "YouTube Data API v3",
+    "retention_days": 21,
+    "expires_at": "2026-12-07T09:51:25+09:00",
+    "window": {
+      "published_after": "2026-10-17",
+      "until": "2026-11-16"
+    },
+    "keywords": {
+      "음악": [
+        "K-pop concert",
+        "K-pop world tour"
+      ],
+      "영상": [
+        "K-drama reaction",
+        "Korean movie review"
+      ],
+      "관광": [
+        "Korea travel vlog",
+        "Seoul travel"
+      ],
+      "정책": [
+        "Korea soft power",
+        "Korean culture global"
+      ]
+    },
+    "fields": {
+      "음악": {
+        "video_count": 10,
+        "total_views": 129175408,
+        "avg_engagement_pct": 1.17,
+        "comment_sample": 441,
+        "top_videos": [
+          {
+            "title": "AND2BLE (앤더블) 'French Kissing' MV",
+            "channel": "AND2BLE",
+            "published": "2026-10-27",
+            "views": 41039914,
+            "likes": 66640,
+            "comments": 4922,
+            "engagement_pct": 0.17,
+            "url": "https://www.youtube.com/watch?v=WbNnbiB_Wt8",
+            "thumbnail": "https://i.ytimg.com/vi/WbNnbiB_Wt8/mqdefault.jpg"
+          },
+          {
+            "title": "IVE 아이브 'Looks Can Kill' MV",
+            "channel": "STARSHIP",
+            "published": "2026-10-19",
+            "views": 27392730,
+            "likes": 385914,
+            "comments": 21197,
+            "engagement_pct": 1.49,
+            "url": "https://www.youtube.com/watch?v=rsNhWkC4neE",
+            "thumbnail": "https://i.ytimg.com/vi/rsNhWkC4neE/mqdefault.jpg"
+          },
+          {
+            "title": "Perfect World | Kpop Demon Hunters Animation Part 3. #kpdh #kpopdemonhunters #animation",
+            "channel": "LeskiAnimation",
+            "published": "2026-10-23",
+            "views": 13510841,
+            "likes": 109027,
+            "comments": 268,
+            "engagement_pct": 0.81,
+            "url": "https://www.youtube.com/watch?v=KSP57If-cYo",
+            "thumbnail": "https://i.ytimg.com/vi/KSP57If-cYo/mqdefault.jpg"
+          },
+          {
+            "title": "BESTie (베스티) - Love Options (연애의 조건) | Show! MusicCore | MBC261031방송",
+            "channel": "MBCkpop",
+            "published": "2026-10-31",
+            "views": 13497165,
+            "likes": 268925,
+            "comments": 18905,
+            "engagement_pct": 2.13,
+            "url": "https://www.youtube.com/watch?v=o6KvKuSviA0",
+            "thumbnail": "https://i.ytimg.com/vi/o6KvKuSviA0/mqdefault.jpg"
+          },
+          {
+            "title": "ILLIT(아일릿) '체포하겠어 (You're Under Arrest)' (4K) | STUDIO CHOOM ORIGINAL",
+            "channel": "STUDIO CHOOM [스튜디오 춤]",
+            "published": "2026-10-27",
+            "views": 10325376,
+            "likes": 178094,
+            "comments": 4898,
+            "engagement_pct": 1.77,
+            "url": "https://www.youtube.com/watch?v=xB5Ia_Nnlvg",
+            "thumbnail": "https://i.ytimg.com/vi/xB5Ia_Nnlvg/mqdefault.jpg"
+          }
+        ],
+        "languages": [
+          {
+            "code": "en",
+            "label": "영어",
+            "count": 235,
+            "pct": 53.3
+          },
+          {
+            "code": "ko",
+            "label": "한국어",
+            "count": 120,
+            "pct": 27.2
+          },
+          {
+            "code": "und",
+            "label": "판별 어려움",
+            "count": 44,
+            "pct": 10.0
+          },
+          {
+            "code": "emoji",
+            "label": "이모지만",
+            "count": 27,
+            "pct": 6.1
+          },
+          {
+            "code": "es",
+            "label": "스페인어",
+            "count": 7,
+            "pct": 1.6
+          },
+          {
+            "code": "vi",
+            "label": "베트남어",
+            "count": 3,
+            "pct": 0.7
+          },
+          {
+            "code": "zh",
+            "label": "중국어",
+            "count": 1,
+            "pct": 0.2
+          },
+          {
+            "code": "fr",
+            "label": "프랑스어",
+            "count": 1,
+            "pct": 0.2
+          },
+          {
+            "code": "id",
+            "label": "인도네시아어",
+            "count": 1,
+            "pct": 0.2
+          },
+          {
+            "code": "ar",
+            "label": "아랍어",
+            "count": 1,
+            "pct": 0.2
+          },
+          {
+            "code": "pt",
+            "label": "포르투갈어",
+            "count": 1,
+            "pct": 0.2
+          }
+        ],
+        "summary": {
+          "lines": [
+            "2세대 걸그룹 재결합 '베스티' 음악중심 무대에 국내 댓글 집중 — '13년 전 그대로', '30대 아이돌도 충분하다' 등 호평 일색",
+            "아이브·아일릿 신곡 뮤직비디오에 해외 팬 '중독성'·'컨셉 소화력' 반응, '케데헌' 팬 제작 애니메이션도 1,350만 회 넘게 조회",
+            "캣츠아이 美 디트로이트 공연이 시작 30분 전 취소(멤버 건강 문제)된 영상에 아쉬움·걱정 댓글"
+          ],
+          "topics": [
+            {
+              "name": "무대·노래 평가",
+              "pct": 40
+            },
+            {
+              "name": "멤버·비주얼",
+              "pct": 25
+            },
+            {
+              "name": "팬 응원·스트리밍 독려",
+              "pct": 15
+            },
+            {
+              "name": "공연 소식(취소 등)",
+              "pct": 10
+            },
+            {
+              "name": "기타",
+              "pct": 10
+            }
+          ],
+          "sentiment": {
+            "positive": 80,
+            "neutral": 15,
+            "negative": 5
+          },
+          "sentiment_note": "부정은 주로 공연 취소에 대한 아쉬움",
+          "based_on": "2026-11-16T09:51:25+09:00",
+          "based_on_date": "2026-11-16",
+          "stale": false
+        }
+      },
+      "영상": {
+        "video_count": 9,
+        "total_views": 32388418,
+        "avg_engagement_pct": 2.72,
+        "comment_sample": 417,
+        "top_videos": [
+          {
+            "title": "juji is so funny though😆| the remarried empress| #kdrama #shorts #viral #trending #southkorea #fyp",
+            "channel": "Serene Snips",
+            "published": "2026-11-04",
+            "views": 6976172,
+            "likes": 97799,
+            "comments": 139,
+            "engagement_pct": 1.4,
+            "url": "https://www.youtube.com/watch?v=ShMyBz7V8eI",
+            "thumbnail": "https://i.ytimg.com/vi/ShMyBz7V8eI/mqdefault.jpg"
+          },
+          {
+            "title": "Her Dignity Was Worth Defying The Throne | The Remarried Empress  #kdrama",
+            "channel": "K-Feels",
+            "published": "2026-11-04",
+            "views": 5743663,
+            "likes": 217272,
+            "comments": 1034,
+            "engagement_pct": 3.8,
+            "url": "https://www.youtube.com/watch?v=rG_DvlfDLTU",
+            "thumbnail": "https://i.ytimg.com/vi/rG_DvlfDLTU/mqdefault.jpg"
+          },
+          {
+            "title": "She Defended the Princess… But the King Punished HER! 😱 | The Remarried Empress #shorts #kdrama",
+            "channel": "shortdrama4",
+            "published": "2026-11-04",
+            "views": 4005795,
+            "likes": 77589,
+            "comments": 732,
+            "engagement_pct": 1.96,
+            "url": "https://www.youtube.com/watch?v=YBsFVI2ce9U",
+            "thumbnail": "https://i.ytimg.com/vi/YBsFVI2ce9U/mqdefault.jpg"
+          },
+          {
+            "title": "his acting is speechless😭 |reborn rookie| #kdrama #shorts #viral #trending #southkorea #fyp",
+            "channel": "Serene Snips",
+            "published": "2026-10-17",
+            "views": 3734633,
+            "likes": 62632,
+            "comments": 103,
+            "engagement_pct": 1.68,
+            "url": "https://www.youtube.com/watch?v=uDz0zgQ5BKg",
+            "thumbnail": "https://i.ytimg.com/vi/uDz0zgQ5BKg/mqdefault.jpg"
+          },
+          {
+            "title": "The Remarried Empress 2026 #kdrama #theremarriedempress #shinminah #leejongsuk #jujihoon #leeseyoung",
+            "channel": "…KLIRAEL…",
+            "published": "2026-11-03",
+            "views": 3697937,
+            "likes": 145355,
+            "comments": 1354,
+            "engagement_pct": 3.97,
+            "url": "https://www.youtube.com/watch?v=37rjEBd4FxI",
+            "thumbnail": "https://i.ytimg.com/vi/37rjEBd4FxI/mqdefault.jpg"
+          }
+        ],
+        "languages": [
+          {
+            "code": "en",
+            "label": "영어",
+            "count": 280,
+            "pct": 67.1
+          },
+          {
+            "code": "und",
+            "label": "판별 어려움",
+            "count": 101,
+            "pct": 24.2
+          },
+          {
+            "code": "emoji",
+            "label": "이모지만",
+            "count": 13,
+            "pct": 3.1
+          },
+          {
+            "code": "id",
+            "label": "인도네시아어",
+            "count": 7,
+            "pct": 1.7
+          },
+          {
+            "code": "pt",
+            "label": "포르투갈어",
+            "count": 5,
+            "pct": 1.2
+          },
+          {
+            "code": "ru",
+            "label": "러시아어",
+            "count": 4,
+            "pct": 1.0
+          },
+          {
+            "code": "ar",
+            "label": "아랍어",
+            "count": 2,
+            "pct": 0.5
+          },
+          {
+            "code": "es",
+            "label": "스페인어",
+            "count": 2,
+            "pct": 0.5
+          },
+          {
+            "code": "tl",
+            "label": "타갈로그어",
+            "count": 1,
+            "pct": 0.2
+          },
+          {
+            "code": "in",
+            "label": "인도 지역어(타밀어 등)",
+            "count": 1,
+            "pct": 0.2
+          },
+          {
+            "code": "it",
+            "label": "이탈리아어",
+            "count": 1,
+            "pct": 0.2
+          }
+        ],
+        "summary": {
+          "lines": [
+            "디즈니+ '재혼 황후' 클립이 상위권을 차지 — 신민아·이종석·주지훈의 연기와 장면에 영어권 반응 집중",
+            "극중 황제에 대한 분노('혈압 오른다') 같은 몰입형 반응이 많고, 부정 반응도 대부분 작품이 아닌 극중 인물을 향함",
+            "'작품 이름이 뭐냐'·'어디서 보냐'는 문의가 많아 쇼츠 클립이 작품 유입 창구 역할 / 일부 다른 나라 영화 요약 쇼츠가 섞여 있음(한계)"
+          ],
+          "topics": [
+            {
+              "name": "줄거리·장면 반응",
+              "pct": 45
+            },
+            {
+              "name": "배우 연기·비주얼",
+              "pct": 30
+            },
+            {
+              "name": "작품명·시청처 문의",
+              "pct": 10
+            },
+            {
+              "name": "기타",
+              "pct": 15
+            }
+          ],
+          "sentiment": {
+            "positive": 70,
+            "neutral": 20,
+            "negative": 10
+          },
+          "sentiment_note": "부정은 대부분 극중 인물에 대한 분노(작품 평가는 긍정적)",
+          "based_on": "2026-11-16T09:51:25+09:00",
+          "based_on_date": "2026-11-16",
+          "stale": false
+        }
+      },
+      "관광": {
+        "video_count": 10,
+        "total_views": 16774197,
+        "avg_engagement_pct": 2.37,
+        "comment_sample": 500,
+        "top_videos": [
+          {
+            "title": "STREET FOOD IN KOREA FOR 24 HOURS | IVANA ALAWI",
+            "channel": "Ivana Alawi",
+            "published": "2026-10-26",
+            "views": 5396465,
+            "likes": 54375,
+            "comments": 1911,
+            "engagement_pct": 1.04,
+            "url": "https://www.youtube.com/watch?v=v93GsAen1-Y",
+            "thumbnail": "https://i.ytimg.com/vi/v93GsAen1-Y/mqdefault.jpg"
+          },
+          {
+            "title": "KRISTEL FULGAR Shares Life With Her Korean Husband l Karen Davila",
+            "channel": "Karen Davila",
+            "published": "2026-10-29",
+            "views": 2238738,
+            "likes": 13356,
+            "comments": 528,
+            "engagement_pct": 0.62,
+            "url": "https://www.youtube.com/watch?v=f_8KuX-m54Q",
+            "thumbnail": "https://i.ytimg.com/vi/f_8KuX-m54Q/mqdefault.jpg"
+          },
+          {
+            "title": "Keith Eats Everything in Korea",
+            "channel": "The Try Guys",
+            "published": "2026-11-11",
+            "views": 1782904,
+            "likes": 38718,
+            "comments": 1907,
+            "engagement_pct": 2.28,
+            "url": "https://www.youtube.com/watch?v=WjUy3GdNkxU",
+            "thumbnail": "https://i.ytimg.com/vi/WjUy3GdNkxU/mqdefault.jpg"
+          },
+          {
+            "title": "Unraveling the Korean secret to a long life 🇰🇷 | S8, EP165",
+            "channel": "Itchy Boots",
+            "published": "2026-10-18",
+            "views": 1468935,
+            "likes": 90090,
+            "comments": 2491,
+            "engagement_pct": 6.3,
+            "url": "https://www.youtube.com/watch?v=1ewpOcU3j_A",
+            "thumbnail": "https://i.ytimg.com/vi/1ewpOcU3j_A/mqdefault.jpg"
+          },
+          {
+            "title": "South Korea's success story is starting to crack 🇰🇷 | S8, EP167",
+            "channel": "Itchy Boots",
+            "published": "2026-10-25",
+            "views": 1364576,
+            "likes": 82591,
+            "comments": 2365,
+            "engagement_pct": 6.23,
+            "url": "https://www.youtube.com/watch?v=F_leOZQSM_Q",
+            "thumbnail": "https://i.ytimg.com/vi/F_leOZQSM_Q/mqdefault.jpg"
+          }
+        ],
+        "languages": [
+          {
+            "code": "ko",
+            "label": "한국어",
+            "count": 253,
+            "pct": 50.6
+          },
+          {
+            "code": "en",
+            "label": "영어",
+            "count": 196,
+            "pct": 39.2
+          },
+          {
+            "code": "tl",
+            "label": "타갈로그어",
+            "count": 37,
+            "pct": 7.4
+          },
+          {
+            "code": "und",
+            "label": "판별 어려움",
+            "count": 11,
+            "pct": 2.2
+          },
+          {
+            "code": "pt",
+            "label": "포르투갈어",
+            "count": 2,
+            "pct": 0.4
+          },
+          {
+            "code": "emoji",
+            "label": "이모지만",
+            "count": 1,
+            "pct": 0.2
+          }
+        ],
+        "summary": {
+          "lines": [
+            "해외 여행 유튜버(Try Guys·Itchy Boots·필리핀 Ivana Alawi)의 한국 음식·여행 영상에 영어·타갈로그어 반응 — 크리에이터 응원·한국 여행 관심",
+            "남대문 상인·서울역 외국인 돕기 영상에 국내 댓글 집중 — '양심껏 계산하자', '친절하게 돕자' 등 환대·시민의식 반응",
+            "'한국의 성공 신화에 금이 가기 시작했다'(Itchy Boots)처럼 한국 사회의 이면을 다룬 여행 영상도 상위권"
+          ],
+          "topics": [
+            {
+              "name": "크리에이터·여행 응원",
+              "pct": 30
+            },
+            {
+              "name": "한국 음식·쇼핑 체험",
+              "pct": 25
+            },
+            {
+              "name": "친절·시민의식",
+              "pct": 25
+            },
+            {
+              "name": "기타",
+              "pct": 20
+            }
+          ],
+          "sentiment": {
+            "positive": 75,
+            "neutral": 15,
+            "negative": 10
+          },
+          "sentiment_note": "부정은 주로 영상 속 무례한 행동에 대한 비판",
+          "based_on": "2026-11-16T09:51:25+09:00",
+          "based_on_date": "2026-11-16",
+          "stale": false
+        }
+      },
+      "정책": {
+        "video_count": 10,
+        "total_views": 1041651,
+        "avg_engagement_pct": 1.24,
+        "comment_sample": 166,
+        "top_videos": [
+          {
+            "title": "😭 #trendingshorts #kpopaudition   #kpop #viralshorts #youtubeshorts #korea #kpopidol #ntx #indian",
+            "channel": "Karnika [임빛나]",
+            "published": "2026-10-25",
+            "views": 709190,
+            "likes": null,
+            "comments": 93,
+            "engagement_pct": 0.01,
+            "url": "https://www.youtube.com/watch?v=0pCjQB7AZiU",
+            "thumbnail": "https://i.ytimg.com/vi/0pCjQB7AZiU/mqdefault.jpg"
+          },
+          {
+            "title": "Indonesia Kembali Juara di Festival Budaya Korea 2026! #fypシ゚viral #cintabudaya",
+            "channel": "Bule Santun",
+            "published": "2026-10-27",
+            "views": 97717,
+            "likes": 1071,
+            "comments": 21,
+            "engagement_pct": 1.12,
+            "url": "https://www.youtube.com/watch?v=AsFA2G08HTY",
+            "thumbnail": "https://i.ytimg.com/vi/AsFA2G08HTY/mqdefault.jpg"
+          },
+          {
+            "title": "한국 문화가 외교 관계에 미친 엄청난 영향력",
+            "channel": "슈니코리아",
+            "published": "2026-10-24",
+            "views": 71248,
+            "likes": 1801,
+            "comments": 70,
+            "engagement_pct": 2.63,
+            "url": "https://www.youtube.com/watch?v=LBSKyJfpjaQ",
+            "thumbnail": "https://i.ytimg.com/vi/LBSKyJfpjaQ/mqdefault.jpg"
+          },
+          {
+            "title": "서양 미의 기준을 무너뜨린 한국 #countryball #memes #korea",
+            "channel": "온세상피식",
+            "published": "2026-10-20",
+            "views": 66132,
+            "likes": 397,
+            "comments": 1,
+            "engagement_pct": 0.6,
+            "url": "https://www.youtube.com/watch?v=VZS_xk3ATn4",
+            "thumbnail": "https://i.ytimg.com/vi/VZS_xk3ATn4/mqdefault.jpg"
+          },
+          {
+            "title": "중국은 한국 못 따라잡는다BBC 기자가 꼽은 결정적 차이",
+            "channel": "인생모이쓔?",
+            "published": "2026-10-19",
+            "views": 42938,
+            "likes": 706,
+            "comments": 53,
+            "engagement_pct": 1.77,
+            "url": "https://www.youtube.com/watch?v=cBANZBcsMLg",
+            "thumbnail": "https://i.ytimg.com/vi/cBANZBcsMLg/mqdefault.jpg"
+          }
+        ],
+        "languages": [
+          {
+            "code": "ko",
+            "label": "한국어",
+            "count": 84,
+            "pct": 50.6
+          },
+          {
+            "code": "en",
+            "label": "영어",
+            "count": 42,
+            "pct": 25.3
+          },
+          {
+            "code": "und",
+            "label": "판별 어려움",
+            "count": 28,
+            "pct": 16.9
+          },
+          {
+            "code": "id",
+            "label": "인도네시아어",
+            "count": 4,
+            "pct": 2.4
+          },
+          {
+            "code": "tl",
+            "label": "타갈로그어",
+            "count": 3,
+            "pct": 1.8
+          },
+          {
+            "code": "emoji",
+            "label": "이모지만",
+            "count": 3,
+            "pct": 1.8
+          },
+          {
+            "code": "it",
+            "label": "이탈리아어",
+            "count": 2,
+            "pct": 1.2
+          }
+        ],
+        "summary": {
+          "lines": [
+            "'한국 소프트파워' 해설 영상(문화외교, 해외 언론 인용 비교 등)은 대부분 조회수 10만 회 미만 — 관심 규모가 작고 국내 댓글 중심",
+            "'문화가 곧 국력'이라는 자부심 반응이 많고, '정부는 문화에 개입하지 말아야 한다'는 거리두기 의견도 함께 나옴",
+            "인도·인도네시아의 한국 문화 행사 관련 쇼츠 반응도 일부 / 정책 분야는 유튜브 표본이 작아 참고용"
+          ],
+          "topics": [
+            {
+              "name": "소프트파워 자부심",
+              "pct": 35
+            },
+            {
+              "name": "K팝·콘텐츠 반응",
+              "pct": 30
+            },
+            {
+              "name": "정부·기업 역할 의견",
+              "pct": 20
+            },
+            {
+              "name": "기타",
+              "pct": 15
+            }
+          ],
+          "sentiment": {
+            "positive": 65,
+            "neutral": 20,
+            "negative": 15
+          },
+          "sentiment_note": "표본 166개로 작음, 참고용",
+          "based_on": "2026-11-16T09:51:25+09:00",
+          "based_on_date": "2026-11-16",
+          "stale": false
+        }
+      }
+    },
+    "api_usage": {
+      "calls": 50,
+      "units": 842
+    },
+    "filtered_out": {
+      "unrelated": 27,
+      "sensitive": 9
+    },
+    "note": "공개용 통계만 담음: 댓글 원문·댓글 작성자·채널 ID 없음. 검색어별 최근 N일 업로드 영상 중 조회수 상위(safeSearch=strict, 연령 제한·아동용 제외). engagement_pct = (좋아요+댓글 수)/조회수×100. languages = 인기 댓글 표본의 언어 분포(규칙 기반 판별, 짧은 댓글은 '판별 어려움'). summary = 댓글 표본을 읽고 직접 작성한 요약·주제·반응 비율(추정). expires_at이 지나면 화면에 표시하지 말 것(유튜브 데이터 21일 보관 원칙).",
+    "errors": []
+  },
   "errors": [],
   "analysis": {
     "fields": {
       "음악": {
-        "news_count": 136,
-        "photo_excluded": 62,
-        "news_period": "2026-10-23 16:58 ~ 2026-11-16 08:08",
+        "news_count": 161,
+        "photo_excluded": 37,
+        "news_period": "2026-10-23 16:58 ~ 2026-11-16 09:46",
         "summary": {
           "lines": [
-            "넷플릭스 '케이팝 데몬 헌터스' 라이브 월드투어 확정 — 내년 6월부터 북미·유럽 등 50개 도시 150회 이상, 안효섭은 '케데헌' 진우 역으로 美 키즈 초이스 어워즈 성우상(한국 배우 최초)",
+            "넷플릭스 '케이팝 데몬 헌터스' 라이브 월드투어 확정 — 내년 6월부터 북미·유럽 등 50개 도시 150회 이상, 안효섭·이재도 '케데헌'으로 美 키즈 초이스 어워즈 수상",
             "'MMA 2026' 성료 — 방탄소년단 정규 5집 '아리랑' 올해의 앨범 등 6관왕, 에스파·아이브·코르티스도 대상 수상",
-            "(여자)아이들 미연·소연, K/DA로 8년 만에 롤드컵 결승(뉴욕) 오프닝 무대 귀환 / 'MAMA AWARDS' 카운트다운, 엑스러브 12월 북미 투어 등 해외 무대 이어져"
+            "(여자)아이들 미연·소연, K/DA로 8년 만에 롤드컵 결승(뉴욕) 오프닝 무대 / 빅뱅 20주년 전시 14개 도시 투어, JAY B 방콕 1만8천 석 매진 등 해외 무대 이어져"
           ],
-          "based_on": "2026-11-16T08:18:18+09:00",
+          "based_on": "2026-11-16T09:51:40+09:00",
           "based_on_date": "2026-11-16",
           "written_at": "2026-11-16",
           "stale": false
@@ -7943,100 +8563,100 @@
         "top_keywords": [
           {
             "keyword": "공연",
-            "articles": 54
+            "articles": 57
           },
           {
             "keyword": "데몬 헌터스",
-            "articles": 50
+            "articles": 51
           },
           {
             "keyword": "넷플릭스",
-            "articles": 48
-          },
-          {
-            "keyword": "투어",
-            "articles": 32
-          },
-          {
-            "keyword": "영화",
-            "articles": 31
+            "articles": 49
           },
           {
             "keyword": "글로벌",
-            "articles": 28
+            "articles": 33
+          },
+          {
+            "keyword": "투어",
+            "articles": 33
+          },
+          {
+            "keyword": "영화",
+            "articles": 30
           },
           {
             "keyword": "미국",
-            "articles": 24
+            "articles": 27
           },
           {
             "keyword": "골든",
-            "articles": 23
+            "articles": 26
+          },
+          {
+            "keyword": "POP",
+            "articles": 25
           },
           {
             "keyword": "방탄소년단",
-            "articles": 23
-          },
-          {
-            "keyword": "도시",
-            "articles": 21
+            "articles": 24
           }
         ],
         "rising_search": [],
         "rising_news": [
           {
             "keyword": "미국",
-            "today_articles": 24,
-            "today_share_pct": 19.0,
+            "today_articles": 27,
+            "today_share_pct": 18.0,
             "prev_avg_share_pct": 2.4,
-            "growth_pct": 681.9,
+            "growth_pct": 638.9,
             "new": false
           },
           {
             "keyword": "골든",
-            "today_articles": 23,
-            "today_share_pct": 18.3,
+            "today_articles": 26,
+            "today_share_pct": 17.3,
             "prev_avg_share_pct": 2.2,
-            "growth_pct": 745.8,
+            "growth_pct": 703.1,
             "new": false
           },
           {
             "keyword": "볼티모어",
-            "today_articles": 19,
-            "today_share_pct": 15.1,
+            "today_articles": 20,
+            "today_share_pct": 13.3,
             "prev_avg_share_pct": 0.0,
             "growth_pct": null,
             "new": true
           },
           {
             "keyword": "케데헌",
-            "today_articles": 17,
-            "today_share_pct": 13.5,
+            "today_articles": 18,
+            "today_share_pct": 12.0,
             "prev_avg_share_pct": 0.0,
             "growth_pct": null,
             "new": true
           },
           {
-            "keyword": "유럽",
-            "today_articles": 14,
-            "today_share_pct": 11.1,
-            "prev_avg_share_pct": 0.0,
-            "growth_pct": null,
-            "new": true
+            "keyword": "북미",
+            "today_articles": 19,
+            "today_share_pct": 12.7,
+            "prev_avg_share_pct": 2.7,
+            "growth_pct": 369.5,
+            "new": false
           }
         ]
       },
       "영상": {
-        "news_count": 188,
+        "news_count": 190,
         "photo_excluded": 0,
-        "news_period": "2026-11-11 10:46 ~ 2026-11-16 08:06",
+        "news_period": "2026-11-11 10:58 ~ 2026-11-16 09:44",
         "summary": {
           "lines": [
             "'아프리카 K-컬처 붐' — K팝·드라마 시청에서 한국어·K-뷰티 등 'K-일상' 소비로 확산, 외국인 몰린 성수·명동 상가 임대료 1년 새 최대 19% 상승",
             "이창동 감독 '가능한 사랑' 오스카 레이스(조인성·조여정 인터뷰) 지속, '재혼 황후' 흥행 뒤 '굿파트너2' 등 이혼 소재 K-콘텐츠 주목 / '취권' 액션배우 황정리 별세(향년 81세)",
             "K-다큐 7편 암스테르담국제다큐영화제(IDFA) 진출·방미통위 해외 진출 지원, 서울영화센터 파행 운영 논란 서울시의회 도마 / 日 '고독한 미식가' 마츠시게 유타카 남도 미식 홍보"
           ],
-          "based_on": "2026-11-16T08:18:18+09:00",
+          "based_on": "2026-11-16T09:51:40+09:00",
           "based_on_date": "2026-11-16",
           "written_at": "2026-11-16",
           "stale": false
@@ -8044,22 +8664,22 @@
         "top_keywords": [
           {
             "keyword": "드라마",
-            "articles": 73
+            "articles": 74
           },
           {
             "keyword": "글로벌",
-            "articles": 31
+            "articles": 33
           },
           {
             "keyword": "영화제",
             "articles": 25
           },
           {
-            "keyword": "콘텐츠",
-            "articles": 22
+            "keyword": "작품",
+            "articles": 23
           },
           {
-            "keyword": "작품",
+            "keyword": "콘텐츠",
             "articles": 21
           },
           {
@@ -8075,12 +8695,12 @@
             "articles": 17
           },
           {
-            "keyword": "부문",
-            "articles": 16
+            "keyword": "서울",
+            "articles": 15
           },
           {
-            "keyword": "시장",
-            "articles": 16
+            "keyword": "부문",
+            "articles": 15
           }
         ],
         "rising_search": [],
@@ -8088,7 +8708,7 @@
           {
             "keyword": "K-뷰티",
             "today_articles": 9,
-            "today_share_pct": 4.9,
+            "today_share_pct": 4.8,
             "prev_avg_share_pct": 0.0,
             "growth_pct": null,
             "new": true
@@ -8098,11 +8718,19 @@
             "today_articles": 8,
             "today_share_pct": 4.3,
             "prev_avg_share_pct": 0.8,
-            "growth_pct": 427.6,
+            "growth_pct": 421.9,
             "new": false
           },
           {
             "keyword": "한국인",
+            "today_articles": 6,
+            "today_share_pct": 3.2,
+            "prev_avg_share_pct": 0.0,
+            "growth_pct": null,
+            "new": true
+          },
+          {
+            "keyword": "셰프",
             "today_articles": 6,
             "today_share_pct": 3.2,
             "prev_avg_share_pct": 0.0,
@@ -8116,28 +8744,20 @@
             "prev_avg_share_pct": 0.0,
             "growth_pct": null,
             "new": true
-          },
-          {
-            "keyword": "프로그램",
-            "today_articles": 6,
-            "today_share_pct": 3.2,
-            "prev_avg_share_pct": 0.0,
-            "growth_pct": null,
-            "new": true
           }
         ]
       },
       "관광": {
-        "news_count": 178,
+        "news_count": 174,
         "photo_excluded": 0,
-        "news_period": "2026-11-12 17:28 ~ 2026-11-16 08:02",
+        "news_period": "2026-11-12 18:40 ~ 2026-11-16 09:49",
         "summary": {
           "lines": [
             "방한 외국인 2,000만 명 돌파 이후 '질적 성장' 과제 부각 — 지방 숙박 인프라 부족, 서울 특급호텔 1박 140만 원 등 객실값 급등, 문체부 '3,000만·4,000만 수용 태세' 준비",
-            "2027 롤드컵 결승전 서울 창동 '서울아레나' 개최 확정(최대 2만8천 명), 강원랜드·양양군 등 4개 기관 양양국제공항 외국인 유치 협약",
+            "2027 롤드컵 결승전 서울 창동 '서울아레나' 개최 확정, 말레이시아 기업 포상관광단 약 1,500명 방한 / 29CM 이구홈 방문객 300만 명 돌파(성수점 매출 66% 외국인)",
             "구글 지도 국내 자동차·도보 길찾기 내년 출시 목표 — 외국인 길찾기 불편 해소 기대 속 네이버·카카오와 경쟁 / 문체부 '덤핑관광' 수수료 상한제 등 관광진흥법 시행규칙 개정 토론회"
           ],
-          "based_on": "2026-11-16T08:18:18+09:00",
+          "based_on": "2026-11-16T09:51:40+09:00",
           "based_on_date": "2026-11-16",
           "written_at": "2026-11-16",
           "stale": false
@@ -8145,74 +8765,82 @@
         "top_keywords": [
           {
             "keyword": "관광객",
-            "articles": 97
+            "articles": 99
           },
           {
             "keyword": "외국인",
-            "articles": 81
-          },
-          {
-            "keyword": "문화체육관광부",
-            "articles": 28
+            "articles": 78
           },
           {
             "keyword": "서울",
-            "articles": 27
+            "articles": 28
+          },
+          {
+            "keyword": "문화체육관광부",
+            "articles": 24
           },
           {
             "keyword": "시대",
             "articles": 19
           },
           {
-            "keyword": "활성화",
-            "articles": 17
+            "keyword": "쇼핑",
+            "articles": 18
           },
           {
             "keyword": "콘텐츠",
+            "articles": 18
+          },
+          {
+            "keyword": "매장",
+            "articles": 17
+          },
+          {
+            "keyword": "방문",
+            "articles": 17
+          },
+          {
+            "keyword": "브랜드",
             "articles": 16
-          },
-          {
-            "keyword": "유치",
-            "articles": 15
-          },
-          {
-            "keyword": "지방공항",
-            "articles": 15
-          },
-          {
-            "keyword": "정책",
-            "articles": 15
           }
         ],
         "rising_search": [
           {
             "keyword": "결승전",
-            "growth_pct": 76.3,
-            "recent_7d_avg": 44.01,
-            "prev_21d_avg": 24.96
+            "growth_pct": 173.2,
+            "recent_7d_avg": 40.27,
+            "prev_21d_avg": 14.74
           }
         ],
         "rising_news": [
           {
-            "keyword": "지방공항",
-            "today_articles": 15,
-            "today_share_pct": 8.7,
-            "prev_avg_share_pct": 0.9,
-            "growth_pct": 819.1,
-            "new": false
-          },
-          {
             "keyword": "롤드컵",
             "today_articles": 13,
-            "today_share_pct": 7.5,
+            "today_share_pct": 7.6,
             "prev_avg_share_pct": 0.0,
             "growth_pct": null,
             "new": true
           },
           {
-            "keyword": "양양국제공항",
+            "keyword": "매장",
+            "today_articles": 17,
+            "today_share_pct": 10.0,
+            "prev_avg_share_pct": 2.6,
+            "growth_pct": 277.7,
+            "new": false
+          },
+          {
+            "keyword": "서울시",
             "today_articles": 12,
-            "today_share_pct": 6.9,
+            "today_share_pct": 7.1,
+            "prev_avg_share_pct": 0.0,
+            "growth_pct": null,
+            "new": true
+          },
+          {
+            "keyword": "챗GPT",
+            "today_articles": 11,
+            "today_share_pct": 6.5,
             "prev_avg_share_pct": 0.0,
             "growth_pct": null,
             "new": true
@@ -8220,15 +8848,7 @@
           {
             "keyword": "결승전",
             "today_articles": 11,
-            "today_share_pct": 6.4,
-            "prev_avg_share_pct": 0.0,
-            "growth_pct": null,
-            "new": true
-          },
-          {
-            "keyword": "강원랜드",
-            "today_articles": 11,
-            "today_share_pct": 6.4,
+            "today_share_pct": 6.5,
             "prev_avg_share_pct": 0.0,
             "growth_pct": null,
             "new": true
@@ -8236,16 +8856,16 @@
         ]
       },
       "정책": {
-        "news_count": 167,
+        "news_count": 166,
         "photo_excluded": 0,
-        "news_period": "2026-11-11 16:38 ~ 2026-11-16 08:08",
+        "news_period": "2026-11-11 17:28 ~ 2026-11-16 09:50",
         "summary": {
           "lines": [
             "APEC(18일 中 선전 개막) 앞두고 한중 외교장관 회담 — 한중 정상회담 추진 속 '한한령' 해제 돌파구 주목, 다만 외교장관 회담에선 한한령 관련 입장 없어",
-            "K-푸드 수출 확대 — aT 'NEXT K-푸드 매칭 컨퍼런스'(뷰티·콘텐츠 기업 협업), 中 SNS 요리대결 '청홍요리사2' 조회수 1억2천만 회, 상하이 K-푸드&관광 엑스포·'우리술 대축제' 개막",
-            "문체부, 문화진흥 공공기관 4곳 통합한 '한국문화진흥원' 설립 추진, 국회 문체위 예산 심사서 '패노메논' 예산도 도마 / 수출 1조 달러 눈앞 속 반도체 편중 우려"
+            "K-푸드·K-술 수출 확대 — aT 'NEXT K-푸드 매칭 컨퍼런스', 中 SNS 요리대결 '청홍요리사2' 조회수 1억2천만 회, 안동소주 美·벨기에 주류대회 수상",
+            "문체부, 문화진흥 공공기관 4곳 통합한 '한국문화진흥원' 설립 추진, 국회 문체위 예산 심사서 '패노메논' 예산도 도마 / CJ문화재단 20년간 창작자 지원 917억 원"
           ],
-          "based_on": "2026-11-16T08:18:18+09:00",
+          "based_on": "2026-11-16T09:51:40+09:00",
           "based_on_date": "2026-11-16",
           "written_at": "2026-11-16",
           "stale": false
@@ -8257,23 +8877,23 @@
           },
           {
             "keyword": "중국",
-            "articles": 26
-          },
-          {
-            "keyword": "산업",
-            "articles": 22
+            "articles": 24
           },
           {
             "keyword": "기업",
-            "articles": 21
+            "articles": 22
           },
           {
             "keyword": "K-푸드",
-            "articles": 21
+            "articles": 20
+          },
+          {
+            "keyword": "산업",
+            "articles": 20
           },
           {
             "keyword": "지원",
-            "articles": 21
+            "articles": 20
           },
           {
             "keyword": "시장",
@@ -8284,67 +8904,67 @@
             "articles": 17
           },
           {
-            "keyword": "관광객",
+            "keyword": "외국인",
             "articles": 17
           },
           {
-            "keyword": "협력",
-            "articles": 16
+            "keyword": "관광객",
+            "articles": 17
           }
         ],
         "rising_search": [
           {
             "keyword": "APEC",
-            "growth_pct": 244.1,
-            "recent_7d_avg": 45.62,
+            "growth_pct": 300.9,
+            "recent_7d_avg": 53.15,
             "prev_21d_avg": 13.26
           },
           {
             "keyword": "한한령",
-            "growth_pct": 49.0,
-            "recent_7d_avg": 48.0,
+            "growth_pct": 79.2,
+            "recent_7d_avg": 57.71,
             "prev_21d_avg": 32.21
           }
         ],
         "rising_news": [
           {
             "keyword": "중국",
-            "today_articles": 26,
-            "today_share_pct": 16.0,
+            "today_articles": 24,
+            "today_share_pct": 14.8,
             "prev_avg_share_pct": 2.8,
-            "growth_pct": 470.7,
-            "new": false
-          },
-          {
-            "keyword": "K-푸드",
-            "today_articles": 21,
-            "today_share_pct": 12.9,
-            "prev_avg_share_pct": 4.3,
-            "growth_pct": 199.4,
+            "growth_pct": 430.0,
             "new": false
           },
           {
             "keyword": "반도체",
             "today_articles": 15,
-            "today_share_pct": 9.2,
+            "today_share_pct": 9.3,
             "prev_avg_share_pct": 1.2,
-            "growth_pct": 640.8,
+            "growth_pct": 645.4,
+            "new": false
+          },
+          {
+            "keyword": "K-푸드",
+            "today_articles": 20,
+            "today_share_pct": 12.3,
+            "prev_avg_share_pct": 4.3,
+            "growth_pct": 186.9,
             "new": false
           },
           {
             "keyword": "한한령",
             "today_articles": 17,
-            "today_share_pct": 10.4,
+            "today_share_pct": 10.5,
             "prev_avg_share_pct": 3.4,
-            "growth_pct": 205.3,
+            "growth_pct": 207.2,
             "new": false
           },
           {
             "keyword": "APEC",
-            "today_articles": 14,
-            "today_share_pct": 8.6,
+            "today_articles": 15,
+            "today_share_pct": 9.3,
             "prev_avg_share_pct": 3.1,
-            "growth_pct": 176.6,
+            "growth_pct": 198.1,
             "new": false
           }
         ]
