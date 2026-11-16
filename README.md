@@ -41,6 +41,14 @@ python -m http.server 8000     (회사 PC는 py -m http.server 8000)
 | 급상승(뉴스 언급량) | `rising_news` + `analysis.rising_news_status` (`ready: false`면 `message` 안내) |
 | 최신 기사 | `news` (`field`, `keyword`, `title`, `summary`, `published`, `link`, `is_photo`) — 제목 클릭 시 `link`(원문) 새 탭, 없으면 `naver_link` |
 | 하단 수집 기준 | `fields`, `keyword_counts` |
+| 유튜브 반응 (v2) | `youtube` — `collected_at`, `window`, `keywords`, `filtered_out`, `retention_days`, `expires_at`, `errors`, `fields.<분야>`(`video_count`, `total_views`, `avg_engagement_pct`, `comment_sample`, `top_videos[]`, `languages[]`, `summary`(`lines`, `topics`, `sentiment`, `sentiment_note`, `based_on_date`, `stale`)) |
+
+## 유튜브 반응 원칙 (v2)
+- 통계·요약만 보여줘요. 댓글 원문·작성자·채널 ID는 data.json에도 화면에도 없어요. 사이트는 유튜브 API를 직접 부르지 않아요(키 없음).
+- `youtube.expires_at`이 지나면 영역 전체를 숨기고 "21일 보관 원칙" 안내만 보여줘요. `youtube`가 null이거나 그 분야가 없으면 "오늘은 유튜브 데이터가 없어요".
+- 반응 요약·주제·분위기에는 "AI 요약 · 추정" 배지(사람이 댓글 표본을 읽고 낸 추정치). `summary.stale`이면 "갱신 전", `summary`가 null이면 "요약 준비 중".
+- `likes`·`engagement_pct`가 null(좋아요 숨김)이면 "-". `comment_sample` 200 미만이면 "표본이 작아 참고용" 안내.
+- 언어 막대: 상위 6개 + 기타, `emoji`·`und`는 맨 뒤 회색.
 
 ## 동작 메모
 - 분야 탭은 주소 뒤 `#영상`처럼 남아서 새로고침해도 그 분야로 열려요. 키보드 ←/→로도 바뀌어요.
@@ -49,4 +57,5 @@ python -m http.server 8000     (회사 PC는 py -m http.server 8000)
 - `errors`에 항목이 있으면 상단에 안내 문구가 떠요.
 
 ## 변경 기록
+- v2 (2026-11-16): 분야 탭마다 '유튜브 반응' 영역 추가(KPI 4개, 인기 영상 TOP 5, 댓글 언어 분포 SVG, 반응 요약, 반응 주제·긍정/중립/부정). 상단 '마지막 수집'에 유튜브 수집 시각, 하단 출처에 YouTube Data API. 기존 뉴스·트렌드·급상승 화면은 그대로. **zip에 data.json은 빠져 있어요 — GitHub에 올린 최신 data.json을 덮어쓰지 않게.**
 - v1 (2026-11-12) 첫 버전: 분야 탭, AI 요약(기준일·갱신 전), 검색 관심도 꺾은선(null 끊김·partial 점선·툴팁·표로 보기), 키워드 TOP10, 급상승(검색량·뉴스 준비 중 안내), 최신 기사(검색어 거르기·포토 토글·더 보기), 출처·수집 기준. 테스트: 1440·390 너비 다크/라이트, 가로 넘침 0, 콘솔 오류 0, null·stale·rising_news 가상 데이터로 표시 확인.

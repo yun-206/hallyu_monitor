@@ -33,6 +33,7 @@
   }
   const fmtMD = (s) => { const p = parts(s); return p ? `${p.mo}/${p.d}` : ''; };
   const fmtFull = (s) => { const p = parts(s); return p ? `${p.y}.${pad(p.mo)}.${pad(p.d)}${p.h ? ` ${p.h}:${p.mi}` : ''}` : '—'; };
+  const fmtMDHM = (s) => { const p = parts(s); return p ? `${p.mo}/${p.d}${p.h ? ` ${p.h}:${p.mi}` : ''}` : ''; };
   const fmtShort = (s) => { const p = parts(s); return p ? `${pad(p.mo)}.${pad(p.d)}${p.h ? ` ${p.h}:${p.mi}` : ''}` : ''; };
   const num = (n) => Number(n || 0).toLocaleString('ko-KR');
   const fmtPct = (v) => (Math.abs(v) >= 100 ? Math.round(v) : Math.round(v * 10) / 10).toLocaleString('ko-KR');
@@ -99,6 +100,8 @@
   function renderHead() {
     const d = state.data;
     $('statCollected').textContent = fmtFull(d.collected_at);
+    const ys = ytState();
+    if (ys.kind === 'ok' && ys.yt.collected_at) $('statCollected').append(el('small', 'stat__yt', `유튜브 ${fmtMDHM(ys.yt.collected_at)} 수집`));
     $('barLive').textContent = `${fmtShort(d.collected_at)} 수집`;
 
     const all = fields().map(A);
@@ -169,6 +172,7 @@
     renderKeywords();
     renderNewsTools();
     renderNews();
+    renderYoutube();
   }
 
   /* ---------- 3. AI 이슈 요약 ---------- */
@@ -531,9 +535,247 @@
     });
   }
 
+
+  /* ---------- 9. 유튜브 반응 ----------
+     원칙: 통계·요약만 표시. 댓글 원문·작성자·채널 ID는 화면에 만들지 않고, 유튜브 API도 호출하지 않아요.
+     youtube.expires_at이 지나면(21일 보관) 영역 전체를 숨기고 안내만 보여줘요. */
+  function ytState() {
+    const yt = state.data.youtube;
+    if (!yt || typeof yt !== 'object') return { kind: 'none' };
+    const exp = Date.parse(yt.expires_at || '');
+    if (isFinite(exp) && exp < Date.now()) return { kind: 'expired', yt };
+    return { kind: 'ok', yt };
+  }
+  // 한국식 단위: 1.3억, 1,240만, 9.7만, 8,512
+  function korNum(n) {
+    if (n == null || !isFinite(n)) return '-';
+    const trim = (v) => String(+v.toFixed(1));
+    if (n >= 1e8) return `${trim(n / 1e8)}억`;
+    if (n >= 1e7) return `${Math.round(n / 1e4).toLocaleString('ko-KR')}만`;
+    if (n >= 1e4) return `${trim(n / 1e4)}만`;
+    return Math.round(n).toLocaleString('ko-KR');
+  }
+  const pctOrDash = (v) => (v == null || !isFinite(v) ? '-' : `${(+(+v).toFixed(2)).toLocaleString('ko-KR')}%`);   // 참여율은 소수 둘째 자리까지
+  const ENG_HELP = '참여율 = (좋아요 + 댓글) ÷ 조회수. 좋아요를 숨긴 영상은 계산하지 않아요(-).';
+
+  function ytEmpty(text) {
+    const p = el('p', 'yt-empty');
+    const ico = svg('svg', { viewBox: '0 0 24 24', 'aria-hidden': 'true' });
+    ico.append(svg('circle', { cx: 12, cy: 12, r: 9 }), svg('path', { d: 'M12 8v5M12 16h.01' }));
+    p.append(ico, el('span', null, text));
+    return p;
+  }
+  function panel(num, title, badges) {
+    const box = el('section', 'yt-panel');
+    const head = el('div', 'yt-panel__head');
+    const h = el('h3', 'yt-panel__title');
+    h.append(el('span', 'num', num), document.createTextNode(title));
+    head.append(h);
+    if (badges && badges.length) { const b = el('div', 'badges'); badges.forEach((x) => b.append(x)); head.append(b); }
+    box.append(head);
+    return box;
+  }
+  const aiBadge = () => { const b = el('span', 'badge badge--ai', 'AI 요약 · 추정'); b.title = '사람이 댓글 표본을 읽고 낸 추정치라 정확한 집계가 아니에요.'; return b; };
+
+  function renderYoutube() {
+    const meta = $('ytMeta'), body = $('ytBody');
+    meta.textContent = ''; body.textContent = '';
+    const st = ytState();
+    if (st.kind === 'expired') { body.append(ytEmpty('유튜브 데이터는 21일 보관 원칙에 따라 표시하지 않아요')); return; }
+    if (st.kind === 'none') { body.append(ytEmpty('오늘은 유튜브 데이터가 없어요')); return; }
+    const yt = st.yt, f = yt.fields?.[state.field];
+    if (!f || typeof f !== 'object') { body.append(ytEmpty('오늘은 유튜브 데이터가 없어요')); return; }
+
+    // 머리 정보: 수집 시각 · 업로드 기간
+    const w = yt.window || {};
+    let span = '';
+    const a = Date.parse(w.published_after || ''), b = Date.parse(w.until || '');
+    if (isFinite(a) && isFinite(b) && b > a) span = ` · 최근 ${Math.round((b - a) / 864e5)}일 업로드 영상`;
+    meta.textContent = `${fmtMDHM(yt.collected_at)} 수집${span}`;
+
+    // KPI
+    const kpis = el('dl', 'stats yt-kpis');
+    const kpi = (label, value, help) => {
+      const d = el('div', 'stat');
+      const dt = el('dt', null, label);
+      if (help) {
+        const i = el('button', 'info-dot', '?');
+        i.type = 'button'; i.title = help; i.setAttribute('aria-label', help);
+        dt.append(i);
+      }
+      d.append(dt, el('dd', null, value));
+      kpis.append(d);
+    };
+    kpi('분석 영상', f.video_count != null ? `${num(f.video_count)}개` : '-');
+    kpi('총 조회수', korNum(f.total_views));
+    kpi('평균 참여율', pctOrDash(f.avg_engagement_pct), ENG_HELP);
+    kpi('댓글 표본', f.comment_sample != null ? `${num(f.comment_sample)}개` : '-');
+    body.append(kpis);
+    if (f.comment_sample != null && f.comment_sample < 200) {
+      body.append(el('p', 'yt-warn', `댓글 표본이 ${num(f.comment_sample)}개로 작아 언어·반응 비율은 참고용으로만 봐 주세요.`));
+    }
+
+    const grid = el('div', 'yt-grid');
+
+    // ① 인기 영상 TOP 5 (top_videos 순서 그대로)
+    const p1 = panel('01', '인기 영상 TOP 5');
+    const vids = el('ol', 'vids');
+    const list = (f.top_videos || []).slice(0, 5);
+    if (!list.length) vids.append(el('li', 'yt-note', '표시할 영상이 없어요.'));
+    list.forEach((v, i) => {
+      const url = safeUrl(v.url);
+      const li = el('li', 'vid');
+      li.append(el('span', 'vid__rank', pad(i + 1)));
+      const th = el(url ? 'a' : 'span', 'vid__thumb');
+      if (url) { th.href = url; th.target = '_blank'; th.rel = 'noopener noreferrer'; th.tabIndex = -1; th.setAttribute('aria-hidden', 'true'); }
+      const src = safeUrl(v.thumbnail);
+      if (src) {
+        const img = el('img'); img.src = src; img.alt = ''; img.loading = 'lazy'; img.decoding = 'async'; img.referrerPolicy = 'no-referrer';
+        img.addEventListener('error', () => th.classList.add('is-broken'));
+        th.append(img);
+      } else th.classList.add('is-broken');
+      const info = el('div'); info.style.minWidth = '0';
+      const t = el('h4', 'vid__title');
+      if (url) {
+        const link = el('a', null, v.title || '(제목 없음)');
+        link.href = url; link.target = '_blank'; link.rel = 'noopener noreferrer';
+        link.append(el('span', 'sr', ' (새 탭에서 유튜브 열기)'));
+        t.append(link);
+      } else t.textContent = v.title || '(제목 없음)';
+      info.append(t);
+      if (v.channel) info.append(el('div', 'vid__ch', v.channel));
+      const stats = el('div', 'vid__stats');
+      const stat = (label, val, title) => { const s = el('span'); s.append(document.createTextNode(`${label} `), el('b', null, val)); if (title) s.title = title; stats.append(s); };
+      stat('조회수', korNum(v.views));
+      stat('참여율', pctOrDash(v.engagement_pct), ENG_HELP);
+      if (v.published) stats.append(el('span', null, fmtFull(v.published)));
+      info.append(stats);
+      li.append(th, info);
+      vids.append(li);
+    });
+    p1.append(vids);
+
+    // ② 댓글 언어 분포 (SVG 가로 막대: 상위 6 + 기타, 이모지·판별 어려움은 맨 뒤 회색)
+    const p2 = panel('02', '댓글 언어 분포');
+    p2.append(langChart(f.languages || [], f.comment_sample));
+
+    // ③ 반응 요약
+    const s = f.summary;
+    const b3 = [aiBadge()];
+    if (s && (s.based_on_date || s.based_on)) b3.push(el('span', 'badge', `${fmtMD(s.based_on_date || s.based_on)} 수집 영상 기준`));
+    if (s && s.stale) { const g = el('span', 'badge badge--warn', '갱신 전'); g.title = '요약을 쓴 뒤 유튜브 데이터가 새로 수집됐어요.'; b3.push(g); }
+    const p3 = panel('03', '반응 요약', b3);
+    const ol = el('ol', 'summary summary--sm');
+    const lines = (s?.lines || []).filter(Boolean).slice(0, 3);
+    if (!lines.length) { ol.classList.add('summary--empty'); ol.append(el('li', null, '요약 준비 중이에요.')); }
+    lines.forEach((x) => ol.append(el('li', null, x)));
+    p3.append(ol);
+
+    // ④ 반응 주제 · 긍정/중립/부정
+    const p4 = panel('04', '반응 주제 · 분위기', [aiBadge()]);
+    const topics = (s?.topics || []).filter((x) => x && x.name);
+    if (!s) p4.append(el('p', 'yt-note', '요약 준비 중이에요.'));
+    if (topics.length) {
+      p4.append(el('h4', 'yt-sub', '많이 나온 주제'));
+      const bars = el('ol', 'bars');
+      const max = Math.max(...topics.map((x) => x.pct || 0), 1);
+      topics.slice(0, 6).forEach((x, i) => {
+        const li = el('li');
+        li.append(el('span', 'bars__rank', i + 1));
+        const kw = el('span', 'bars__kw', x.name); kw.title = x.name;
+        const tr = el('span', 'bars__track');
+        const fill = el('span', 'bars__fill');
+        fill.style.width = `calc((100% - 44px) * ${(x.pct || 0) / max})`;
+        tr.append(fill, el('span', 'bars__v', `${fmtPct(x.pct || 0)}%`));
+        li.append(kw, tr);
+        bars.append(li);
+      });
+      p4.append(bars);
+    }
+    const se = s?.sentiment;
+    if (se && [se.positive, se.neutral, se.negative].some((v) => v != null)) {
+      p4.append(el('h4', 'yt-sub', '반응 분위기'));
+      const parts3 = [['positive', '긍정', 's-pos'], ['neutral', '중립', 's-neu'], ['negative', '부정', 's-neg']];
+      const total = parts3.reduce((t, [k]) => t + (se[k] || 0), 0) || 1;
+      const bar = el('div', 'sent');
+      bar.setAttribute('role', 'img');
+      bar.setAttribute('aria-label', parts3.map(([k, l]) => `${l} ${fmtPct(se[k] || 0)}%`).join(', '));
+      const leg = el('ul', 'sent-legend');
+      parts3.forEach(([k, l, c]) => {
+        const v = se[k] || 0;
+        if (v > 0) { const seg = el('span', c); seg.style.flex = `${v / total} 1 0`; seg.title = `${l} ${fmtPct(v)}%`; bar.append(seg); }
+        const li = el('li'); const i = el('i', c); li.append(i, document.createTextNode(l), el('b', null, `${fmtPct(v)}%`)); leg.append(li);
+      });
+      p4.append(bar, leg);
+      if (s.sentiment_note) p4.append(el('p', 'yt-note', s.sentiment_note));
+    } else if (s && !topics.length) p4.append(el('p', 'yt-note', '주제·분위기 추정이 아직 없어요.'));
+
+    grid.append(p1, p2, p3, p4);
+    body.append(grid);
+
+    // 하단 작은 글씨
+    const fo = yt.filtered_out || {};
+    const bits = [`출처: ${yt.source ? yt.source.replace(/\s*v\d+$/, '') : 'YouTube Data API'}`];
+    const kws = yt.keywords?.[state.field] || [];
+    if (kws.length) bits.push(`검색어: ${kws.join(', ')}`);
+    if (fo.unrelated || fo.sensitive) bits.push(`관련 없는 영상 ${num(fo.unrelated || 0)}개·민감 주제 ${num(fo.sensitive || 0)}개 제외(전체 분야)`);
+    bits.push(`유튜브 데이터 ${yt.retention_days || 21}일 보관${yt.expires_at ? `(${fmtFull(yt.expires_at).slice(0, 10)}까지)` : ''}`);
+    if (Array.isArray(yt.errors) && yt.errors.length) bits.push(`이번 수집 오류 ${yt.errors.length}건`);
+    body.append(el('p', 'yt-foot', bits.join(' · ')));
+  }
+
+  function langChart(langs, sample) {
+    const box = el('div', 'lang-chart');
+    const isOther = (x) => x.code === 'emoji' || x.code === 'und';
+    const normal = langs.filter((x) => !isOther(x)).sort((p, q) => (q.count || 0) - (p.count || 0));
+    const rows = normal.slice(0, 6).map((x) => ({ label: x.label || x.code, pct: x.pct || 0, count: x.count || 0, gray: false }));
+    const rest = normal.slice(6);
+    if (rest.length) rows.push({ label: '기타', pct: rest.reduce((t, x) => t + (x.pct || 0), 0), count: rest.reduce((t, x) => t + (x.count || 0), 0), gray: false, sub: rest.map((x) => x.label || x.code).join(', ') });
+    langs.filter(isOther).forEach((x) => rows.push({ label: x.label || (x.code === 'emoji' ? '이모지만' : '판별 어려움'), pct: x.pct || 0, count: x.count || 0, gray: true }));
+    if (!rows.length) { box.append(el('p', 'yt-note', '언어 분포 데이터가 없어요.')); return box; }
+
+    const chart = el('div');
+    box.append(chart);
+    const draw = () => drawLang(chart, rows);
+    // 실제 폭에 맞춰 그려야 모바일에서 글자가 작아지지 않아요 → 붙인 뒤 그리고, 폭이 바뀌면 다시 그림
+    requestAnimationFrame(draw);
+    if ('ResizeObserver' in window) { let lw = 0; new ResizeObserver(() => { const w = chart.clientWidth; if (Math.abs(w - lw) > 4) { lw = w; draw(); } }).observe(chart); }
+    box.append(el('p', 'yt-note', `댓글 표본 ${num(sample || 0)}개 기준 · 이모지만 쓴 댓글과 판별이 어려운 댓글은 회색으로 맨 뒤에 따로 표시해요.`));
+    return box;
+  }
+
+  function drawLang(chart, rows) {
+    chart.textContent = '';
+    const W = Math.max(chart.clientWidth, 240), narrow = W < 420;
+    const rowH = 30, labelW = narrow ? 78 : 92, valW = narrow ? 82 : 92, H = rows.length * rowH;
+    const max = Math.max(...rows.map((r) => r.pct), 1);
+    const s = svg('svg', { viewBox: `0 0 ${W} ${H}`, width: W, height: H, role: 'img' });
+    s.setAttribute('aria-label', `댓글 언어 분포: ${rows.map((r) => `${r.label} ${fmtPct(r.pct)}%`).join(', ')}`);
+    const tip = $('tip');
+    rows.forEach((r, i) => {
+      const y = i * rowH;
+      const t = svg('text', { class: 'l-name', x: 0, y: y + 19 }); t.textContent = r.label; s.append(t);
+      const bw = W - labelW - valW;
+      s.append(svg('rect', { class: 'l-track', x: labelW, y: y + 9, width: bw, height: 12, rx: 4 }));
+      s.append(svg('rect', { class: r.gray ? 'l-bar l-bar--other' : 'l-bar', x: labelW, y: y + 9, width: Math.max(3, bw * r.pct / max), height: 12, rx: 4 }));
+      const v = svg('text', { class: 'l-val', x: W, y: y + 19, 'text-anchor': 'end' }); v.textContent = `${fmtPct(r.pct)}% · ${num(r.count)}`; s.append(v);
+      const hit = svg('rect', { class: 'l-hit', x: 0, y, width: W, height: rowH });
+      hit.addEventListener('pointerenter', (e) => {
+        tip.textContent = '';
+        tip.append(el('div', 'tip__t', r.label), el('div', 'tip__v', `${fmtPct(r.pct)}%`), el('div', 'tip__s', `댓글 ${num(r.count)}개${r.sub ? ` · ${r.sub}` : ''}${r.gray ? ' · 언어 판별 어려움' : ''}`));
+        tip.hidden = false; placeTip(e);
+      });
+      hit.addEventListener('pointermove', placeTip);
+      hit.addEventListener('pointerleave', () => { tip.hidden = true; });
+      s.append(hit);
+    });
+    chart.append(s);
+  }
+
   /* ---------- 8. 하단 수집 기준 ---------- */
   function renderFooter() {
     const d = state.data;
+    if (ytState().kind === 'ok') $('footYtSrc').textContent = ' · YouTube Data API(영상 통계·댓글 표본 요약, 21일 보관)';
     const per = (d.keyword_counts || []).reduce((m, k) => Math.max(m, k.fetched || 0), 0);
     const kw = fields().map((f) => `${f}(${(d.fields?.[f] || []).join(', ')})`).join(' · ');
     $('footCriteria').textContent =

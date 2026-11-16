@@ -139,6 +139,18 @@
         <ul class="news" id="newsList" aria-live="polite"></ul>
         <div class="news-more"><button type="button" class="btn btn--ghost btn--sm hide" id="newsMore">더 보기</button></div>
       </article>
+
+      <!-- 9. 유튜브 반응 (data.json의 youtube — 통계·요약만, 댓글 원문 없음) -->
+      <section class="card card--yt" id="ytCard" aria-labelledby="ytTitle">
+        <header class="card__head card__head--wrap">
+          <div>
+            <p class="card__kicker">YouTube Response</p>
+            <h2 id="ytTitle" class="card__title">유튜브 반응</h2>
+          </div>
+          <p class="yt-meta" id="ytMeta"></p>
+        </header>
+        <div id="ytBody"></div>
+      </section>
     </div>
   </main>
 
@@ -150,7 +162,7 @@
         <p class="proto-note"><span class="pill">Prototype</span> 공개 API 기반 프로토타입이에요. 표본 기사와 상대 검색 지표라 실제 전체 여론·검색량과는 다를 수 있어요.</p>
       </div>
       <dl class="foot__col foot__meta">
-        <div><dt>데이터 출처</dt><dd>네이버 API HUB — 뉴스 검색 API, 데이터랩 검색어 트렌드 API</dd></div>
+        <div><dt>데이터 출처</dt><dd>네이버 API HUB — 뉴스 검색 API, 데이터랩 검색어 트렌드 API<span id="footYtSrc"></span></dd></div>
         <div><dt>수집 기준</dt><dd id="footCriteria">—</dd></div>
         <div><dt>검색 관심도</dt><dd>실제 검색 횟수가 아닌 상대값이에요. 분야마다 가장 높은 달을 100으로 두고 나머지 달을 비율로 나타내요.</dd></div>
         <div><dt>AI 이슈 요약</dt><dd>수집한 기사(포토 기사 제외)를 읽고 작성한 요약이에요. 요약 뒤에 기사가 새로 수집되면 ‘갱신 전’으로 표시해요.</dd></div>
